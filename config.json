@@ -1667,7 +1667,7 @@
       "rango": "Real Decreto Ley",
       "ambito": "Estatal",
       "areaId": "trafico",
-      "fecha_actualizacion": "Codificado DGT 07/2025",
+      "fecha_actualizacion": "Actualizando a Codificado DGT 07/2025",
       "infracciones": [
           {
       "tipo": "leve",
@@ -1679,8 +1679,8 @@
       "puntos": "0",
       "importe": "100 €",
       "importe_reducido": "50 €",
-      "descripcion": "Comportarse indebidamente en la circulación **causando peligro a las personas**.\n\n*Nota: Deberá indicarse detalladamente el comportamiento y/o el tipo de peligro causado.*",
-      "tags": ["comportamiento", "usuario", "peligro"]
+      "descripcion": "Comportarse indebidamente en la circulación **causando peligro a las personas**.\n\n*Nota: Deberá indicarse detalladamente el comportamiento y/o el tipo de peligro causado. Responsable: Conductor/Usuario.*",
+      "tags": ["comportamiento indebido", "peligro"]
     },
     {
       "tipo": "leve",
@@ -1692,8 +1692,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Comportarse indebidamente en la circulación **entorpeciendo la misma**, causando perjuicios, molestias innecesarias o daños a los bienes.\n\n*Nota: Deberá detallarse el comportamiento. Incluye conductas como causar molestias con ruido elevado o retener la circulación por no abonar un peaje (Instrucción DGT 12/S-127).*",
-      "tags": ["comportamiento", "usuario", "entorpecer", "molestias", "daños", "ruido", "peaje"]
+      "descripcion": "Comportarse indebidamente en la circulación **entorpeciendo la misma, causando perjuicios y molestias innecesarias a las personas o daños a los bienes**.\n\n*Nota: Tendrían cabida en este supuesto conductas como \"causar una molestia innecesaria a las personas que habitan en los inmuebles cercanos a la vía\"; o mantener el vehículo reteniendo la circulación por no abonar el peaje (Instrucción DGT 12/S127). Responsable: Conductor/Usuario.*",
+      "tags": ["comportamiento indebido", "entorpecer", "molestias"]
     },
     {
       "tipo": "grave",
@@ -1705,8 +1705,8 @@
       "puntos": "6",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "**Conducir de forma temeraria**.\n\n*Nota: Deberá describirse la conducta en la que consiste la temeridad y el riesgo o peligro ocasionado con la misma. Está calificada como infracción muy grave por el art. 77.e) de la LTSV.*",
-      "tags": ["conduccion temeraria", "puntos", "peligro", "riesgo"]
+      "descripcion": "**Conducir de forma temeraria**.\n\n*Nota: Describir con detalle la conducta merecedora del calificativo de temeraria. Habrá que tener en cuenta, a efectos de traslado al Ministerio Fiscal, los casos en los que los hechos pudieran ser constitutivos de delito previsto en el art. 380 del Código Penal. Responsable: Conductor.*",
+      "tags": ["conducc. temeraria", "puntos"]
     },
     {
       "tipo": "media",
@@ -1718,8 +1718,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "**Conducir sin la diligencia, precaución y no distracción** necesarios para evitar todo daño propio o ajeno.\n\n*Nota: Deberá detallarse la conducta, teniendo especialmente en cuenta a los usuarios más vulnerables (peatones, ciclistas, etc.).*",
-      "tags": ["conduccion negligente", "diligencia", "precaucion", "distraccion"]
+      "descripcion": "**Conducir sin la diligencia, precaución y no distracción** necesarios para evitar todo daño propio o ajeno.\n\n*Nota: Deberá detallarse la conducta. Tras la modificación del artículo 10 LTSV por Ley 18/2021, se ha de tener especialmente en cuenta a los usuarios vulnerables (peatones, ciclistas, etc.). Responsable: Conductor.*",
+      "tags": ["conducc. negligente", "diligencia", "precaucion"]
     },
     {
       "tipo": "media",
@@ -1731,8 +1731,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "**Conducir de forma negligente creando una situación de riesgo o peligro** para sí mismo, los demás ocupantes del vehículo o al resto de usuarios de la vía.\n\n*Nota: Deberá detallarse la conducta y el riesgo. Si este no quedase suficientemente justificado, se deberá utilizar la opción 5C.*",
-      "tags": ["conduccion negligente", "riesgo", "peligro"]
+      "descripcion": "**Conducir de forma negligente creando una situación de riesgo o peligro** para sí mismo, los demás ocupantes del vehículo o al resto de usuarios de la vía.\n\n*Nota: Deberá detallarse de modo sucinto y claro la conducta y el riesgo. En caso de no quedar suficientemente justificado el riesgo, se optará por la opción 5C. Responsable: Conductor.*",
+      "tags": ["conducc. negligente", "riesgo", "peligro"]
     },
     {
       "tipo": "leve",
@@ -1744,8 +1744,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Depositar o abandonar sobre la vía objetos o materias que puedan **entorpecer la libre circulación**, parada o estacionamiento.\n\n*Nota: Deberá indicarse el objeto o materia. Los hechos podrían ser constitutivos de delito (art. 385 del Código Penal) si originan un grave riesgo.*",
-      "tags": ["abandonar objetos", "entorpecer", "obstaculo"]
+      "descripcion": "**Depositar o abandonar sobre la vía objetos o materias que puedan entorpecer** la libre circulación, parada o estacionamiento.\n\n*Nota: Deberá indicarse el objeto o materia. Los hechos podrían ser constitutivos de delito (art. 385 CP) si originan un grave riesgo para la circulación. Responsable: Conductor/Usuario.*",
+      "tags": ["comportamiento indebido", "obstaculo", "entorpecer"]
     },
     {
       "tipo": "media",
@@ -1757,8 +1757,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Arrojar sobre la vía objetos o materias que **hagan peligrosa la libre circulación** o **deterioren la vía** o sus instalaciones.\n\n*Nota: Deberá indicarse el objeto/materia y el peligro/deterioro. Los hechos podrían ser constitutivos de delito (art. 385 del Código Penal) si originan un grave riesgo.*",
-      "tags": ["arrojar objetos", "peligro", "deteriorar via", "seguridad vial"]
+      "descripcion": "**Arrojar sobre la vía objetos o materias que hagan peligrosa** la libre circulación, parada o estacionamiento o **deteriorar aquella o sus instalaciones**.\n\n*Nota: Deberá indicarse el objeto o materia que cause el peligro o deterioro. Posible traslado al Ministerio Fiscal por delito (art. 385 CP) si se origina un grave riesgo. Responsable: Conductor/Usuario.*",
+      "tags": ["comportamiento indebido", "peligro", "arrojar objetos"]
     },
     {
       "tipo": "leve",
@@ -1770,10 +1770,10 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Realizar actuaciones, rodajes, encuestas o ensayos, que aunque sean con carácter provisional o temporal, puedan **entorpecer la circulación**.\n\n*Nota: Deberán concretarse y detallarse los hechos.*",
-      "tags": ["actuaciones en via", "entorpecer", "rodaje", "ensayo", "evento"]
+      "descripcion": "**Realizar actuaciones, rodajes, encuestas o ensayos**, que aunque sean con carácter provisional o temporal, **puedan entorpecer la circulación**.\n\n*Nota: Detallar los hechos. Responsable: Autor.*",
+      "tags": ["entorpe. circulac.", "evento", "rodaje"]
     },
-     {
+    {
       "tipo": "leve",
       "circulo": "L",
       "norma": "Reglamento General de Circulación",
@@ -1783,8 +1783,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "No hacer desaparecer lo antes posible un **obstáculo o peligro en la vía** por quien lo ha creado.\n\n*Nota: Deberá indicarse el obstáculo o peligro existente. Responsable: Conductor/Usuario. Los hechos podrían ser constitutivos de delito (art. 385 del Código Penal) si originan un grave riesgo.*",
-      "tags": ["señalizacion", "obstaculo", "peligro"]
+      "descripcion": "**No hacer desaparecer lo antes posible un obstáculo o peligro** en la vía por quien lo ha creado.\n\n*Nota: Deberá indicarse el obstáculo o peligro existente. Podría ser constitutivo de delito (art. 385 CP) si se origina un grave riesgo. Responsable: Conductor/Usuario.*",
+      "tags": ["señalización", "obstaculo", "peligro"]
     },
     {
       "tipo": "leve",
@@ -1796,10 +1796,10 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "No adoptar las medidas necesarias para que el resto de usuarios puedan **advertir un obstáculo o peligro** en la vía por quien lo ha creado.\n\n*Nota: Para advertir de la presencia del obstáculo, el causante deberá señalizarlo de forma eficaz (art. 130.3, 140 y 173 RGCir). Responsable: Conductor/Usuario.*",
-      "tags": ["señalizacion", "advertencia", "obstaculo"]
+      "descripcion": "**No adoptar las medidas necesarias** para que el resto de usuarios puedan **advertir un obstáculo o peligro** en la vía por quien lo ha creado.\n\n*Nota: El causante del obstáculo deberá señalizarlo de forma eficaz, tanto de día como de noche (art. 130.3, 140 y 173 RGCir). Responsable: Conductor/Usuario.*",
+      "tags": ["señalización", "obstaculo", "advertencia"]
     },
-    {
+     {
       "tipo": "leve",
       "circulo": "L",
       "norma": "Reglamento General de Circulación",
@@ -1810,7 +1810,7 @@
       "importe": "80 €",
       "importe_reducido": "40 €",
       "descripcion": "No **señalizar de forma eficaz** (tanto de día como de noche) un obstáculo o peligro en la vía por quien lo ha creado.\n\n*Nota: Deberá indicarse la señalización empleada o la falta de la misma. Responsable: Conductor/Usuario.*",
-      "tags": ["señalizacion", "obstaculo", "peligro"]
+      "tags": ["señalización", "obstaculo", "peligro"]
     },
     {
       "tipo": "leve",
@@ -1822,7 +1822,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Detener, parar o estacionar los vehículos destinados a los **servicios de urgencia**, asistencia mecánica o de conservación de carreteras en lugar distinto del fijado por los agentes.\n\n*Nota: Las actuaciones con este tipo de vehículos se regirán por los principios de utilización de los recursos idóneos y estrictamente necesarios. Responsable: Conductor.*",
+      "descripcion": "**Detener, parar o estacionar los vehículos destinados a los servicios de urgencia, asistencia mecánica o de conservación de carreteras en lugar distinto del fijado** por los agentes de la autoridad responsables.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["parada", "estacionamiento", "vehiculo de urgencia"]
     },
     {
@@ -1835,8 +1835,8 @@
       "puntos": "6",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Arrojar a la vía o en sus inmediaciones cualquier objeto que pueda dar lugar a la **producción de incendios**.\n\n*Nota: Deberá detallarse el objeto y lugar. Válido para colillas o elementos en combustión. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "arrojar objetos", "incendio", "puntos"]
+      "descripcion": "Arrojar a la vía o en sus inmediaciones cualquier objeto que pueda dar lugar a la **producción de incendios**.\n\n*Nota: Válido para casos de colillas o elementos en combustión. Posible traslado al Ministerio Fiscal por delitos previstos en los art. 385 ó 351 del C.P. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "puntos", "incendio", "arrojar objetos"]
     },
     {
       "tipo": "grave",
@@ -1848,8 +1848,8 @@
       "puntos": "6",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Arrojar a la vía o en sus inmediaciones cualquier objeto que pueda **producir accidentes de circulación**.\n\n*Nota: Deberá detallarse el objeto arrojado. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "arrojar objetos", "accidente", "puntos"]
+      "descripcion": "Arrojar a la vía o en sus inmediaciones cualquier objeto que pueda **producir accidentes de circulación**.\n\n*Nota: Deberá detallarse el objeto arrojado. Posible traslado al Ministerio Fiscal por delitos previstos en los art. 385 ó 351 del C.P. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "puntos", "accidente", "arrojar objetos"]
     },
     {
       "tipo": "grave",
@@ -1862,7 +1862,7 @@
       "importe": "500 €",
       "importe_reducido": "250 €",
       "descripcion": "Arrojar a la vía o en sus inmediaciones cualquier objeto que pueda dar lugar a la **producción de incendios**.\n\n*Nota: Deberá detallarse el objeto arrojado. Responsable: Usuario/Pasajero.*",
-      "tags": ["comportamiento indebido", "arrojar objetos", "incendio", "pasajero"]
+      "tags": ["comportamiento indebido", "incendio", "arrojar objetos"]
     },
     {
       "tipo": "grave",
@@ -1875,7 +1875,7 @@
       "importe": "500 €",
       "importe_reducido": "250 €",
       "descripcion": "Arrojar a la vía o en sus inmediaciones cualquier objeto que pueda **producir accidentes de circulación**.\n\n*Nota: Deberá detallarse el objeto arrojado. Responsable: Usuario/Pasajero.*",
-      "tags": ["comportamiento indebido", "arrojar objetos", "accidente", "pasajero"]
+      "tags": ["comportamiento indebido", "accidente", "arrojar objetos"]
     },
     {
       "tipo": "media",
@@ -1887,8 +1887,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo que emite **perturbaciones electromagnéticas**.\n\n*Nota: Para perseguir esta infracción deberá contarse con el medidor de frecuencias electromagnéticas. Responsable: Titular/Conductor.*",
-      "tags": ["emisiones", "electromagneticas", "condiciones tecnicas"]
+      "descripcion": "Circular con un vehículo que emite **perturbaciones electromagnéticas**.\n\n*Nota: Se deberá contar con el correspondiente medidor de frecuencias electromagnéticas. Responsable: Titular/Conductor.*",
+      "tags": ["emisiones", "condiciones tecnicas"]
     },
     {
       "tipo": "media",
@@ -1900,10 +1900,10 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo con **niveles de emisión de ruido superiores a los límites establecidos**.\n\n*Nota: Deberá contarse con un sonómetro que permita comprobar los niveles de ruido. Responsable: Titular/Conductor.*",
-      "tags": ["emisiones", "ruido", "contaminacion acustica", "sonometro"]
+      "descripcion": "Circular con un vehículo con **niveles de emisión de ruido superiores a los límites establecidos** por las normas.\n\n*Nota: Se deberá contar con el medio técnico (sonómetro) que permita comprobar los niveles de ruido. Responsable: Titular/Conductor.*",
+      "tags": ["emisiones", "ruido", "contaminacion"]
     },
-        {
+    {
       "tipo": "media",
       "circulo": "G",
       "norma": "Reglamento General de Circulación",
@@ -1913,7 +1913,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo emitiendo **gases o humos en valores superiores a los límites** establecidos.\n\n*Nota: Deberá contarse con el medio técnico necesario que permita comprobar el nivel de gases o humos. Responsable: Titular/Conductor.*",
+      "descripcion": "Circular con un vehículo emitiendo **gases o humos en valores superiores a los límites establecidos** en las normas reguladoras.\n\n*Nota: Se deberá contar con el medio técnico necesario que permita comprobar el nivel de gases o humos. Responsable: Titular/Conductor.*",
       "tags": ["emisiones", "gases", "humos", "contaminacion"]
     },
     {
@@ -1926,8 +1926,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo que ha sido objeto de una **reforma de importancia no autorizada**.\n\n*Nota: Se denunciará por este precepto, aunque está en directa relación con el art. 7 del Reglamento General de Vehículos. Responsable: Titular/Conductor.*",
-      "tags": ["reformas de importancia", "condiciones tecnicas", "itv"]
+      "descripcion": "Circular con un vehículo que ha sido objeto de una **reforma de importancia no autorizada**.\n\n*Nota: Esta infracción está en directa relación con lo dispuesto en el artículo 7 del Reglamento General de Vehículos. Responsable: Titular/Conductor.*",
+      "tags": ["reformas de importancia", "itv", "condiciones tecnicas"]
     },
     {
       "tipo": "leve",
@@ -1939,8 +1939,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**No colaborar el conductor** de un vehículo en las pruebas de detección que permitan comprobar una posible deficiencia en el mismo.\n\n*Nota: Deberá detallarse el tipo de deficiencia a comprobar. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "colaboracion", "pruebas tecnicas"]
+      "descripcion": "**No colaborar el conductor de un vehículo en las pruebas de detección** que permitan comprobar una posible deficiencia en el mismo.\n\n*Nota: Detallar el tipo de deficiencia. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "pruebas tecnicas", "colaboracion"]
     },
     {
       "tipo": "media",
@@ -1952,8 +1952,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo a motor con el **escape libre**, sin llevar instalado el preceptivo dispositivo silenciador de explosiones o con un silenciador ineficaz.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["emisiones", "ruido", "escape libre", "silenciador"]
+      "descripcion": "Circular con un vehículo a motor con el **escape libre, sin llevar instalado el preceptivo dispositivo silenciador** de explosiones o con un silenciador ineficaz.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["emisiones", "escape libre", "ruido"]
     },
     {
       "tipo": "media",
@@ -1965,8 +1965,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un **ciclomotor con el escape libre**, sin llevar instalado el preceptivo dispositivo silenciador de explosiones o con un silenciador ineficaz.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["emisiones", "ruido", "escape libre", "silenciador", "ciclomotor"]
+      "descripcion": "Circular con un ciclomotor con el **escape libre, sin llevar instalado el preceptivo dispositivo silenciador** de explosiones o con un silenciador ineficaz.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["emisiones", "escape libre", "ciclomotor", "ruido"]
     },
     {
       "tipo": "leve",
@@ -1978,8 +1978,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Instalar vertederos de basuras y residuos** dentro de la zona de afección de la carretera, o cuando fuera de ella, exista peligro por humo.\n\n*Nota: Responsable: Autor/Responsable de la instalación.*",
-      "tags": ["emisiones", "humo", "vertedero", "residuos"]
+      "descripcion": "**Instalar vertederos de basuras y residuos dentro de la zona de afección de la carretera**, o cuando, estando fuera, exista peligro de que el humo producido pueda alcanzar la carretera.\n\n*Nota: Responsable: Autor/Responsable.*",
+      "tags": ["emisiones", "humo", "vertedero"]
     },
     {
       "tipo": "media",
@@ -1991,8 +1991,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Conducir un vehículo ocupado por un número de personas que **exceda del 50% del número de plazas autorizadas**, excluido el conductor.\n\n*Nota: No es aplicable a autobuses urbanos o interurbanos. Se podría proceder a la inmovilización del vehículo (art. 104.1.g LTSV). Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "exceso ocupacion", "plazas"]
+      "descripcion": "Conducir un vehículo ocupado por un número de personas que **exceda del 50% del número de plazas autorizadas**, excluido el conductor.\n\n*Nota: No aplicable a autobuses urbanos ni interurbanos. Se podría proceder a la inmovilización del vehículo (art. 104.1.g LTSV). Responsable: Conductor.*",
+      "tags": ["emplazam. personas", "exceso ocupacion"]
     },
     {
       "tipo": "leve",
@@ -2004,8 +2004,8 @@
       "puntos": "0",
       "importe": "100 €",
       "importe_reducido": "50 €",
-      "descripcion": "Transportar en el vehículo un número de personas **superior al de plazas autorizadas**, sin que el exceso supere el 50% de dichas plazas.\n\n*Nota: Si el exceso afecta a los movimientos del conductor o a la estabilidad, se tipificará por el art. 3.1 (conducción negligente). Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "exceso ocupacion", "plazas"]
+      "descripcion": "Transportar en el vehículo reseñado un **número de personas superior al de plazas autorizadas, sin que el exceso supere en un 50%** dichas plazas.\n\n*Nota: Si el exceso afecta a los movimientos del conductor o a la estabilidad del vehículo, se tipificará como conducción negligente (art. 3.1 RGCir). Responsable: Conductor.*",
+      "tags": ["emplazamiento personas", "exceso ocupacion"]
     },
     {
       "tipo": "leve",
@@ -2017,8 +2017,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Transportar personas en un vehículo en **emplazamiento distinto al destinado y acondicionado** para ellas.\n\n*Nota: Los pasajeros solo pueden ser transportados en los asientos homologados. Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "carga", "seguridad"]
+      "descripcion": "Transportar personas en un vehículo en **emplazamiento distinto al destinado y acondicionado para ellas**.\n\n*Nota: Los pasajeros sólo pueden ser transportados en los asientos homologados. Responsable: Conductor.*",
+      "tags": ["emplazamiento personas", "carga"]
     },
     {
       "tipo": "leve",
@@ -2030,8 +2030,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Viajar personas en un vehículo destinado al transporte de mercancías o cosas **en el lugar reservado a la carga**, incumpliendo las condiciones reglamentarias.\n\n*Nota: Excepcionalmente podrán viajar personas en el lugar de la carga si se cumplen las condiciones que regulan la materia. Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "carga", "transporte mercancias"]
+      "descripcion": "Viajar personas en un vehículo destinado al transporte de mercancías o cosas en el **lugar reservado a la carga**, incumpliendo las condiciones que se establecen.\n\n*Nota: Excepcionalmente, podrán viajar personas en el lugar reservado a la carga en las condiciones que se establecen en las disposiciones que regulan la materia. Responsable: Conductor.*",
+      "tags": ["emplazamiento personas", "carga"]
     },
     {
       "tipo": "leve",
@@ -2043,8 +2043,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Llevar instalada una **protección de la carga que estorba a los ocupantes** en un vehículo autorizado para transportar simultáneamente personas y carga.\n\n*Nota: La carencia de protección se denunciará por el art. 12.4 del RGVEH. Responsable: Conductor.*",
-      "tags": ["carga y descarga", "emplazamiento personas", "proteccion carga"]
+      "descripcion": "Llevar instalada una **protección de la carga que estorba a los ocupantes** en un vehículo autorizado para transportar simultáneamente personas y carga.\n\n*Nota: La carencia de la protección se denunciará por el artículo 12.4 del RGVEH. Responsable: Conductor.*",
+      "tags": ["carga y descarga", "proteccion carga"]
     },
     {
       "tipo": "media",
@@ -2056,7 +2056,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "No llevar instalada la **protección de la carga prevista en la legislación** reguladora de los vehículos, en un vehículo autorizado para transportar simultáneamente personas y carga.\n\n*Nota: Si la protección fuera inadecuada, se denunciará por el art. 12.4 del RGVEH. Responsable: Conductor.*",
+      "descripcion": "**No llevar instalada la protección de la carga** prevista en la legislación reguladora de los vehículos, en un vehículo autorizado para transportar simultáneamente personas y carga.\n\n*Nota: Si dicha protección fuera inadecuada o no existiera, estos supuestos se denunciarán por el artículo 12.4 del RGVEH. Responsable: Conductor.*",
       "tags": ["carga y descarga", "proteccion carga"]
     },
     {
@@ -2069,8 +2069,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Efectuar **paradas y arrancadas con sacudidas o movimientos bruscos** el conductor de un transporte colectivo de personas.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["transporte publico", "autobus", "conduccion brusca"]
+      "descripcion": "Efectuar **paradas y arrancadas con sacudidas o movimientos bruscos** el conductor de un transporte colectivo de viajeros.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["transporte publico de viajeros", "conduccion brusca"]
     },
     {
       "tipo": "leve",
@@ -2082,8 +2082,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "No **parar lo más cerca posible del borde derecho** de la calzada el conductor de un transporte colectivo de personas.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["transporte publico", "autobus", "parada"]
+      "descripcion": "**No parar lo más cerca posible del borde derecho de la calzada** el conductor de un transporte colectivo de personas.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["transporte publico de viajeros", "parada"]
     },
     {
       "tipo": "leve",
@@ -2095,8 +2095,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Realizar el conductor de un transporte colectivo de personas **actos que le puedan distraer** durante la marcha.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["transporte publico", "autobus", "distraccion"]
+      "descripcion": "Realizar el conductor de un transporte colectivo de personas, **actos que le puedan distraer** durante la marcha.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["transporte publico de viajeros", "distraccion"]
     },
     {
       "tipo": "leve",
@@ -2108,8 +2108,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "No **velar por la seguridad de los viajeros** el conductor, o en su caso, el encargado, de un transporte colectivo de viajeros, tanto durante la marcha como en las subidas y bajadas.\n\n*Nota: Responsable: Conductor/Encargado.*",
-      "tags": ["transporte publico", "autobus", "seguridad viajeros"]
+      "descripcion": "**No velar por la seguridad de los viajeros** el conductor, o en su caso el encargado, de un transporte colectivo de viajeros, tanto durante la marcha como en las subidas y bajadas.\n\n*Nota: Responsable: Conductor/Encargado.*",
+      "tags": ["transporte publico de viajeros", "seguridad"]
     },
     {
       "tipo": "leve",
@@ -2121,8 +2121,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Vulnerar el viajero** de un vehículo destinado al servicio público de transporte colectivo de personas **prohibiciones reglamentariamente previstas**.\n\n*Nota: Se debe determinar la obligación incumplida por el viajero. Responsable: Usuario.*",
-      "tags": ["transporte publico", "autobus", "viajero", "pasajero"]
+      "descripcion": "**Vulnerar el viajero** de un vehículo destinado al servicio público de transporte colectivo de personas **prohibiciones reglamentariamente previstas**.\n\n*Nota: Determinar la obligación incumplida por el viajero. Responsable: Usuario.*",
+      "tags": ["transporte publico de viajeros", "pasajero", "usuario"]
     },
     {
       "tipo": "leve",
@@ -2134,8 +2134,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**No prohibir la entrada u ordenar la salida** el conductor de un transporte colectivo a los viajeros que vulneren las prohibiciones establecidas.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["transporte publico", "autobus", "conductor"]
+      "descripcion": "**No prohibir la entrada u ordenar la salida el conductor** de un vehículo destinado al servicio público de transporte colectivo de personas, a los viajeros que vulneren las prohibiciones.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["transporte publico de viajeros", "conductor"]
     },
     {
       "tipo": "leve",
@@ -2147,8 +2147,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Circular 2 personas en un ciclo** en condiciones distintas a las reglamentarias.\n\n*Nota: Se puede transportar a un menor de hasta 7 años si el conductor es mayor de edad y se usa un asiento adicional homologado. Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "ciclo", "bicicleta", "pasajero"]
+      "descripcion": "**Circular 2 personas en un ciclo en condiciones distintas a las reglamentarias**.\n\n*Nota: Se podrá transportar a un menor de hasta 7 años si el conductor es mayor de edad y se utiliza un asiento adicional homologado. Responsable: Conductor.*",
+      "tags": ["emplazamiento personas", "carga", "bicicleta", "ciclo"]
     },
     {
       "tipo": "leve",
@@ -2160,8 +2160,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Circular 2 personas en el vehículo reseñado** (motocicleta/ciclomotor) en condiciones distintas a las reglamentarias.\n\n*Nota: El pasajero, mayor de 12 años, debe ir a horcajadas, con los pies en los reposapiés y usando el asiento trasero. Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "motocicleta", "ciclomotor", "pasajero"]
+      "descripcion": "**Circular 2 personas en el vehículo reseñado (motocicleta/ciclomotor) en condiciones distintas a las reglamentarias**.\n\n*Nota: El pasajero debe ser mayor de 12 años, utilizar casco, ir a horcajadas con los pies en los reposapiés y en el asiento trasero. Responsable: Conductor.*",
+      "tags": ["emplazamiento personas", "carga", "motocicleta", "ciclomotor"]
     },
     {
       "tipo": "media",
@@ -2173,8 +2173,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con **menores de doce años como pasajeros de motocicletas o ciclomotores** en condiciones distintas a las reglamentarias.\n\n*Nota: Excepcionalmente se permite a mayores de 7 años cuando el conductor sea su padre, madre, tutor o una persona mayor de edad autorizada por ellos. Responsable: Conductor.*",
-      "tags": ["emplazamiento personas", "menores", "pasajero", "motocicleta", "ciclomotor"]
+      "descripcion": "**Circular con menores de doce años como pasajeros de motocicletas o ciclomotores** en condiciones distintas a las reglamentarias.\n\n*Nota: Se permite a mayores de 7 años cuando sean conducidos por su padre, madre, tutor o personas mayores de edad por ellos autorizadas. Responsable: Conductor.*",
+      "tags": ["emplazamiento personas", "carga", "menor", "motocicleta", "ciclomotor"]
     },
     {
       "tipo": "leve",
@@ -2186,8 +2186,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular el vehículo reseñado **arrastrando un remolque** en condiciones distintas a las reglamentarias.\n\n*Nota: El remolque no puede superar el 50% de la masa en vacío del vehículo tractor y se deben cumplir otras condiciones de velocidad y visibilidad. Responsable: Conductor.*",
-      "tags": ["remolque", "semirremolque", "motocicleta", "bicicleta"]
+      "descripcion": "**Circular el vehículo reseñado arrastrando un remolque en condiciones distintas a las reglamentarias**.\n\n*Nota: Las motocicletas, vehículos de tres ruedas, ciclomotores, ciclos y bicicletas podrán arrastrar un remolque siempre que no superen el 50% de la masa en vacío del vehículo tractor y se cumplan ciertas condiciones. Responsable: Conductor.*",
+      "tags": ["remolque de vehiculos", "remolque", "motocicleta", "bicicleta"]
     },
     {
       "tipo": "media",
@@ -2199,8 +2199,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con el vehículo cuya carga pueda **arrastrar, caer, desplazarse de manera peligrosa** o comprometer la estabilidad del vehículo, sin los accesorios adecuados para su protección o acondicionamiento.\n\n*Nota: Responsable: Titular/Conductor/Autor.*",
-      "tags": ["emplazamiento personas", "acondicionamiento carga", "caida carga", "estabilidad"]
+      "descripcion": "Circular con el vehículo reseñado cuya carga pueda **arrastrar, caer, desplazarse de manera peligrosa o comprometer la estabilidad**, sin disponer de los accesorios que garanticen la adecuada protección o acondicionamiento de la carga.\n\n*Nota: Responsable: Titular/Conductor/Autor/Responsable.*",
+      "tags": ["emplazamiento personas", "carga", "caida carga"]
     },
     {
       "tipo": "grave",
@@ -2212,8 +2212,8 @@
       "puntos": "0",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular con el vehículo cuya **carga ha caído a la vía** por su mal acondicionamiento, creando grave peligro para el resto de los usuarios.\n\n*Nota: Deben especificarse las circunstancias. Responsable: Titular/Conductor/Autor.*",
-      "tags": ["emplazamiento personas", "caida carga", "peligro grave"]
+      "descripcion": "Circular con el vehículo reseñado cuya **carga ha caído a la vía**, por su mal acondicionamiento, **creando grave peligro** para el resto de los usuarios.\n\n*Nota: Deberán especificarse las circunstancias. Responsable: Titular/Conductor/Autor/Responsable.*",
+      "tags": ["emplazamiento personas", "carga", "caida carga", "peligro"]
     },
     {
       "tipo": "leve",
@@ -2225,7 +2225,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular con el vehículo cuya carga transportada produce **ruido, polvo u otras molestias** que puedan ser evitadas.\n\n*Nota: Responsable: Titular/Conductor/Autor.*",
+      "descripcion": "Circular con el vehículo reseñado cuya carga transportada produce **ruido, polvo u otras molestias** que puedan ser evitadas.\n\n*Nota: Responsable: Titular/Conductor/Autor/Responsable.*",
       "tags": ["emplazamiento personas", "carga", "ruido", "polvo", "molestias"]
     },
     {
@@ -2238,7 +2238,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular con el vehículo en el que la indebida disposición de la carga **oculta los dispositivos de alumbrado o señalización luminosa**, placas o distintivos obligatorios.\n\n*Nota: Responsable: Titular/Conductor/Autor.*",
+      "descripcion": "Circular con el vehículo reseñado en el que la indebida disposición de la carga **oculta los dispositivos de alumbrado o señalización luminosa, placas o distintivos obligatorios** y las advertencias manuales del conductor.\n\n*Nota: Responsable: Titular/Conductor/Autor/Responsable.*",
       "tags": ["emplazamiento personas", "carga", "ocultar luces", "ocultar matricula"]
     },
     {
@@ -2251,8 +2251,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular con el vehículo sin **cubrir, total y eficazmente**, las materias transportadas que producen polvo o pueden caer.\n\n*Nota: Especificar si el vehículo dispone o no de lona. Responsable: Titular/Conductor/Autor.*",
-      "tags": ["emplazamiento personas", "cubrir carga", "lona", "polvo"]
+      "descripcion": "Circular con un vehículo **sin cubrir, total y eficazmente, las materias transportadas que producen polvo o pueden caer**.\n\n*Nota: Especificar si el vehículo dispone o no de lona o dispositivo similar. Responsable: Titular/Conductor/Autor/Responsable.*",
+      "tags": ["emplazamiento personas", "carga", "cubrir carga", "lona"]
     },
     {
       "tipo": "leve",
@@ -2264,8 +2264,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular con el vehículo cuya carga **sobresale de la proyección en planta** del mismo, en los términos reglamentariamente previstos.\n\n*Nota: Responsable: Titular/Conductor.*",
-      "tags": ["emplazamiento personas", "carga", "sobresalir carga", "dimensiones"]
+      "descripcion": "Circular con el vehículo reseñado cuya carga **sobresale de la proyección en planta** del mismo, en los términos reglamentariamente previstos.\n\n*Nota: Responsable: Titular/Conductor.*",
+      "tags": ["emplazamiento personas", "carga", "sobresalir carga"]
     },
     {
       "tipo": "leve",
@@ -2277,8 +2277,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular con un vehículo transportando una carga que sobresale de su proyección en planta, **sin adoptar las debidas precauciones** para evitar todo daño o peligro.\n\n*Nota: Responsable: Titular/Conductor.*",
-      "tags": ["carga", "sobresalir carga", "precaucion", "peligro"]
+      "descripcion": "Circular con un vehículo transportando una carga que sobresale de su proyección en planta, **sin adoptar las debidas precauciones** para evitar todo daño o peligro a los demás usuarios de la vía.\n\n*Nota: Responsable: Titular/Conductor.*",
+      "tags": ["carga", "sobresalir carga", "precaucion"]
     },
     {
       "tipo": "leve",
@@ -2290,8 +2290,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**No señalizar reglamentariamente la carga que sobresale longitudinalmente** del vehículo.\n\n*Nota: La carga que sobresale por detrás debe señalizarse con la señal V-20. Responsable: Titular/Conductor.*",
-      "tags": ["señalizacion", "carga", "sobresalir carga", "v-20"]
+      "descripcion": "**No señalizar reglamentariamente la carga que sobresale longitudinalmente** del vehículo reseñado.\n\n*Nota: La carga que sobresalga por detrás deberá ser señalizada por medio de la señal V-20. Responsable: Titular/Conductor.*",
+      "tags": ["señalización", "carga", "sobresalir carga", "v-20"]
     },
     {
       "tipo": "leve",
@@ -2303,8 +2303,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular con un vehículo, entre la puesta y salida del sol o bajo condiciones que disminuyen la visibilidad, **sin señalizar la carga que sobresale** de la forma establecida.\n\n*Nota: Además de la señal V-20, la carga deberá señalizarse con una luz roja por detrás y una luz blanca por delante. Responsable: Titular/Conductor.*",
-      "tags": ["señalizacion", "carga", "sobresalir carga", "alumbrado", "visibilidad reducida"]
+      "descripcion": "Circular con un vehículo, entre la puesta y salida del sol o bajo condiciones que disminuyen sensiblemente la visibilidad, **sin señalizar la carga que sobresale** de la forma establecida reglamentariamente.\n\n*Nota: Deberá señalizarse, además de la señal V-20, con una luz roja. Cuando la carga sobresalga por delante, la señalización deberá hacerse por medio de una luz blanca. Responsable: Titular/Conductor.*",
+      "tags": ["señalización", "carga", "sobresalir carga", "alumbrado"]
     },
     {
       "tipo": "leve",
@@ -2316,8 +2316,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "No señalizar reglamentariamente la carga que **sobresale lateralmente del gálibo** del vehículo.\n\n*Nota: Debe señalizarse con luz blanca y reflectante blanco hacia delante, y luz roja y reflectante rojo hacia atrás. Responsable: Titular/Conductor.*",
-      "tags": ["señalizacion", "carga", "sobresalir carga", "gálibo"]
+      "descripcion": "**No señalizar reglamentariamente la carga que sobresale lateralmente del gálibo** del vehículo reseñado.\n\n*Nota: Indicar si la señal correspondiente se encuentra o no activada. Responsable: Titular/Conductor.*",
+      "tags": ["señalización", "carga", "sobresalir carga", "gálibo"]
     },
     {
       "tipo": "leve",
@@ -2329,8 +2329,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Realizar operaciones de **carga y descarga en la vía**, pudiendo hacerlo fuera de la misma.\n\n*Nota: Las operaciones de carga y descarga deben hacerse fuera de la vía. Excepcionalmente, si es inexcusable, se harán sin ocasionar peligros ni perturbaciones graves. Responsable: Conductor.*",
-      "tags": ["carga y descarga", "operaciones en la via"]
+      "descripcion": "Realizar **operaciones de carga y descarga en la vía, pudiendo hacerlo fuera** de la misma.\n\n*Nota: Las operaciones de carga y descarga deberán llevarse a cabo fuera de la vía. Responsable: Conductor.*",
+      "tags": ["carga y descarga", "via publica"]
     },
     {
       "tipo": "leve",
@@ -2342,7 +2342,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Realizar en la vía operaciones de carga y descarga ocasionando **peligro o perturbaciones graves** al tránsito de otros usuarios.\n\n*Nota: Deberá indicarse el peligro o la perturbación causada. Responsable: Conductor.*",
+      "descripcion": "Realizar en la vía operaciones de carga y descarga ocasionando **peligro o perturbaciones graves al tránsito** de otros usuarios.\n\n*Nota: Deberá indicarse el peligro o la perturbación. Responsable: Conductor.*",
       "tags": ["carga y descarga", "peligro", "perturbacion"]
     },
     {
@@ -2355,8 +2355,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Realizar en la vía operaciones de carga y descarga **depositando la mercancía en la calzada, arcén o zona peatonal**.\n\n*Nota: Deberá indicarse dónde se depositó la mercancía. Responsable: Conductor.*",
-      "tags": ["carga y descarga", "depositar mercancia", "calzada", "peaton"]
+      "descripcion": "Realizar en la vía operaciones de carga y descarga **depositando la mercancía en la calzada, arcén o zona peatonal**.\n\n*Nota: Deberá indicarse dónde se depositó la misma. Responsable: Conductor.*",
+      "tags": ["carga y descarga", "obstaculo", "mercancia"]
     },
     {
       "tipo": "leve",
@@ -2368,7 +2368,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Conducir sin adoptar las **precauciones necesarias para la seguridad** de otros usuarios de la vía.\n\n*Nota: Los conductores deben estar en todo momento en condiciones de controlar sus vehículos o animales. Responsable: Conductor.*",
+      "descripcion": "Conducir **sin adoptar las precauciones necesarias para la seguridad** de otros usuarios de la vía.\n\n*Nota: Deberá indicarse el hecho que provocó la falta de precaución. Los conductores deberán estar en todo momento en condiciones de controlar sus vehículos o animales. Responsable: Conductor.*",
       "tags": ["comportamiento indebido", "precaucion", "seguridad"]
     },
     {
@@ -2381,8 +2381,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Llevar **corriendo por la vía caballerías, ganados o vehículos de carga de tracción animal**, en las inmediaciones de otros de la misma especie o de personas que van a pie.\n\n*Nota: Deberán concretarse los hechos. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "animales", "ganado", "traccion animal"]
+      "descripcion": "Llevar **corriendo por la vía, caballerías, ganados o vehículos de carga de tracción animal**, en las inmediaciones de otros de la misma especie o de las personas que van a pie.\n\n*Nota: Deberán concretarse los hechos. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "animales", "ganado"]
     },
     {
       "tipo": "leve",
@@ -2394,8 +2394,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Abandonar la conducción** de caballerías, ganados o vehículos de carga de tracción animal, dejándolos marchar libremente por el camino o detenerse en él.\n\n*Nota: Deberá concretarse el hecho y el animal o vehículo de que se trate. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "animales", "abandono", "ganado"]
+      "descripcion": "**Abandonar la conducción de caballerías, ganados o vehículos de carga de tracción animal**, dejándolos marchar libremente por el camino o detenerse en él.\n\n*Nota: Deberá indicarse el animal o vehículo de que se trate. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "animales", "ganado", "abandono"]
     },
     {
       "tipo": "leve",
@@ -2407,8 +2407,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Conducir el vehículo sin mantener la propia **libertad de movimientos**.\n\n*Nota: Deberán concretarse los hechos. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "libertad de movimientos", "posicion conduccion"]
+      "descripcion": "Conducir el vehículo reseñado sin mantener la propia **libertad de movimientos**.\n\n*Nota: Deberán concretarse los hechos. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "libertad de movimientos"]
     },
     {
       "tipo": "leve",
@@ -2421,7 +2421,7 @@
       "importe": "80 €",
       "importe_reducido": "40 €",
       "descripcion": "Conducir un vehículo sin mantener el **campo de visión**.\n\n*Nota: Deberán concretarse los hechos. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "campo de vision", "visibilidad"]
+      "tags": ["comportamiento indebido", "campo de vision"]
     },
     {
       "tipo": "leve",
@@ -2433,10 +2433,10 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Conducir un vehículo sin mantener la **atención permanente a la conducción**.\n\n*Nota: Deberá especificarse el motivo. Esta infracción pudiera ser constitutiva de conducción negligente (art. 3.1 RGCir). Responsable: Conductor.*",
+      "descripcion": "Conducir un vehículo sin mantener la **atención permanente a la conducción**.\n\n*Nota: Deberá especificarse el motivo. Podría ser conducción negligente (art. 3.1 RGCir). Responsable: Conductor.*",
       "tags": ["comportamiento indebido", "atencion", "distraccion"]
     },
-     {
+    {
       "tipo": "leve",
       "circulo": "L",
       "norma": "Reglamento General de Circulación",
@@ -2447,7 +2447,7 @@
       "importe": "80 €",
       "importe_reducido": "40 €",
       "descripcion": "Conducir un vehículo sin mantener la **posición adecuada** y que la mantengan el resto de los pasajeros.\n\n*Nota: Deberán concretarse los hechos. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "posicion conduccion", "pasajeros"]
+      "tags": ["comportamiento indebido", "posicion conduccion"]
     },
     {
       "tipo": "leve",
@@ -2459,8 +2459,8 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Conducir un vehículo sin cuidar de la adecuada **colocación de los objetos o algún animal** transportado para que no interfieran en la conducción.\n\n*Nota: Los animales deben ser transportados en recintos adecuados. Responsable: Conductor.*",
-      "tags": ["comportamiento indebido", "colocacion objetos", "transporte animales", "seguridad"]
+      "descripcion": "Conducir un vehículo sin cuidar de la adecuada **colocación de los objetos o algún animal transportado** para que no interfieran la conducción.\n\n*Nota: Los animales incontrolados deben ser transportados en recintos adecuados. Responsable: Conductor.*",
+      "tags": ["comportamiento indebido", "colocacion objetos", "animales"]
     },
     {
       "tipo": "media",
@@ -2472,8 +2472,8 @@
       "puntos": "3",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo utilizando el conductor **dispositivos visuales incompatibles** con la atención permanente a la conducción.\n\n*Nota: Se refiere a pantallas con acceso a internet, monitores de TV, DVD, etc. Se exceptúan los monitores de maniobras y GPS. Responsable: Conductor.*",
-      "tags": ["uso de dispositivos", "puntos", "pantallas", "video", "distraccion"]
+      "descripcion": "Circular con un vehículo utilizando el conductor **dispositivos visuales incompatibles con la atención permanente a la conducción**.\n\n*Nota: Se refiere a pantallas con acceso a internet, monitores de televisión, reproductores de video o DVD. Se exceptúan los monitores para maniobras y los GPS. Responsable: Conductor.*",
+      "tags": ["uso de dispositivos", "puntos", "pantallas"]
     },
     {
       "tipo": "media",
@@ -2485,8 +2485,8 @@
       "puntos": "3",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Conducir utilizando **cascos o auriculares** conectados a aparatos receptores o reproductores de sonido.\n\n*Nota: Se exceptúan los dispositivos inalámbricos homologados para cascos de moto que no afecten a la seguridad. Responsable: Conductor.*",
-      "tags": ["uso de dispositivos", "puntos", "auriculares", "cascos", "sonido"]
+      "descripcion": "Conducir utilizando **cascos o auriculares conectados a aparatos receptores o reproductores de sonido**.\n\n*Nota: Se exceptúan los dispositivos inalámbricos homologados para cascos de moto que no afecten a la seguridad. Responsable: Conductor.*",
+      "tags": ["uso de dispositivos", "puntos", "auriculares"]
     },
     {
       "tipo": "media",
@@ -2498,8 +2498,8 @@
       "puntos": "3",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Conducir utilizando **manualmente el teléfono móvil** o cualquier otro dispositivo incompatible con la obligatoria atención permanente a la conducción.\n\n*Nota: Incluye la utilización manual de navegadores (GPS). Si se sujeta el móvil con la mano, la infracción es más grave (art. 76 LTSV, 6 puntos). Responsable: Conductor.*",
-      "tags": ["uso de dispositivos", "puntos", "telefono movil", "gps", "distraccion"]
+      "descripcion": "Conducir **utilizando manualmente el teléfono móvil** o cualquier otro dispositivo incompatible con la obligatoria atención permanente a la conducción.\n\n*Nota: En el caso de que se utilice sujetándolo con la mano, se denunciará por el art. 76, opción 5A de la LTSV (6 puntos). Responsable: Conductor.*",
+      "tags": ["uso de dispositivos", "puntos", "telefono movil"]
     },
     {
       "tipo": "media",
@@ -2511,8 +2511,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Emitir o hacer **señales de forma encaminada a eludir la vigilancia** de los agentes de tráfico.\n\n*Nota: Deberá especificarse la conducta concretamente detectada. Responsable: Conductor.*",
-      "tags": ["conduccion negligente", "eludir vigilancia", "señales"]
+      "descripcion": "Emitir o hacer **señales de forma encaminada a eludir la vigilancia de los agentes de tráfico**.\n\n*Nota: Deberá especificarse la conducta concretamente detectada. Responsable: Conductor.*",
+      "tags": ["conducc. negligente", "eludir vigilancia", "señales"]
     },
     {
       "tipo": "media",
@@ -2524,8 +2524,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo cuya superficie acristalada no permite al conductor la **visibilidad diáfana** sobre toda la vía por la colocación de láminas, adhesivos, cortinillas u otros elementos no autorizados.\n\n*Nota: Prohibido en el parabrisas y ventanillas delanteras (arco de 180° de visión). Responsable: Titular.*",
-      "tags": ["condiciones tecnicas", "visibilidad", "laminas solares", "adhesivos", "cristales"]
+      "descripcion": "Circular con un vehículo cuya superficie acristalada no permite a su conductor la **visibilidad diáfana** sobre toda la vía por la **colocación de láminas, adhesivos, cortinillas u otros elementos no autorizados**.\n\n*Nota: Prohibido en el cristal frontal o en las ventanillas laterales delanteras (arco de 180°). Responsable: Titular.*",
+      "tags": ["condiciones tecnicas", "visibilidad", "laminas solares", "adhesivos"]
     },
     {
       "tipo": "media",
@@ -2537,8 +2537,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un vehículo provisto de láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores, **sin llevar dos espejos retrovisores exteriores**.\n\n*Nota: Responsable: Titular.*",
-      "tags": ["condiciones tecnicas", "laminas solares", "cortinillas", "espejos retrovisores"]
+      "descripcion": "Circular con un vehículo provisto de láminas adhesivas o cortinillas contra el sol en las ventanillas posteriores, **sin llevar dos espejos retrovisores** que cumplan las especificaciones técnicas.\n\n*Nota: Responsable: Titular.*",
+      "tags": ["condiciones tecnicas", "laminas solares", "espejos retrovisores"]
     },
     {
       "tipo": "media",
@@ -2550,8 +2550,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Colocar en un vehículo **vidrios tintados o coloreados no homologados**.\n\n*Nota: Responsable: Titular.*",
-      "tags": ["condiciones tecnicas", "cristales tintados", "lunas tintadas", "homologacion"]
+      "descripcion": "Colocar en un vehículo **vidrios tintados o coloreados no homologados**.\n\n*Nota: Deberán especificarse los concretos hechos observados. Responsable: Titular.*",
+      "tags": ["condiciones tecnicas", "cristales tintados", "homologacion"]
     },
     {
       "tipo": "grave",
@@ -2563,8 +2563,8 @@
       "puntos": "4",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular con una tasa de alcohol en aire espirado **superior a 0,25 mg/l** (hasta 0,50 mg/l).\n\n*Nota: Tasa genérica para conductores en general. Pruebas con etilómetros homologados. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "tasa alcohol"]
+      "descripcion": "Circular con una **tasa de alcohol en aire espirado superior a 0,25 miligramos por litro** (hasta 0,50 mg/l).\n\n*Nota: Tasa genérica para conductores en general. Causa posible inmovilización. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos"]
     },
     {
       "tipo": "grave",
@@ -2576,8 +2576,8 @@
       "puntos": "4",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular con una tasa de alcohol en sangre **superior a 0,50 g/l** (hasta 1,00 g/l).\n\n*Nota: Tasa genérica para conductores en general. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "tasa general"]
+      "descripcion": "Circular con una **tasa de alcohol en sangre superior a 0,50 gramos por 1000 c.c.** (hasta 1,00 g/l).\n\n*Nota: Tasa genérica para conductores en general. Causa posible inmovilización. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "sangre"]
     },
     {
       "tipo": "grave",
@@ -2589,8 +2589,8 @@
       "puntos": "4",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular con una tasa de alcohol en aire espirado **superior a 0,15 mg/l** (hasta 0,30 mg/l).\n\n*Nota: Para conductores profesionales, de servicio de urgencia, mercancías peligrosas, transportes especiales y noveles. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "aire", "tasa profesional", "tasa novel"]
+      "descripcion": "Circular con una **tasa de alcohol en aire espirado superior a 0,15 miligramos por litro** (hasta 0,30 mg/l).\n\n*Nota: Para conductores profesionales, de servicio de urgencia, mercancías peligrosas, transportes especiales y noveles. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "tasa profesional", "tasa novel"]
     },
     {
       "tipo": "grave",
@@ -2602,7 +2602,7 @@
       "puntos": "4",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular con una tasa de alcohol en sangre **superior a 0,30 g/l** (hasta 0,60 g/l).\n\n*Nota: Para conductores profesionales, de servicio de urgencia, mercancías peligrosas, transportes especiales y noveles. Responsable: Conductor.*",
+      "descripcion": "Circular con una **tasa de alcohol en sangre superior a 0,30 gramos por 1000 c.c.** (hasta 0,60 g/l).\n\n*Nota: Para conductores profesionales, noveles, de servicio de urgencia, mercancías peligrosas o transportes especiales. Causa de posible inmovilización. Responsable: Conductor.*",
       "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "tasa profesional", "tasa novel"]
     },
     {
@@ -2615,8 +2615,8 @@
       "puntos": "6",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en aire espirado **superior a 0,50 mg/l** (el doble de la tasa genérica).\n\n*Nota: Para conductores en general. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "aire", "tasa general", "doble tasa"]
+      "descripcion": "Circular con una **tasa de alcohol en aire espirado superior a 0,25 miligramos por litro, sobrepasando los 0,50 mg/l**.\n\n*Nota: Para conductores en general. Causa posible inmovilización. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "doble tasa"]
     },
     {
       "tipo": "grave",
@@ -2628,8 +2628,8 @@
       "puntos": "6",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en sangre **superior a 1,00 g/l** (el doble de la tasa genérica).\n\n*Nota: Para conductores en general. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "tasa general", "doble tasa"]
+      "descripcion": "Circular con una **tasa de alcohol en sangre superior a 0,50 gramos por mil c.c., sobrepasando 1,00 gr/l**.\n\n*Nota: Para conductores en general. Causa posible inmovilización. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "doble tasa"]
     },
     {
       "tipo": "grave",
@@ -2641,8 +2641,8 @@
       "puntos": "6",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en aire espirado **superior a 0,30 mg/l** (el doble de la tasa profesional/novel).\n\n*Nota: Para conductores profesionales, de servicio de urgencia, mercancías peligrosas, transportes especiales y noveles. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "aire", "tasa profesional", "tasa novel", "doble tasa"]
+      "descripcion": "Circular con una **tasa de alcohol en aire espirado superior a 0,15 miligramos por litro, sobrepasando los 0,30 mg/l**.\n\n*Nota: Para conductores profesionales, de servicio de urgencia, mercancías peligrosas, transportes especiales y noveles. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "tasa profesional", "tasa novel", "doble tasa"]
     },
     {
       "tipo": "grave",
@@ -2654,7 +2654,7 @@
       "puntos": "6",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en sangre **superior a 0,60 g/l** (el doble de la tasa profesional/novel).\n\n*Nota: Para conductores profesionales, de servicio de urgencia, mercancías peligrosas, transportes especiales y noveles. Responsable: Conductor.*",
+      "descripcion": "Circular con una **tasa de alcohol en sangre superior a 0,30 gramos por mil c.c., sobrepasando los 0,60 gr/l**.\n\n*Nota: Para conductores profesionales, de servicio de urgencia, noveles, mercancías peligrosas o transportes especiales. Responsable: Conductor.*",
       "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "tasa profesional", "tasa novel", "doble tasa"]
     },
     {
@@ -2667,8 +2667,8 @@
       "puntos": "4",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en aire espirado superior a 0,25 mg/l siendo **reincidente**.\n\n*Nota: Existencia de sanción firme por alcoholemia en el año inmediatamente anterior. Para conductores en general. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "aire", "reincidente"]
+      "descripcion": "Circular con una tasa de alcohol en aire espirado superior a 0,25 miligramos por litro (**reincidente**).\n\n*Nota: Constancia de sanción firme en el año inmediatamente anterior. Para conductores en general. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "reincidente"]
     },
     {
       "tipo": "grave",
@@ -2680,7 +2680,7 @@
       "puntos": "4",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en sangre superior a 0,50 g/l siendo **reincidente**.\n\n*Nota: Existencia de sanción firme por alcoholemia en el año inmediatamente anterior. Para conductores en general. Responsable: Conductor.*",
+      "descripcion": "Circular con una tasa de alcohol en sangre superior a 0,50 gramos por 1000 c.c. (**reincidente**).\n\n*Nota: Constancia de sanción firme en el año inmediatamente anterior. Para conductores en general. Responsable: Conductor.*",
       "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "reincidente"]
     },
     {
@@ -2693,7 +2693,7 @@
       "puntos": "4",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en sangre superior a 0,30 g/l siendo **reincidente**.\n\n*Nota: Para conductores profesionales/noveles con sanción firme por alcoholemia en el año anterior. Responsable: Conductor.*",
+      "descripcion": "Circular con una tasa de alcohol en sangre superior a 0,30 gramos por 1000 c.c. (**reincidente**).\n\n*Nota: Para conductores profesionales/noveles con sanción firme en el año anterior. Responsable: Conductor.*",
       "tags": ["alcohol", "alcoholemia", "puntos", "sangre", "reincidente", "tasa profesional", "tasa novel"]
     },
     {
@@ -2706,8 +2706,8 @@
       "puntos": "4",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "Circular con una tasa de alcohol en aire espirado superior a 0,15 mg/l siendo **reincidente**.\n\n*Nota: Para conductores profesionales/noveles con sanción firme por alcoholemia en el año anterior. Responsable: Conductor.*",
-      "tags": ["alcohol", "alcoholemia", "puntos", "aire", "reincidente", "tasa profesional", "tasa novel"]
+      "descripcion": "Circular con una tasa de alcohol en aire espirado superior a 0,15 miligramos por litro (**reincidente**).\n\n*Nota: Para conductores profesionales/noveles con sanción firme en el año anterior. Responsable: Conductor.*",
+      "tags": ["alcohol", "alcoholemia", "puntos", "reincidente", "tasa profesional", "tasa novel"]
     },
     {
       "tipo": "grave",
@@ -2719,8 +2719,8 @@
       "puntos": "6",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "**No someterse a las pruebas de detección de alcohol**, habiendo sido requerido para ello por los agentes.\n\n*Nota: Si el conductor de un vehículo a motor se niega, incurre en delito (art. 383 CP). Causa posible inmovilización. Responsable: Conductor/Usuario.*",
-      "tags": ["alcohol", "negativa", "puntos", "pruebas"]
+      "descripcion": "**No someterse a las pruebas de detección de alcohol**, habiendo sido requerido para ello por los agentes encargados de la vigilancia del tráfico.\n\n*Nota: Si el conductor de un vehículo a motor se niega, incurre en delito (art. 383 CP). Causa posible inmovilización. Responsable: Conductor/Usuario.*",
+      "tags": ["alcohol", "negativa a pruebas", "puntos"]
     },
     {
       "tipo": "leve",
@@ -2732,7 +2732,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Negarse el personal sanitario** de un centro médico a la obtención de muestras para determinar el grado de alcoholemia.\n\n*Nota: Responsable: Facultativo.*",
+      "descripcion": "**Negarse el personal sanitario** de un centro médico a la **obtención de muestras** para determinar el grado de alcoholemia de la persona que desea someterse a tal prueba.\n\n*Nota: Responsable: Facultativo.*",
       "tags": ["alcohol", "personal sanitario", "pruebas"]
     },
     {
@@ -2745,7 +2745,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Negarse el personal sanitario** de un centro médico a remitir al laboratorio las pruebas obtenidas.\n\n*Nota: Responsable: Facultativo.*",
+      "descripcion": "**Negarse el personal sanitario** de un centro médico a **remitir al laboratorio las pruebas obtenidas** para la determinación del grado de alcoholemia.\n\n*Nota: Responsable: Facultativo.*",
       "tags": ["alcohol", "personal sanitario", "laboratorio"]
     },
     {
@@ -2758,7 +2758,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**No dar cuenta el personal sanitario** de un centro médico a la autoridad correspondiente del resultado del análisis clínico.\n\n*Nota: Responsable: Facultativo.*",
+      "descripcion": "**No dar cuenta el personal sanitario** de un centro médico a la autoridad correspondiente del **resultado del análisis clínico** realizado para determinar el grado de alcoholemia.\n\n*Nota: Responsable: Facultativo.*",
       "tags": ["alcohol", "personal sanitario", "informe"]
     },
     {
@@ -2771,7 +2771,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "**Omitir el personal sanitario** encargado de comunicar a la autoridad los datos exigidos reglamentariamente.\n\n*Nota: Responsable: Facultativo.*",
+      "descripcion": "**Omitir el personal sanitario** encargado de comunicar a la autoridad correspondiente el resultado de las pruebas realizadas, **los datos exigidos** reglamentariamente.\n\n*Nota: Responsable: Facultativo.*",
       "tags": ["alcohol", "personal sanitario", "omision datos"]
     },
     {
@@ -2784,8 +2784,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "No circular por la vía **lo más cerca posible del borde derecho** de la calzada, dejando libre la mitad de la calzada en sentido contrario.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["sentido circulacion", "borde derecho", "calzada"]
+      "descripcion": "No circular por la vía lo más cerca posible del **borde derecho de la calzada**, dejando completamente libre la mitad de la calzada que corresponda a los que puedan circular en sentido contrario.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["sentido circulacion", "borde derecho"]
     },
     {
       "tipo": "media",
@@ -2797,7 +2797,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "No circular por la vía en un **cambio de rasante o curva de reducida visibilidad** dejando libre la mitad de la calzada en sentido contrario.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "No circular por la vía en un **cambio de rasante o curva de reducida visibilidad** dejando completamente libre la mitad de la calzada que corresponda a los que puedan circular en sentido contrario.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["sentido circulacion", "cambio de rasante", "curva", "visibilidad reducida"]
     },
     {
@@ -2810,7 +2810,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular por una vía de doble sentido sin **arrimarse al borde derecho** para mantener la separación lateral suficiente para el cruce.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "Circular por una vía de doble sentido de circulación sin **arrimarse lo más cerca posible al borde derecho** de la calzada para mantener la separación lateral suficiente para realizar el cruce con seguridad.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["sentido circulacion", "separacion lateral", "cruce"]
     },
     {
@@ -2823,7 +2823,7 @@
       "puntos": "6",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular por la izquierda en una vía de doble sentido **en sentido contrario al estipulado**.\n\n*Nota: Se debe especificar si existía peligro para otros usuarios. Responsable: Conductor.*",
+      "descripcion": "Circular por la izquierda en una vía de doble sentido de la circulación en **sentido contrario al estipulado**.\n\n*Nota: Deberá especificarse si circulaba algún vehículo en sentido contrario y si tuvo que realizar maniobras evasivas. Responsable: Conductor.*",
       "tags": ["sentido contrario", "puntos"]
     },
     {
@@ -2836,7 +2836,7 @@
       "puntos": "6",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular por el carril de la izquierda, en **sentido contrario al estipulado**, en una calzada de doble sentido y dos carriles.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "Circular por el carril de la izquierda, en **sentido contrario al estipulado**, en una calzada de doble sentido de circulación y dos carriles, separados o no por marcas viales.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["sentido contrario", "puntos", "utilizacion carriles"]
     },
     {
@@ -2849,7 +2849,7 @@
       "puntos": "6",
       "importe": "500 €",
       "importe_reducido": "250 €",
-      "descripcion": "Circular por el carril situado más a la izquierda en **sentido contrario al estipulado**, en una calzada de doble sentido y tres carriles.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "Circular por el carril situado más a la izquierda en **sentido contrario al estipulado**, en una calzada de doble sentido de circulación y tres carriles separados por marcas viales.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["sentido contrario", "puntos", "utilizacion carriles"]
     },
     {
@@ -2862,7 +2862,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Utilizar el **carril central** de una calzada con doble sentido de circulación y tres carriles, sin deberse a un adelantamiento ni a un cambio de dirección a la izquierda.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "Utilizar el **carril central** de una calzada con doble sentido de circulación y tres carriles separados por marcas longitudinales discontinuas, **sin deberse a un adelantamiento ni a un cambio de dirección a la izquierda**.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["utilizacion carriles", "carril central"]
     },
     {
@@ -2875,8 +2875,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular por el **arcén con un vehículo automóvil**, no existiendo razones de emergencia.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["arcen", "automovil"]
+      "descripcion": "Circular por el **arcén, no existiendo razones de emergencia**, con un vehículo automóvil.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["arcen"]
     },
     {
       "tipo": "media",
@@ -2888,7 +2888,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular por el **arcén con un vehículo especial** con MMA superior a 3500 kg, no existiendo razones de emergencia.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "Circular por el **arcén, no existiendo razones de emergencia**, con un vehículo especial con MMA superior a 3500 kg.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["arcen", "vehiculo especial"]
     },
     {
@@ -2901,8 +2901,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular fuera de poblado por un **carril distinto del situado más a la derecha**, en calzada con más de un carril para el mismo sentido, entorpeciendo la circulación de otro vehículo que le sigue.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["utilizacion carriles", "carril derecho", "entorpecer"]
+      "descripcion": "Circular fuera de poblado por un **carril distinto del situado más a la derecha**, en calzada con más de un carril para el mismo sentido de marcha, **entorpeciendo la circulación** de otro vehículo que le sigue.\n\n*Nota: No se denunciará si no existe entorpecimiento. Responsable: Conductor.*",
+      "tags": ["utilizacion carriles", "carril derecho"]
     },
     {
       "tipo": "leve",
@@ -2914,7 +2914,7 @@
       "puntos": "0",
       "importe": "80 €",
       "importe_reducido": "40 €",
-      "descripcion": "Circular fuera de poblado por un **carril distinto del situado más a la derecha**, en calzada con más de un carril para el mismo sentido, sin existir circunstancias del tráfico o de la vía que así lo aconsejen.\n\n*Nota: Aplicable cuando no se entorpece a otros vehículos. Responsable: Conductor.*",
+      "descripcion": "Circular fuera de poblado por un **carril distinto del situado más a la derecha**, en calzada con más de un carril para el mismo sentido de la marcha, sin existir circunstancias del tráfico o de la vía que así lo aconsejen.\n\n*Nota: Hechos denunciables cuando no se deban a un hecho puntual y siempre que no se haya entorpecido la circulación. Responsable: Conductor.*",
       "tags": ["utilizacion carriles", "carril derecho"]
     },
     {
@@ -2927,7 +2927,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un automóvil o vehículo especial con MMA superior a 3.500 kg, fuera de poblado y sin razones de emergencia, **por el arcén** de una vía con más de un carril para el mismo sentido.\n\n*Nota: Responsable: Conductor.*",
+      "descripcion": "Circular con un automóvil o vehículo especial con MMA superior a 3.500 kg, fuera de poblado y sin razones de emergencia, **por el arcén** de una vía con más de un carril para el mismo sentido de marcha.\n\n*Nota: Responsable: Conductor.*",
       "tags": ["arcen", "vehiculo pesado"]
     },
     {
@@ -2940,8 +2940,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular fuera de poblado con un camión o furgón de MMA superior a 3.500 kg por un **carril distinto del situado más a la derecha**, en calzada de tres o más carriles para el mismo sentido, entorpeciendo la marcha de otro que le sigue.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["utilizacion carriles", "camion", "furgon", "vehiculo pesado"]
+      "descripcion": "Circular fuera de poblado con un **camión o furgón de MMA superior a 3.500 kg** por un carril distinto del situado más a la derecha, en calzada de tres o más carriles para el mismo sentido, **entorpeciendo la marcha** de otro que le sigue.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["utilizacion carriles", "vehiculo pesado", "camion", "furgon"]
     },
     {
       "tipo": "media",
@@ -2953,8 +2953,8 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular fuera de poblado con un vehículo especial o conjunto de vehículos de más de 7 metros de longitud, por un **carril distinto del situado más a la derecha**, entorpeciendo la marcha de otro que le sigue.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["utilizacion carriles", "vehiculo especial", "conjunto de vehiculos", "vehiculo largo"]
+      "descripcion": "Circular fuera de poblado con un **vehículo especial o conjunto de vehículos de más de siete metros** de longitud, por un carril distinto del situado más a la derecha, **entorpeciendo la marcha** de otro que le sigue.\n\n*Nota: Responsable: Conductor.*",
+      "tags": ["utilizacion carriles", "vehiculo especial", "vehiculo largo"]
     },
     {
       "tipo": "media",
@@ -2966,7 +2966,7 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular fuera de poblado por un **carril distinto de los dos situados más a la derecha** en calzada de tres o más carriles para el mismo sentido.\n\n*Nota: Afecta a camiones o furgones de más de 3.500 kg, vehículos especiales y conjuntos de más de 7 metros. Responsable: Conductor.*",
+      "descripcion": "Circular fuera de poblado por un **carril distinto de los dos situados más a la derecha** en calzada de tres o más carriles para el mismo sentido.\n\n*Nota: Afecta a camiones o furgones de MMA > 3.500 kg, vehículos especiales y conjuntos de vehículos de más de 7 metros. Responsable: Conductor.*",
       "tags": ["utilizacion carriles", "vehiculo pesado", "vehiculo largo"]
     },
     {
@@ -2979,21 +2979,21 @@
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular con un automóvil o vehículo especial por calzada de poblado con al menos dos carriles para el mismo sentido, **cambiando de carril sin motivo justificado** y creando un obstáculo.\n\n*Nota: El hecho de circular en zig-zag debe tipificarse por el art. 3 (conducción negligente/temeraria). Responsable: Conductor.*",
-      "tags": ["utilizacion carriles", "cambio de carril", "poblado", "obstaculo"]
+      "descripcion": "Circular con un automóvil o vehículo especial por calzada de poblado con al menos dos carriles para el mismo sentido, **cambiando de carril sin motivo justificado, creando un obstáculo** a la circulación.\n\n*Nota: El hecho de circular en zig-zag debe tipificarse por el artículo 3 RGCir. Responsable: Conductor.*",
+      "tags": ["utilizacion carriles", "poblado", "cambio de carril"]
     },
     {
       "tipo": "media",
       "circulo": "G",
       "norma": "Reglamento General de Circulación",
-      "articulo": "35",
+      "articulo": "33",
       "apartado": "1",
-      "opc": "5A",
+      "opc": "5B",
       "puntos": "0",
       "importe": "200 €",
       "importe_reducido": "100 €",
-      "descripcion": "Circular por un **carril de alta ocupación (VAO)** con un número de ocupantes, incluido el conductor, inferior al establecido.\n\n*Nota: Responsable: Conductor.*",
-      "tags": ["bus-vao", "vao", "carril alta ocupacion"]
+      "descripcion": "Circular con un automóvil o vehículo especial por calzada de poblado con al menos dos carriles para el mismo sentido, delimitados por marcas longitudinales, **cambiando de carril sin motivo justificado**.\n\n*Nota: El hecho de circular en zig-zag debe tipificarse por el artículo 3 RGCir. Responsable: Conductor.*",
+      "tags": ["utilizacion carriles", "poblado", "cambio de carril"]
     },
     {
       "tipo": "media",
