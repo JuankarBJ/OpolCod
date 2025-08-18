@@ -1667,6 +1667,7 @@
       "rango": "Real Decreto Ley",
       "ambito": "Estatal",
       "areaId": "trafico",
+      "fecha_actualizacion": "Codificado DGT 07/2025",
       "infracciones": [
           {
       "tipo": "leve",

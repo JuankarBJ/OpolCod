@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ambito: norma.ambito,
                     areaId: norma.areaId,
                     modelo_sancion: norma.modelo_sancion,
+                    fecha_actualizacion: norma.fecha_actualizacion, // <--- NUEVA LÍNEA AQUÍ
                     norma: infraccion.norma || norma.identificador // Prioriza 'norma' si existe, sino usa identificador
                 }))
             );
@@ -394,6 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${separatorHtml}
                         <span class="normagris-identificador">${identificador}</span>
                     </div>
+                    <span class="norma-update-date">Actualizado: ${refInfraccion.fecha_actualizacion || 'N/A'}</span>
                 `;
                 groupHeader.appendChild(normaMainInfo);
 

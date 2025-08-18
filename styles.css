@@ -401,6 +401,15 @@ main.infracciones-agrupadas {
     line-height: 1.2;
     margin-top: 0.25rem;
 }
+.norma-main-info .norma-update-date {
+    font-size: 0.85rem;
+    color: var(--color-muted-text);
+    margin-top: 0.25rem;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .identificador-and-ambito .separator {
     color: var(--color-muted-text);
     font-weight: normal;
