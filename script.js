@@ -17,57 +17,60 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentSelectedLocalityId = ''; // Almacena la ID de la localidad seleccionada actualmente
 
     // Mapeo de colores para los ámbitos (valores directos para asignación inline en JS)
-    const ambitoColorsMap = { 
+    const ambitoColorsMap = {
         'Estatal': '#8B4513',
         'Autonómico': '#483D8B',
         'Local': '#20B2AA'
     };
 
-    // --- FASE 1: Cargar la base de datos de configuración (config.json) ---
-    fetch('config.json') // Cambiado a config.json
+    // --- FASE 1: Cargar la configuración y luego las normas individuales ---
+    fetch('config.json')
         .then(response => {
-            if (!response.ok) {
-                throw new Error(`No se pudo cargar config.json: ${response.status} - ${response.statusText}. Verifica que el archivo exista y no tenga errores.`);
-            }
+            if (!response.ok) throw new Error('Error al cargar config.json');
             return response.json();
         })
-        .then(data => {
-            // Procesar normas globales (Estatal, Autonómico) desde config.json
-            globalNorms = data.normas.flatMap(norma =>
-                norma.infracciones.map(infraccion => ({
-                    ...infraccion,
-                    normagris_identificador: norma.identificador,
-                    normagris_tematica: norma.tematica,
-                    rango: norma.rango,
-                    ambito: norma.ambito,
-                    areaId: norma.areaId,
-                    modelo_sancion: norma.modelo_sancion,
-                    fecha_actualizacion: norma.fecha_actualizacion, // <--- NUEVA LÍNEA AQUÍ
-                    norma: infraccion.norma || norma.identificador // Prioriza 'norma' si existe, sino usa identificador
-                }))
-            );
-
-            localidadesMeta = data.localidadesMeta; // Guardar metadata de localidades
+        .then(async data => { // Nota el async aquí
+            localidadesMeta = data.localidadesMeta;
             allGrandesAreas = data.grandesAreas;
             allSettings = data.settings;
+            // FASE 2: Cargar cada archivo de norma definido en data.normas
+            // Creamos un array de promesas de fetch
+            const promises = data.normas.map(metaNorma =>
+                fetch(metaNorma.filePath)
+                    .then(res => {
+                        if (!res.ok) throw new Error(`Error cargando norma: ${metaNorma.filePath}`);
+                        return res.json();
+                    })
+                    .then(normaData => {
+                        // Procesamos la norma individualmente tal como se hacía antes
+                        // Aquí transformamos sus infracciones para añadirles los metadatos necesarios
+                        return normaData.infracciones.map(infraccion => ({
+                            ...infraccion,
+                            normagris_identificador: normaData.identificador,
+                            normagris_tematica: normaData.tematica,
+                            rango: normaData.rango,
+                            ambito: normaData.ambito,
+                            areaId: normaData.areaId,
+                            modelo_sancion: normaData.modelo_sancion,
+                            fecha_actualizacion: normaData.fecha_actualizacion,
+                            norma: infraccion.norma || normaData.identificador
+                        }));
+                    })
+            );
+            // Esperamos a que TODAS las normas se carguen
+            const results = await Promise.all(promises);
 
-            // Ocultar mensaje de carga inicial del body
+            // "Aplanamos" el resultado (porque results es un array de arrays de infracciones)
+            globalNorms = results.flat();
+            // Ocultar mensaje de carga
             const loadingMessage = document.querySelector('.loading-message');
-            if (loadingMessage) {
-                loadingMessage.style.display = 'none';
-            }
-
-            // Iniciar la aplicación con los datos cargados
+            if (loadingMessage) loadingMessage.style.display = 'none';
+            // Iniciar la app
             iniciarApp(allSettings, allGrandesAreas);
         })
         .catch(error => {
-            console.error('Error fatal al cargar los datos iniciales (config.json):', error);
-            const mainContainer = document.querySelector('main');
-            if (mainContainer) {
-                mainContainer.innerHTML = `<p style="color: red; text-align: center;">${error.message}<br>Asegúrate de que 'config.json' existe y está bien formateado.</p>`;
-            } else {
-                document.body.innerHTML = `<p style="color: red; text-align: center;">${error.message}</p>`;
-            }
+            console.error('Error fatal:', error);
+            // ... manejo de errores
         });
 
 
@@ -115,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 option.textContent = optionText;
                 option.classList.add('area-option');
-                option.style.setProperty('--area-color-option', areaInfo.color); 
-                
+                option.style.setProperty('--area-color-option', areaInfo.color);
+
                 areaFilterSelect.appendChild(option);
             }
         }
@@ -136,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Rellenar el select de ámbitos
         function populateAmbitoFilter() {
-            if (ambitoFilterSelect) { 
+            if (ambitoFilterSelect) {
                 ambitoFilterSelect.innerHTML = '<option value="">Todos los Ámbitos</option>';
                 settings.ambitoOrder.forEach(ambito => {
                     const option = document.createElement('option');
@@ -171,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Renderizar los badges de filtros activos
         function renderActiveFilters() {
-            activeFiltersContainer.innerHTML = ''; 
+            activeFiltersContainer.innerHTML = '';
 
             // Badge de búsqueda por texto
             if (currentFilters.searchTerm) {
@@ -210,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const badge = document.createElement('span');
                 badge.classList.add('filter-badge', 'ambito-filter-badge');
                 badge.style.backgroundColor = ambitoColorsMap[currentFilters.ambito];
-                badge.style.color = 'white'; 
+                badge.style.color = 'white';
                 badge.innerHTML = `Ámbito: ${currentFilters.ambito} <button class="clear-filter-btn" data-filter-type="ambito">❌</button>`;
                 activeFiltersContainer.appendChild(badge);
             }
@@ -246,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         loadAndCombineNorms(''); // Recargar con "Todas las Localidades"
                         return; // Salir para que applyFilters no se llame dos veces
                     }
-                    applyFilters(); 
+                    applyFilters();
                 });
             });
         }
@@ -271,7 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (data.opc && data.opc.trim() !== '') {
                 artAptoOpcHtml += `<span class="opcion-pill">Opc. <strong class="value">${data.opc}</strong></span>`;
             }
-            
+
             const tagsHtml = data.tags && data.tags.length > 0 ? `<div class="infraccion-tags">${data.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>` : '';
 
             // Construcción de las filas de importes
@@ -342,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Ordena los grupos por ámbito y rango
             const sortedNormaGrisKeys = Object.keys(groupedData).sort((keyA, keyB) => {
                 // Obtenemos un elemento de infracción de cada grupo para acceder a ambito y rango para ordenar
-                const normaInfoA = groupedData[keyA].infracciones[0]; 
+                const normaInfoA = groupedData[keyA].infracciones[0];
                 const normaInfoB = groupedData[keyB].infracciones[0];
 
                 const indexA_ambito = settings.ambitoOrder.indexOf(normaInfoA.ambito);
@@ -358,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sortedNormaGrisKeys.forEach(normaGrisKey => {
                 const groupInfo = groupedData[normaGrisKey]; // Contiene las infracciones *filtradas globalmente*
                 // Obtener total original sin filtrar para el contador del grupo
-                const totalInfraccionesGrupoOriginal = originalGroupedInfraccionesData[normaGrisKey]?.totalInfracciones || 0; 
+                const totalInfraccionesGrupoOriginal = originalGroupedInfraccionesData[normaGrisKey]?.totalInfracciones || 0;
                 const infraccionesVisiblesGlobalmenteEnGrupo = groupInfo.infracciones.length; // Coincidencias tras filtros globales
 
                 const groupDiv = document.createElement('div');
@@ -375,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const normaMainInfo = document.createElement('div');
                 normaMainInfo.classList.add('norma-main-info');
                 // Acceder a las propiedades de la norma a través de la primera infracción del grupo
-                const refInfraccion = groupInfo.infracciones[0]; 
+                const refInfraccion = groupInfo.infracciones[0];
                 const identificador = refInfraccion.normagris_identificador;
                 const tematica = refInfraccion.normagris_tematica;
                 const ambito = refInfraccion.ambito;
@@ -421,7 +424,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const infraccionCounter = document.createElement('span');
                 infraccionCounter.classList.add('infraccion-count');
                 infraccionCounter.textContent = `${infraccionesVisiblesGlobalmenteEnGrupo} / ${totalInfraccionesGrupoOriginal}`;
-                infraccionCounter.dataset.totalCount = totalInfraccionesGrupoOriginal; 
+                infraccionCounter.dataset.totalCount = totalInfraccionesGrupoOriginal;
                 groupHeader.appendChild(infraccionCounter);
 
 
@@ -438,7 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const infractionsContent = document.createElement('div');
                 infractionsContent.classList.add('infracciones-content');
-                
+
                 // Renderizar todas las infracciones que pasaron el filtro global para este grupo
                 groupInfo.infracciones.sort((a, b) => {
                     const artA = parseInt(a.articulo, 10);
@@ -474,19 +477,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Función para configurar el filtro de gravedad de un grupo
                 function setupSeverityFilter(severityBar, infractionsContainer, counterElement) {
                     severityBar.querySelectorAll('.severity-btn').forEach(btn => {
-                        btn.addEventListener('click', (e) => { 
-                            e.stopPropagation(); 
+                        btn.addEventListener('click', (e) => {
+                            e.stopPropagation();
                             const clickedButton = e.currentTarget;
                             const severityToFilter = clickedButton.dataset.severity;
-                            
+
                             let currentVisibleCount = 0;
-                            
+
                             // Si ya está activo, desactiva y muestra todas las infracciones visibles por filtro global
                             if (clickedButton.classList.contains('active')) {
                                 clickedButton.classList.remove('active');
                                 // Contamos las que ya estaban visibles antes de este filtro de gravedad
                                 infractionsContainer.querySelectorAll('.infraccion').forEach(inf => {
-                                    inf.style.display = ''; 
+                                    inf.style.display = '';
                                     currentVisibleCount++;
                                 });
                             } else {
@@ -506,7 +509,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             }
                             // Reajusta la altura del contenedor del grupo después de filtrar/mostrar
                             infractionsContainer.style.maxHeight = `${infractionsContent.scrollHeight}px`;
-                            
+
                             // Actualizar el contador del grupo
                             if (counterElement) {
                                 const originalTotal = counterElement.dataset.totalCount;
@@ -565,7 +568,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         } catch (error) {
                             console.error(`Error al cargar ordenanzas de ${selectedLocalityMeta.nombre}:`, error);
                             alert(`Error al cargar ordenanzas para ${selectedLocalityMeta.nombre}. Se mostrarán solo normas generales.`);
-                            currentLocalNorms = []; 
+                            currentLocalNorms = [];
                         }
                     }
                 }
@@ -622,7 +625,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Filtros de selección
                 const matchesArea = !currentFilters.areaId || infraccion.areaId === currentFilters.areaId;
                 const matchesRango = !currentFilters.rango || infraccion.rango === currentFilters.rango;
-                
+
                 // === LÓGICA CLAVE DE FILTRADO POR ÁMBITO Y LOCALIDAD (ACTUALIZADA) ===
                 let matchesAmbitoAndLocality = false;
 
@@ -632,23 +635,23 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (infraccion.ambito === 'Estatal' || infraccion.ambito === 'Autonómico') {
                         // Y además, deben coincidir con el filtro de ámbito si está activo
                         matchesAmbitoAndLocality = !currentFilters.ambito || infraccion.ambito === currentFilters.ambito;
-                    } 
+                    }
                     // Las normas Locales solo pasan si pertenecen a la localidad seleccionada
                     else if (infraccion.ambito === 'Local') {
                         matchesAmbitoAndLocality = infraccion.localidadId === currentSelectedLocalityId &&
-                                                  (!currentFilters.ambito || currentFilters.ambito === 'Local');
+                            (!currentFilters.ambito || currentFilters.ambito === 'Local');
                     }
                     // Si el ámbito de la infracción no es ninguno de los anteriores, no coincide
                     else {
                         matchesAmbitoAndLocality = false;
                     }
-                } 
+                }
                 // Si NO hay una localidad específica seleccionada (es decir, "Todas las Localidades" o al inicio)
                 else {
                     // Comportamiento original: el filtro de ámbito funciona normalmente
                     matchesAmbitoAndLocality = !currentFilters.ambito || infraccion.ambito === currentFilters.ambito;
                 }
-                
+
                 return matchesSearch && matchesArea && matchesRango && matchesAmbitoAndLocality;
             });
 
@@ -670,10 +673,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Comprobar si hay un filtro de área y/o localidad inicial desde sessionStorage
         const initialAreaFilter = sessionStorage.getItem('initialAreaFilter');
         const initialLocalidadFilter = sessionStorage.getItem('initialLocalidadFilter');
-        
+
         // Aplicar filtro de área si existe
         if (initialAreaFilter) {
-            currentFilters.areaId = initialAreaFilter; 
+            currentFilters.areaId = initialAreaFilter;
             areaFilterSelect.value = initialAreaFilter;
             sessionStorage.removeItem('initialAreaFilter'); // Limpiar después de usar
         }
@@ -684,7 +687,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // No limpiar sessionStorage aquí, se limpia en la carga inicial de loadAndCombineNorms
         }
         // Llamada inicial para cargar las normas (globales + opcionalmente locales)
-        loadAndCombineNorms(currentSelectedLocalityId); 
+        loadAndCombineNorms(currentSelectedLocalityId);
 
 
         // Event Listeners para los elementos de filtro
@@ -697,7 +700,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebarLocalitySelect.addEventListener('change', async () => {
             const selectedId = sidebarLocalitySelect.value;
             // No llamar a applyFilters directamente, loadAndCombineNorms lo hará
-            await loadAndCombineNorms(selectedId); 
+            await loadAndCombineNorms(selectedId);
         });
 
         // Listener para los botones de limpiar el campo de búsqueda principal y badges
@@ -710,7 +713,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // no deberíamos recargar todas las normas, solo aplicar los filtros.
                     // applyFilters() ya lo maneja bien.
                 }
-                applyFilters(); 
+                applyFilters();
             });
         });
 

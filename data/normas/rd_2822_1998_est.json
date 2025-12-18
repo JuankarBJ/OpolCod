@@ -1,0 +1,2334 @@
+{
+    "identificador": "Real Decreto 2822/1998, de 23 de diciembre.",
+    "tematica": "Reglamento General de Vehículos.",
+    "modelo_sancion": "modelo_estandar",
+    "rango": "Real Decreto Ley",
+    "ambito": "Estatal",
+    "areaId": "trafico",
+    "infracciones": [
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "1",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un vehículo que **carece de la correspondiente autorización administrativa**.\n\n*Nota: Aplicable a vehículos no susceptibles de matriculación sin homologación previa (ej. minimotos). Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "autorizacion administrativa"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "1",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado **sin haber obtenido, previamente, la autorización administrativa** correspondiente.\n\n*Nota: Aplicable a vehículos susceptibles de matriculación (ej. sin alta tras baja temporal, matrícula extranjera sin matricular en España). Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "matriculacion",
+                "autorizacion administrativa"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "1",
+            "apartado": "2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un vehículo cuya autorización administrativa ha sido objeto de **anulación o declarada su pérdida de vigencia**.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "anulacion",
+                "perdida de vigencia"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "1",
+            "apartado": "2",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado estando **suspendido el permiso de circulación** del mismo.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso suspendido"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "1",
+            "apartado": "2",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo reseñado careciendo de la correspondiente autorización administrativa, figurando en situación de **baja en el registro de vehículos**.\n\n*Nota: Supuesto para vehículos estacionados cuya apariencia no permite deducir su abandono. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "dado de baja"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "6",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "Puesta en servicio o venta de **componentes y unidades técnicas independientes incumpliendo la reglamentación** legalmente establecida para su montaje en vehículos.\n\n*Nota: Responsable: Autor.*",
+            "tags": [
+                "condiciones tecnicas",
+                "componentes",
+                "homologacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "7",
+            "apartado": "2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Efectuar una **reforma de importancia** en el vehículo reseñado **sin haberla regularizado** ante el órgano competente en materia de industria.\n\n*Nota: Especificar la reforma realizada. Responsable: Titular.*",
+            "tags": [
+                "reformas de importancia",
+                "itv",
+                "homologacion"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "7",
+            "apartado": "2",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Efectuar una **reforma de importancia** en el vehículo reseñado sin haberla regularizado, **afectando gravemente a la seguridad vial**.\n\n*Nota: Posible inmovilización. Especificar la reforma y por qué afecta a la seguridad. Responsable: Titular.*",
+            "tags": [
+                "reformas de importancia",
+                "itv",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "7",
+            "apartado": "3",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Proceder a la **sustitución, añadido o supresión de piezas** o elementos sujetos a una reglamentación técnica por otros que no la cumplan, **afectando gravemente a la seguridad vial**.\n\n*Nota: Por ejemplo: bastidor, dirección, suspensión, neumáticos, frenos, etc. Posible inmovilización. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "seguridad vial",
+                "piezas no homologadas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "7",
+            "apartado": "3",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Proceder a la **sustitución, añadido o supresión de piezas** o elementos sujetos a una reglamentación técnica por otros que no la cumplan o no correspondan al vehículo.\n\n*Nota: Para alteraciones que no afecten gravemente a la seguridad vial. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "piezas no homologadas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "8",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo que no lleve las **placas o inscripciones reglamentarias**.\n\n*Nota: Este supuesto no se refiere a las placas de matrícula. Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "inscripciones",
+                "condiciones tecnicas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "8",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Efectuar **cambios o retoques en los números de identificación del bastidor** del vehículo, así como en las placas e inscripciones reglamentarias.\n\n*Nota: Podría ser constitutivo de delito de falsedad. Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "bastidor",
+                "manipulacion"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "8",
+            "apartado": "2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "**Sustituir total o parcialmente el bastidor** o estructura autoportante afectando al número de identificación del vehículo, en forma contraria a lo establecido y **afectando gravemente a la seguridad vial**.\n\n*Nota: Posible inmovilización. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "bastidor",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "8",
+            "apartado": "2",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "**Sustituir total o parcialmente el bastidor** o estructura autoportante afectando al número de identificación del vehículo, en forma contraria a lo establecido reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "bastidor"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "9",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un conjunto de vehículos **incumpliendo las reglas de compatibilidad** establecidas reglamentariamente, **afectando gravemente a la seguridad vial**.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "remolque de vehiculos",
+                "compatibilidad",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "9",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un conjunto de vehículos **incumpliendo las reglas de compatibilidad** establecidas reglamentariamente.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "remolque de vehiculos",
+                "compatibilidad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "9",
+            "apartado": "2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado **arrastrando más de un remolque** o semirremolque, en forma antirreglamentaria.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "remolque de vehiculos",
+                "doble remolque"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "9",
+            "apartado": "3",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado arrastrando una caravana o remolque ligero que **no está dotado de Tarjeta de Inspección Técnica**.\n\n*Nota: Aplicable a remolques con MMA de hasta 750 kg. Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "remolque",
+                "caravana",
+                "itv"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "10",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No haberse sometido el vehículo reseñado a la **inspección técnica periódica (ITV)** establecida reglamentariamente.\n\n*Nota: Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "i.t.v.",
+                "itv caducada"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "10",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado cuya **inspección técnica ha resultado negativa** por incumplir las condiciones técnicas que garantizan la seguridad vial.\n\n*Nota: El vehículo no puede circular en ningún caso. Posible inmovilización. Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "i.t.v.",
+                "itv negativa",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "10",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuya **inspección técnica ha resultado desfavorable**.\n\n*Nota: Sólo podrá circular para su traslado al taller o para volver a la estación de ITV. Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "i.t.v.",
+                "itv desfavorable"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "10",
+            "apartado": "1",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular el vehículo reseñado, habiendo quedado inhabilitado para ello al **no haber sido sometido a una nueva inspección en el plazo máximo** establecido, tras un primer resultado desfavorable.\n\n*Nota: Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "i.t.v.",
+                "itv desfavorable",
+                "plazo vencido"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "10",
+            "apartado": "1",
+            "opc": "5E",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo reseñado (estacionado), cuya última inspección técnica ha resultado **desfavorable**, habiéndose superado el plazo máximo para ser sometido a nueva inspección.\n\n*Nota: Aplicable a vehículos en la vía pública sin estar circulando. Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "i.t.v.",
+                "itv desfavorable",
+                "estacionado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "10",
+            "apartado": "1",
+            "opc": "5F",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo reseñado (estacionado), cuya última inspección técnica ha resultado **negativa**, habiendo quedado inhabilitado para circular.\n\n*Nota: Aplicable a vehículos en la vía pública sin estar circulando. Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "i.t.v.",
+                "itv negativa",
+                "estacionado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5E",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado sin estar provisto de **parabrisas y dispositivos lavaparabrisas** en las dimensiones y formas establecidas.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "parabrisas",
+                "lavaparabrisas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5F",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyos **elementos transparentes incumplen lo establecido** reglamentariamente en lo que respecta a su afectación al campo de visión del conductor.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "visibilidad",
+                "cristales"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5G",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado cuyos **órganos de dirección no se ajustan a las prescripciones técnicas** fijadas reglamentariamente.\n\n*Nota: Si afecta manifiestamente a la seguridad, podría ser conducción temeraria. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "seguridad vial",
+                "direccion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5H",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo desprovisto de dispositivo que permita la **marcha atrás**.\n\n*Nota: Excepto motocicletas y algunos vehículos de tres ruedas. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "marcha atras"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5I",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo desprovisto de un aparato productor de **señales acústicas** en la forma establecida reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "claxon",
+                "bocina"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5J",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo no prioritario con **aparatos emisores de señales acústicas especiales**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "sirena",
+                "uso indebido"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5K",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyos **órganos de maniobra e indicadores no puedan ser fácilmente identificados y accionados** de forma instantánea por el conductor.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "mandos",
+                "indicadores"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5L",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyos **órganos mecánicos o equipos complementarios supongan peligro** para los usuarios de la vía pública.\n\n*Nota: Deberá especificarse el supuesto concreto que constituye peligro. Responsable: Autor.*",
+            "tags": [
+                "condiciones tecnicas",
+                "peligro",
+                "mecanica"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5M",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuyos **órganos motores no se ajustan a las prescripciones técnicas** fijadas reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "motor"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5N",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo provisto de depósitos, tubos y piezas que contengan **materia inflamable que no cumplan las prescripciones técnicas**.\n\n*Nota: Aplicable cuando los órganos motores constituyan causa de peligro, riesgo de incendio o explosión. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "seguridad vial",
+                "materia inflamable",
+                "incendio"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5O",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo de motor capaz de alcanzar en llano una velocidad superior a los 40 km/h **desprovisto de indicador de velocidad**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "velocimetro"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5P",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo de motor **desprovisto de tacógrafo y limitador de velocidad** cuando así se exija reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "tacografo",
+                "limitador de velocidad"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5Q",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un automóvil **sin llevar instalados cinturones de seguridad** u otros sistemas de retención homologados, cuando ello se exija reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "cinturon - sist. r.",
+                "seguridad pasiva",
+                "cinturon de seguridad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5R",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo dotado de **apoyacabezas sin que éstos cumplan las prescripciones** establecidas reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "apoyacabezas",
+                "reposacabezas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5S",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo que no está provisto de un **dispositivo contra su utilización no autorizada** (antirrobo).\n\n*Nota: El dispositivo debe permitir poner fuera de servicio o bloquear un órgano esencial del vehículo. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "antirrobo"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5T",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado careciendo de una **protección eficaz al empotramiento** de vehículos que pudieran chocar por su parte trasera.\n\n*Nota: Dispositivo antiempotramiento. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "antiempotramiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5U",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo destinado al transporte de mercancías desprovisto de un **dispositivo de protección lateral** cuando así se exija.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "proteccion lateral",
+                "transporte mercancias"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5V",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo destinado al transporte de mercancías desprovisto de un **dispositivo antiencastramiento delantero** cuando así se exija.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "antiencastramiento",
+                "transporte mercancias"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5W",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado que no se ajusta a las disposiciones relativas a **ruidos, con el escape libre, sin silenciador o con éste ineficaz**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "emisiones",
+                "ruido",
+                "escape libre"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5X",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado que no se ajusta a las disposiciones relativas a **emisión de humos y gases contaminantes**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "emisiones",
+                "humos",
+                "gases"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5Y",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo de motor que no se ajuste a las disposiciones relativas a materia **electromagnéticas**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "emisiones",
+                "electromagneticas"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "-",
+            "opc": "5Z",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un vehículo que **incumple las condiciones técnicas... afectando las mismas gravemente a la seguridad vial**.\n\n*Nota: Tipo genérico, se debe especificar la condición que afecta gravemente. Responsable: Titular/Conductor.*",
+            "tags": [
+                "condiciones tecnicas",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuyo **campo de visión no permite una visibilidad diáfana** sobre la vía por la que circula.\n\n*Nota: Especificar el elemento transparente que dificulta la visibilidad. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "visibilidad",
+                "campo de vision"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "11",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo que **carece del reglamentario número de espejos retrovisores**.\n\n*Nota: Indicar el espejo que falta. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "espejos retrovisores"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "-3",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuyas **puertas no tengan cerradura u órgano de fijación** que impida su apertura no deseada.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "puertas",
+                "cerradura"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado **incumpliendo las condiciones establecidas** reglamentariamente y recogidas en el anexo I.\n\n*Nota: Infracción genérica, especificar el incumplimiento. Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "condiciones tecnicas"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "-",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado incumpliendo las condiciones establecidas reglamentariamente y recogidas en el anexo I, **afectando gravemente a la seguridad vial**.\n\n*Nota: Posible inmovilización. Responsable: Titular/Arrendatario a largo plazo.*",
+            "tags": [
+                "condiciones tecnicas",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "-",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado teniendo **adornos u objetos con aristas salientes** que presenten peligro para los ocupantes o el resto de los usuarios de la vía.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "aristas salientes",
+                "adornos",
+                "peligro"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "-",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuyos **asientos no están anclados a la estructura** del vehículo de forma resistente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "asientos",
+                "anclaje"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "4-1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuyos **materiales transparentes no ofrecen una calidad, resistencia y elasticidad suficientes** para reducir al máximo los riesgos de lesiones en caso de impacto.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "cristales",
+                "seguridad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "4-2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo autorizado a transportar simultáneamente personas y carga, **sin una protección adecuada a la carga** que transporta.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "condiciones tecnicas",
+                "proteccion carga",
+                "carga"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "5-1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado cuyos neumáticos **no presentan dibujo en las ranuras principales** de la banda de rodamiento.\n\n*Nota: Se formulará una denuncia por cada neumático en mal estado. Responsable: Titular.*",
+            "tags": [
+                "neumaticos",
+                "desgaste",
+                "dibujo neumatico"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "5-1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyos neumáticos **no reúnan las condiciones mínimas de utilización**.\n\n*Nota: Ampollas, deformaciones, roturas, cables al descubierto, etc. Responsable: Titular.*",
+            "tags": [
+                "neumaticos",
+                "mal estado",
+                "condiciones minimas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "5-1",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyo sistema de rodadura tenga **superficies metálicas, estriadas o con salientes**, sin estar equipado con protecciones adecuadas.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "ruedas",
+                "protecciones"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "5-2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No colocar **cadenas, dispositivos antideslizantes o neumáticos especiales** cuando sea obligatorio.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "neumaticos",
+                "cadenas",
+                "nieve"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "6",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo que no esté equipado con protecciones adecuadas que eviten en lo posible las **salpicaduras de las ruedas** (guardabarros).\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "guardabarros",
+                "salpicaduras"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "7",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo que no dispone de **sistema de suspensión elástica** que facilite la adherencia y la estabilidad.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "suspension"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "8-1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo que no dispone de un **sistema de frenado** en las condiciones exigidas reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "frenos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "8-4",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con una motocicleta que no dispone de los **sistemas de frenado** establecidos reglamentariamente.\n\n*Nota: Deben tener dos dispositivos, uno para la rueda trasera y otro para la delantera. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "frenos",
+                "motocicleta"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "8-5",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo de tres ruedas simétricas sin estar equipado de los **sistemas de frenado** reglamentariamente previstos.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "frenos",
+                "tres ruedas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "12",
+            "apartado": "9",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado, **sometido a normas especiales**, incumpliendo las exigencias reglamentarias en lo concerniente a sus condiciones técnicas.\n\n*Nota: Vehículos de transporte de viajeros, escolar, mercancías peligrosas, etc. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "normas especiales",
+                "transporte profesional"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "13",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un vehículo tractor y su remolque sin que los elementos de **conexión (mecánicos, neumáticos y electrónicos) sean compatibles** entre sí, afectando gravemente a la seguridad vial.\n\n*Nota: Posible inmovilización. Responsable: Titular.*",
+            "tags": [
+                "remolque de vehiculos",
+                "acoplamiento",
+                "compatibilidad",
+                "seguridad vial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "13",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo tractor y su remolque **incumpliendo las disposiciones reglamentarias** existentes para estos vehículos.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "remolque de vehiculos",
+                "acoplamiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "13",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un remolque que no esté dotado de un dispositivo que obligue a sus ruedas a **seguir una trayectoria análoga** a la del vehículo tractor.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "remolque de vehiculos",
+                "trayectoria"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "13",
+            "apartado": "3",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un remolque cuyo dispositivo de acoplamiento **no esté dotado con un elemento que impida el desacoplamiento** del mismo.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "remolque de vehiculos",
+                "acoplamiento",
+                "seguridad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "13",
+            "apartado": "4",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con remolque desprovisto de **dispositivo de acoplamiento secundario (cadena, cable, etc.)**.\n\n*Nota: Aplicable a remolques de hasta 1.500 kg de MMA, desprovistos de sistema de frenado automático. Responsable: Titular.*",
+            "tags": [
+                "remolque de vehiculos",
+                "acoplamiento",
+                "cadena de seguridad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "14",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyas **masas, dimensiones y presión sobre el pavimento superen las máximas establecidas**.\n\n*Nota: Indicar la masa o dimensión antirreglamentaria. Responsable: Titular.*",
+            "tags": [
+                "masas y dimensiones",
+                "exceso peso",
+                "exceso dimensiones"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "14",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular **sin autorización complementaria o especial** con un vehículo que por sus características o por la carga indivisible que transporta supera la longitud, anchura o altura máximas.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "masas y dimensiones",
+                "transporte especial",
+                "sin autorizacion"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "14",
+            "apartado": "2",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado **incumpliendo las condiciones establecidas en la autorización complementaria o especial**.\n\n*Nota: Detallar la condición incumplida. Responsable: Titular/Conductor.*",
+            "tags": [
+                "masas y dimensiones",
+                "transporte especial",
+                "incumplir autorizacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "15",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyas **luces y dispositivos reflectantes dobles no se correspondan en color, intensidad y colocación** a las establecidas reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces",
+                "reflectantes"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "15",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado teniendo instaladas en el mismo **más luces intermitentes o de intensidad variable** de las indicadas reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces no autorizadas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "15",
+            "apartado": "4",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo cuyos dispositivos de **alumbrado y señalización óptica no cumplan las exigencias** especificadas en la reglamentación.\n\n*Nota: Por ejemplo, llevar láminas plásticas que oscurecen los pilotos. Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces",
+                "señalizacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "15",
+            "apartado": "5",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado llevando instaladas **más luces que las reglamentariamente admitidas**.\n\n*Nota: Por ejemplo, una tira de luces LED en el paragolpes. Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces no autorizadas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "15",
+            "apartado": "5",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado llevando **dispositivos reflectantes o pinturas no autorizados**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "reflectantes no autorizados"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "15",
+            "apartado": "5",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado llevando instalados **dispositivos luminosos no autorizados**.\n\n*Nota: Por ejemplo, luces de neón en los bajos. Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces no autorizadas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "16",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado sin estar provisto de los **dispositivos de alumbrado y señalización óptica obligatorios**.\n\n*Nota: Deberá especificarse el dispositivo del que carece. También aplicable si están fracturados o han perdido su eficacia. Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces obligatorias"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "17",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado estando provisto de **dispositivos de alumbrado y señalización óptica no autorizados** reglamentariamente.\n\n*Nota: Especificar el dispositivo instalado. Responsable: Titular.*",
+            "tags": [
+                "alumbrado",
+                "condiciones tecnicas",
+                "luces no autorizadas"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "18",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "No llevar instalada en el vehículo la **señal reglamentaria correspondiente** (V-1, V-2, etc.).\n\n*Nota: Deberá indicarse la señal omitida. Responsable: Titular/Conductor.*",
+            "tags": [
+                "señalizacion",
+                "señales en vehiculos"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "18",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con el vehículo reseñado teniendo instalada la **señal V-14 (prácticas)** sin encontrarse en el momento de los hechos realizando o ejerciendo las funciones reglamentariamente establecidas.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "señalizacion",
+                "señal v-14",
+                "autoescuela"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "18",
+            "apartado": "1",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo reseñado teniendo instalados **dispositivos luminosos de señales especiales (V-1, V-2)** teniéndolo específicamente prohibido.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "señalizacion",
+                "luces no autorizadas",
+                "señal v-1",
+                "señal v-2"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "18",
+            "apartado": "1",
+            "opc": "5E",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con el vehículo reseñado teniendo instaladas señales... **no ajustándose a lo dispuesto reglamentariamente**.\n\n*Nota: Tipo genérico para el resto de señales del Anexo XI. Responsable: Titular/Conductor.*",
+            "tags": [
+                "señalizacion",
+                "señales en vehiculos"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "19",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con el vehículo reseñado **sin llevar los accesorios, repuestos y/o herramientas**, establecidos reglamentariamente.\n\n*Nota: Dispositivo V-16 (o triángulos hasta 2026), chaleco reflectante y rueda de repuesto o sistema alternativo. Responsable: Titular.*",
+            "tags": [
+                "condiciones tecnicas",
+                "accesorios",
+                "repuestos",
+                "chaleco",
+                "triangulos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "21",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el **ciclomotor** reseñado que **carece de espejo retrovisor**.\n\n*Nota: Obligatorio uno izquierdo, o izquierdo e interior si tiene carrocería. Responsable: Titular.*",
+            "tags": [
+                "ciclomotores",
+                "condiciones tecnicas",
+                "espejo retrovisor"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "21",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un **ciclomotor que no se ajusta a los tipos de homologación** y características técnicas reglamentariamente establecidas.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "ciclomotores",
+                "condiciones tecnicas",
+                "homologacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "21",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el **ciclomotor** reseñado sin estar provisto de **alumbrado y señalización óptica obligatorios**.\n\n*Nota: Especificar el incumplimiento. Responsable: Titular/Conductor.*",
+            "tags": [
+                "ciclomotores",
+                "condiciones tecnicas",
+                "alumbrado"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "22",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con un ciclo **sin un sistema adecuado de frenado**.\n\n*Nota: Debe actuar sobre las ruedas delanteras y traseras. Responsable: Conductor.*",
+            "tags": [
+                "ciclos",
+                "bicicleta",
+                "condiciones tecnicas",
+                "frenos"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "22",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con un ciclo **desprovisto de timbre**.\n\n*Nota: Se prohíbe otro dispositivo acústico distinto. Responsable: Conductor.*",
+            "tags": [
+                "ciclos",
+                "bicicleta",
+                "condiciones tecnicas",
+                "timbre"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "22",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular de **noche** con un ciclo o por tramo de vía señalizado como túnel, **sin disponer de las luces y catadióptricos** reglamentariamente establecidos.\n\n*Nota: No aplicable a bicicletas (que tienen su propio precepto). Responsable: Conductor.*",
+            "tags": [
+                "ciclos",
+                "condiciones tecnicas",
+                "alumbrado",
+                "luces",
+                "catadioptricos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "22",
+            "apartado": "2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un ciclo en **condiciones meteorológicas que disminuyan sensiblemente la visibilidad**, sin disponer de las luces y catadióptricos reglamentarios.\n\n*Nota: No aplicable a bicicletas. Responsable: Conductor.*",
+            "tags": [
+                "ciclos",
+                "condiciones tecnicas",
+                "alumbrado",
+                "visibilidad reducida"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "22",
+            "apartado": "4",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con una **bicicleta de noche** o por tramo señalizado con la señal de túnel, **sin disponer de las luces y catadióptricos** reglamentariamente establecidos.\n\n*Nota: Luz de posición delantera/trasera y catadióptrico trasero. Responsable: Conductor.*",
+            "tags": [
+                "ciclos",
+                "bicicleta",
+                "condiciones tecnicas",
+                "alumbrado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "22",
+            "apartado": "4",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con una **bicicleta en condiciones meteorológicas que disminuyen sensiblemente la visibilidad**, sin disponer de las luces y catadióptricos reglamentarios.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "ciclos",
+                "bicicleta",
+                "condiciones tecnicas",
+                "alumbrado",
+                "visibilidad reducida"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "23",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con un **vehículo de tracción animal sin ajustarse a las condiciones exigidas** reglamentariamente.\n\n*Nota: Ruedas neumáticas, alumbrado nocturno, etc. Responsable: Conductor.*",
+            "tags": [
+                "circulacion de animales",
+                "traccion animal",
+                "condiciones tecnicas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "24",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el **tranvía** reseñado sin llevar los **dispositivos de alumbrado** en la forma y condiciones establecidos reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "tranvias",
+                "alumbrado",
+                "condiciones tecnicas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "25",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación un vehículo a motor, remolque o semirremolque, **sin llevar las placas de matrícula** en la forma establecida reglamentariamente.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "placas",
+                "matricula",
+                "remolque"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "25",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación un **ciclomotor, sin llevar las placas de matrícula** en la forma establecida reglamentariamente.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "placas",
+                "matricula",
+                "ciclomotor"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "28",
+            "apartado": "6",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con un **tren turístico sin haber obtenido una autorización complementaria** de circulación por parte del órgano competente.\n\n*Nota: En vías urbanas, la autorización la expide el ayuntamiento. Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "tren turistico"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "30",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con el vehículo reseñado, **llevando el original del permiso o licencia de circulación, una vez expedido duplicado** del mismo por extravío o sustracción.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "documentacion",
+                "permiso de circulacion",
+                "duplicado"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "30",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con el vehículo reseñado sin haber **renovado el permiso o licencia de circulación**, habiéndose producido **variaciones en los datos personales** del titular del mismo.\n\n*Nota: Plazo de 15 días desde la variación. Responsable: Titular.*",
+            "tags": [
+                "documentacion",
+                "permiso de circulacion",
+                "renovacion",
+                "datos personales"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "30",
+            "apartado": "2",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado sin haber **renovado el permiso o licencia de circulación**, habiéndose **cambiado el destino del mismo o modificado alguna característica** hecha constar en dicho documento.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "documentacion",
+                "permiso de circulacion",
+                "renovacion",
+                "modificacion caracteristicas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "31",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo reseñado sin haber renovado el permiso o licencia de circulación, habiendo **variado la titularidad registral** del mismo.\n\n*Nota: Aplicable a vehículos con notificaciones de venta. Responsable: Titular/Adquirente.*",
+            "tags": [
+                "documentacion",
+                "cambio de titularidad",
+                "transferencia"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "32",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "**No haber notificado a la Jefatura de Tráfico la transmisión** de su vehículo a otra persona en el plazo reglamentariamente establecido.\n\n*Nota: El plazo es de 10 días desde la transmisión. Responsable: Titular.*",
+            "tags": [
+                "documentacion",
+                "notificacion de venta"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "32",
+            "apartado": "3",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "**No haber solicitado el adquirente** del vehículo reseñado la **renovación del permiso o licencia de circulación**, dentro del plazo reglamentariamente establecido.\n\n*Nota: El plazo es de 30 días desde la adquisición. Posible inmovilización. Responsable: Titular/Conductor/Adquirente.*",
+            "tags": [
+                "documentacion",
+                "cambio de titularidad",
+                "adquirente"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "32",
+            "apartado": "6",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No haber solicitado en el plazo reglamentario el **adjudicatario definitivo por herencia** la expedición a su nombre del nuevo permiso o licencia de circulación.\n\n*Nota: El plazo es de 90 días desde la adjudicación. Responsable: Titular/Conductor/Adquirente.*",
+            "tags": [
+                "documentacion",
+                "cambio de titularidad",
+                "herencia"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "32",
+            "apartado": "6",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No haber notificado la persona que tenga a su cargo la custodia o uso del vehículo, registrado a nombre de una **persona fallecida**, dicha circunstancia a la Jefatura de Tráfico.\n\n*Nota: El plazo es de 90 días desde el fallecimiento. Responsable: Conductor/Autor.*",
+            "tags": [
+                "documentacion",
+                "fallecimiento titular"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "33",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "No haber solicitado en plazo la **baja temporal** del vehículo de su titularidad, una vez entregado para su posterior transmisión, a un vendedor de vehículos.\n\n*Nota: El plazo es de 10 días desde la entrega. Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "baja temporal",
+                "compraventa"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "33",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con un vehículo **dado de baja temporal por transferencia**, sin estar amparado por un permiso y placas temporales de empresa.\n\n*Nota: Posible inmovilización. Responsable: Titular/Empresa Adjudicataria/Responsable.*",
+            "tags": [
+                "carencia aut. para circular",
+                "baja temporal",
+                "placas temporales"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "33",
+            "apartado": "3",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo, habiendo sido adquirido por compraventa, **sin haber solicitado la inscripción del mismo a su nombre** en el plazo máximo.\n\n*Nota: El plazo es de 30 días. Posible inmovilización. Responsable: Titular/Adquirente.*",
+            "tags": [
+                "carencia aut. para circular",
+                "cambio de titularidad",
+                "compraventa"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "33",
+            "apartado": "6",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No haber solicitado el titular de un establecimiento de compraventa de vehículos, el **cambio de titularidad del vehículo a su nombre, una vez transcurrido el plazo de un año** desde que se produjo la baja temporal del mismo.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "cambio de titularidad",
+                "compraventa"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "34",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo, cuyo permiso o licencia de circulación ha perdido su vigencia, habiendo **causado baja** el mismo en el registro de vehículos.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "dado de baja",
+                "baja definitiva"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "34",
+            "apartado": "-",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Circular con el vehículo, cuyo permiso o licencia ha perdido su vigencia, una vez comprobado que **no es apto para la circulación**.\n\n*Nota: Ej. tras ITV negativa o iniciado procedimiento de residuo. Posible inmovilización. Responsable: Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "no apto",
+                "itv negativa"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "40",
+            "apartado": "4",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo habiendo **caducado el plazo de validez de la matrícula turística** que ostenta, sin haber obtenido prórroga.\n\n*Nota: La caducidad del permiso conlleva el precintado y depósito del vehículo. Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "matricula turistica",
+                "plazo caducado"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "42",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Poner en circulación el vehículo reseñado **sin haber obtenido el permiso temporal** correspondiente que autorice su circulación provisional.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "placas provisionales"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "42",
+            "apartado": "1",
+            "opc": "5H",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo reseñado teniendo el **permiso temporal... caducado**.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "placas provisionales",
+                "caducado"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "42",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Poner en circulación el vehículo al amparo de un permiso temporal de circulación provisional, **sin ajustarse a las prescripciones establecidas** reglamentariamente.\n\n*Nota: Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "incumplir condiciones"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "45",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo, amparado en un permiso temporal, **sin llevar... el correspondiente boletín de circulación**, careciendo de validez.\n\n*Nota: Placas con distintivo 'S'. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "boletin de circulacion",
+                "placas S"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "46",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo, amparado en un permiso temporal de empresa, **incumpliendo las condiciones técnicas** prescritas en el mismo.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "condiciones tecnicas"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "46",
+            "apartado": "2",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Poner en circulación el vehículo, siendo conducido por **persona distinta al titular del permiso temporal** o persona a su servicio.\n\n*Nota: Placa 'S'. Responsable: Titular.*",
+            "tags": [
+                "documentacion",
+                "permiso temporal",
+                "placas S"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "46",
+            "apartado": "2",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Poner en circulación el vehículo, al amparo de un permiso o placa temporal, siendo **ocupado por persona o número de personas distintas** a las establecidas.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "documentacion",
+                "permiso temporal",
+                "exceso ocupacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "46",
+            "apartado": "3",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo, al amparo de un permiso, boletín o placa temporal de empresa, utilizándolo para **fines distintos a los establecidos**.\n\n*Nota: Placas 'S' y 'V'. El permiso puede quedar en suspenso. Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "uso indebido"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "46",
+            "apartado": "3",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo, al amparo de un permiso, boletín o placa temporal de empresa, **llevando en el mismo carga útil**.\n\n*Nota: Placas 'S' y 'V'. Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "carga util"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "48",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Poner en circulación el vehículo reseñado teniendo el **permiso temporal para vehículos ya matriculados (placa 'V') caducado**.\n\n*Nota: Posible inmovilización. Responsable: Titular/Conductor.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "placas V",
+                "caducado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "48",
+            "apartado": "4",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Poner en circulación el vehículo reseñado, amparado en un permiso temporal (placa 'V'), **sin llevar el correspondiente boletín de circulación**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "carencia aut. para circular",
+                "permiso temporal",
+                "placas V",
+                "boletin de circulacion"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "48",
+            "apartado": "4",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Poner en circulación el vehículo, al amparo de un permiso o placa temporal (placa 'V'), siendo **ocupado por persona o número de personas distintas** a las establecidas.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "documentacion",
+                "permiso temporal",
+                "placas V",
+                "exceso ocupacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo cuyas **placas de matrícula no se corresponden a tipos homologados**, teniendo unas dimensiones y caracteres distintos a los reglamentarios.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "matricula no homologada"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo cuyas placas de matrícula **no conservan su poder retrorreflectante, no siendo visibles y legibles**.\n\n*Nota: Aplicable a la pérdida de visibilidad sin que exista un obstáculo añadido. Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "matricula ilegible",
+                "reflectante"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular el vehículo incumpliendo el anexo XVIII del RGV, **no siendo conforme sus placas a los requisitos técnicos** establecidos.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "requisitos tecnicos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "2",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Incumplir (Grave) el titular de un **establecimiento de manipulación y/o expedición de placas de matrícula** las normas reglamentarias.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "manipulador",
+                "establecimiento"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "2",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Incumplir (Leve) el titular de un **establecimiento de manipulación y/o expedición de placas de matrícula** las normas reglamentarias.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "manipulador",
+                "establecimiento"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "3",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Incumplir el **fabricante** de placas de matrícula la obligación de que **aparezca su nombre o marca registrada** en la forma reglamentaria.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "fabricante"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "4",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo cuyas placas de matrícula tienen **incorporados signos u otros caracteres distintos** a los señalados reglamentariamente.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "manipulacion",
+                "caracteres no autorizados"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "49",
+            "apartado": "4",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo cuyas placas de matrícula tienen colocadas, en su parte anterior o posterior, **otras placas, marcas o distintivos que puedan dificultar la legibilidad** o inducir a confusión.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "placas",
+                "matricula ilegible",
+                "obstaculos"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "50",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Circular con el vehículo extranjero reseñado sin llevar en su parte posterior el **signo distintivo de la nacionalidad** de su matrícula (V-8).\n\n*Nota: No es obligatoria para vehículos con matrícula de la UE. Responsable: Conductor.*",
+            "tags": [
+                "placas",
+                "circulacion internacional",
+                "distintivo nacionalidad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Vehículos",
+            "articulo": "50",
+            "apartado": "2",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Circular con el vehículo a motor extranjero reseñado, llevando placas de matrícula con un **número distinto al atribuido** por la autoridad competente del país de matriculación.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "placas",
+                "circulacion internacional",
+                "matricula falsa"
+            ]
+        }
+    ]
+}

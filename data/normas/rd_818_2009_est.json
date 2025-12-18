@@ -1,0 +1,478 @@
+{
+    "identificador": "Real Decreto 818/2009, de 8 de mayo.",
+    "tematica": "Reglamento General de Conductores.",
+    "modelo_sancion": "modelo_estandar",
+    "rango": "Real Decreto",
+    "ambito": "Estatal",
+    "areaId": "trafico",
+    "infracciones": [
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "1",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Conducir el vehículo reseñado **careciendo de la autorización administrativa correspondiente**.\n\n*Nota: Se puede dar traslado al Ministerio Fiscal por posible delito (art. 384 CP). Aplicable también a pérdida de vigencia por puntos o por condena judicial > 2 años. Responsable: Conductor.*",
+            "tags": [
+                "carencia permiso conducir",
+                "sin carnet",
+                "permiso caducado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "1",
+            "apartado": "1",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo reseñado careciendo de la autorización administrativa válida en España, siendo titular de un **permiso extranjero equivalente susceptible de ser canjeado**.\n\n*Nota: Aplicable cuando no se ha procedido al canje por un permiso español tras 6 meses de residencia. Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "permiso extranjero",
+                "canje"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "1",
+            "apartado": "1",
+            "opc": "5C",
+            "puntos": "4",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Conducir un vehículo con un **permiso o licencia que no le habilita para ello**.\n\n*Nota: Detallar el vehículo que se conduce y el tipo de permiso que se posee. Responsable: Conductor.*",
+            "tags": [
+                "carencia permiso conducir",
+                "puntos",
+                "permiso no habilita"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "1",
+            "apartado": "1",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo reseñado con una autorización que **carece de validez por no haber cumplido los requisitos administrativos** exigidos en España.\n\n*Nota: Aplicable a conductores que, tras una privación del derecho a conducir < 2 años, no han realizado el curso de reeducación. Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "curso reeducacion"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "1",
+            "apartado": "1",
+            "opc": "5E",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Conducir el vehículo reseñado careciendo de la autorización válida en España, siendo titular de **permiso extranjero equivalente NO susceptible de canje**.\n\n*Nota: Aplicable a permisos obtenidos después de tener residencia legal en España. Responsable: Conductor.*",
+            "tags": [
+                "carencia permiso conducir",
+                "permiso extranjero",
+                "no canjeable"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "3",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo reseñado **incumpliendo las menciones, adaptaciones, restricciones u otras limitaciones** que figuran en su permiso o licencia de conducción.\n\n*Nota: Especificar el código de la limitación incumplida (ej. 01.01 para gafas). Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "restricciones",
+                "limitaciones",
+                "adaptaciones"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "5",
+            "apartado": "4",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "Incumplir las normas sobre el régimen de autorización y funcionamiento de los **centros de enseñanza que imparten la formación para la obtención del permiso clase A**, afectando directamente a la seguridad vial.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "autoescuela",
+                "formacion",
+                "permiso A"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "5",
+            "apartado": "4",
+            "opc": "5C",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "**Permitir la impartición de la formación para la obtención del permiso de la clase A, sin ajustarse a las normas** que la regulan.\n\n*Nota: Detallar el incumplimiento según la Orden INT/2323/2011. Responsable: Titular.*",
+            "tags": [
+                "autoescuela",
+                "formacion",
+                "permiso A"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "5",
+            "apartado": "4",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "**Expedir el certificado acreditativo** de la realización del curso formativo para la obtención del permiso A, **sin haber realizado el mismo**.\n\n*Nota: Responsable: Titular.*",
+            "tags": [
+                "autoescuela",
+                "formacion",
+                "permiso A",
+                "fraude"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "5",
+            "apartado": "5",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir un conjunto de vehículo tractor y remolque **(código B+96)** no habiendo superado la formación o prueba de control de aptitudes y comportamientos establecidos.\n\n*Nota: Vehículos clase B con remolque >750kg, si el conjunto >3.500kg y <=4.250kg. Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "remolque",
+                "autorizacion B96"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "10",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "No comunicar cualquier **variación de los datos** que figuren en el permiso o licencia de conducción a la Jefatura Provincial de Tráfico, en el plazo de 15 días.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "documentacion",
+                "cambio de datos",
+                "permiso de conducir"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "11",
+            "apartado": "3",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Estar en posesión de la autorización administrativa para conducir **original, sin haber devuelto la misma, tras habérsele expedido un duplicado** por sustracción o extravío.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "documentacion",
+                "duplicado",
+                "permiso de conducir"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "12",
+            "apartado": "4",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo reseñado con un permiso o licencia de conducción cuya **vigencia ha vencido**.\n\n*Nota: No autoriza a conducir, pero no procederá la inmovilización. Se intervendrá el permiso. Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "permiso caducado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "12",
+            "apartado": "6",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo siendo titular de un permiso o licencia **sin mantener los requisitos exigidos en su día para su otorgamiento**.\n\n*Nota: Aplicable en supuestos donde sea necesario imponer nuevas restricciones o adaptaciones. Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "perdida de aptitudes",
+                "requisitos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "15",
+            "apartado": "4",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo, siendo titular de un **permiso comunitario**, sin haber procedido a la **renovación de su período de vigencia**, una vez adquirida su residencia en España.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "permiso comunitario",
+                "permiso europeo",
+                "renovacion"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "25",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "500 €",
+            "importe_reducido": "250 €",
+            "descripcion": "Conducir un vehículo que transporta **mercancías peligrosas careciendo de la autorización administrativa especial** (ADR) que le habilita para ello.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "carencia permiso conducir",
+                "mercancias peligrosas",
+                "adr"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "25",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "**No exhibir** al agente de la autoridad la **autorización administrativa especial** (ADR) que habilita la conducción del vehículo reseñado.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "documentacion",
+                "mercancias peligrosas",
+                "adr"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "26",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "Incumplir un **centro de formación de conductores de mercancías peligrosas** la normativa reguladora de los cursos de formación (Infracción Muy Grave).\n\n*Nota: Aplicable cuando se carece de autorización de apertura o elementos esenciales que supongan un peligro. Responsable: Titular.*",
+            "tags": [
+                "autoescuela",
+                "mercancias peligrosas",
+                "adr",
+                "centro de formacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "26",
+            "apartado": "-",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Incumplir un **centro de formación de conductores de mercancías peligrosas** la normativa reguladora de los cursos de formación (Infracción Grave).\n\n*Nota: Aplicable cuando no se comunican modificaciones de datos o alteraciones. Responsable: Titular.*",
+            "tags": [
+                "autoescuela",
+                "mercancias peligrosas",
+                "adr",
+                "centro de formacion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "26",
+            "apartado": "-",
+            "opc": "5D",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "**No estar presente en la inspección** realizada en el centro de formación de mercancías peligrosas, habiendo sido requerido para ello.\n\n*Nota: Responsable: Titular/Director.*",
+            "tags": [
+                "autoescuela",
+                "mercancias peligrosas",
+                "adr",
+                "inspeccion"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "39",
+            "apartado": "3",
+            "opc": "5A",
+            "puntos": "4",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Conducir el vehículo reseñado teniendo el permiso de conducir **suspendido como medida cautelar**.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "permiso invalido",
+                "puntos",
+                "suspension cautelar"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "59",
+            "apartado": "1",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No cumplir el **vehículo utilizado en la realización de las pruebas** de control de las aptitudes y comportamiento, las prescripciones contenidas en la reglamentación.\n\n*Nota: Responsable: Director.*",
+            "tags": [
+                "autoescuela",
+                "examen",
+                "vehiculo de examen"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "59",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "No cumplir el vehículo utilizado en las pruebas, estando **eficazmente dispuesto, conservado y mantenido** en las condiciones establecidas.\n\n*Nota: Limpieza, higiene, conservación, etc. Responsable: Director.*",
+            "tags": [
+                "autoescuela",
+                "examen",
+                "vehiculo de examen",
+                "mantenimiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "61",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Utilizar vehículo adaptado en el aprendizaje y pruebas de aptitud, **sin estar provisto de los espejos y dobles mandos** reglamentarios.\n\n*Nota: Responsable: Conductor.*",
+            "tags": [
+                "autoescuela",
+                "examen",
+                "vehiculo adaptado",
+                "doble mando"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "64",
+            "apartado": "-",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "**No realizarse los ejercicios prácticos** sobre materias incluidas en Anexo V.C).2, demostrativas de la **formación práctica para ADR**.\n\n*Nota: Responsable: Titular/Autor/Responsable.*",
+            "tags": [
+                "autoescuela",
+                "adr",
+                "formacion",
+                "mercancias peligrosas"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "64",
+            "apartado": "-",
+            "opc": "5B",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "**Expedir un certificado acreditativo de realización de un curso ADR sin que el alumno haya tomado parte** en esa formación o la haya completado.\n\n*Nota: Responsable: Titular/Autor/Responsable.*",
+            "tags": [
+                "autoescuela",
+                "adr",
+                "fraude",
+                "certificado"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Reglamento General de Conductores",
+            "articulo": "65",
+            "apartado": "2",
+            "opc": "5A",
+            "puntos": "0",
+            "importe": "3000 €",
+            "importe_reducido": "SIN REDUC.",
+            "descripcion": "Realizar los ejercicios prácticos sobre extinción de incendios, carga y descarga u otros requeridos para el curso (ADR), en **forma y lugar distintos a los fijados** por la JPT.\n\n*Nota: Responsable: Titular/Autor/Responsable.*",
+            "tags": [
+                "autoescuela",
+                "adr",
+                "formacion",
+                "practicas"
+            ]
+        }
+    ]
+}
