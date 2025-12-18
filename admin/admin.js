@@ -14,12 +14,29 @@ let currentData = null;
 let currentFilename = 'nuevo_archivo.json';
 let isConfigMode = false;
 let detectedSeverityOptions = [];
+let globalConfig = null; // Store project config
 
 // Event Listeners
+document.addEventListener('DOMContentLoaded', fetchConfig); // Load config on start
 fileInput.addEventListener('change', handleFileSelect);
 btnSave.addEventListener('click', saveJSON);
 btnAddItem.addEventListener('click', addNewItem);
 if (btnCreateNew) btnCreateNew.addEventListener('click', createNewFile);
+
+// Fetch Helper
+async function fetchConfig() {
+    try {
+        const response = await fetch('../config.json');
+        if (response.ok) {
+            globalConfig = await response.json();
+            console.log('Config loaded for autocomplete:', globalConfig);
+        } else {
+            console.warn('Could not load ../config.json');
+        }
+    } catch (e) {
+        console.warn('Error fetching config for autocomplete (likely local file restriction):', e);
+    }
+}
 
 function createNewFile() {
     currentFilename = "nuevo_archivo.json";
@@ -131,20 +148,50 @@ function renderEditor() {
 
 function renderNormEditor() {
     // 1. Metadata (Sidebar)
-    // 1. Metadata (Sidebar)
     const metaFields = [
         { key: 'identificador', label: 'Identificador' },
         { key: 'tematica', label: 'Temática' },
-        { key: 'rango', label: 'Rango' },
-        { key: 'ambito', label: 'Ámbito' },
+        { key: 'rango', label: 'Rango', list: 'list-rango' },
+        { key: 'ambito', label: 'Ámbito', list: 'list-ambito' },
         // modelo_sancion handled separately
-        { key: 'areaId', label: 'Area ID' },
-        { key: 'localidadId', label: 'Localidad ID' }
+        { key: 'areaId', label: 'Area ID', list: 'list-areaId' },
+        { key: 'localidadId', label: 'Localidad ID', list: 'list-localidadId' }
     ];
 
     metaFields.forEach(field => {
         if (currentData[field.key] !== undefined) {
-            metadataContainer.appendChild(createInputDOM(field.label, currentData[field.key], (val) => currentData[field.key] = val));
+            const inputWrap = createInputDOM(field.label, currentData[field.key], (val) => currentData[field.key] = val);
+
+            // If field has a list and we have config, add datalist
+            if (field.list && globalConfig) {
+                const input = inputWrap.querySelector('input');
+                input.setAttribute('list', field.list);
+
+                // Check if datalist already exists
+                if (!document.getElementById(field.list)) {
+                    const datalist = document.createElement('datalist');
+                    datalist.id = field.list;
+
+                    let options = [];
+                    if (field.key === 'rango' && globalConfig.settings?.rangoOrder) options = globalConfig.settings.rangoOrder;
+                    if (field.key === 'ambito' && globalConfig.settings?.ambitoOrder) options = globalConfig.settings.ambitoOrder;
+                    if (field.key === 'areaId' && globalConfig.grandesAreas) options = Object.keys(globalConfig.grandesAreas);
+                    if (field.key === 'localidadId' && globalConfig.localidadesMeta) options = globalConfig.localidadesMeta.map(l => ({ val: l.id, label: l.nombre }));
+
+                    options.forEach(opt => {
+                        const option = document.createElement('option');
+                        if (typeof opt === 'string') {
+                            option.value = opt;
+                        } else {
+                            option.value = opt.val;
+                            option.label = opt.label; // Helper text
+                        }
+                        datalist.appendChild(option);
+                    });
+                    document.body.appendChild(datalist); // Append to body so it can be reused
+                }
+            }
+            metadataContainer.appendChild(inputWrap);
         }
     });
 
