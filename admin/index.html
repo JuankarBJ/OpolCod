@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpolCod - Panel de Administración Pro</title>
+    <!-- NOTA: Ya que styles.css está en ../css/styles.css, pero admin.css define todo lo necesario, no es crítico mantener styles.css si este admin es aislado, pero lo dejaremos para fuentes si se cargan allí -->
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <span class="material-icons" style="color:var(--primary-color)">admin_panel_settings</span>
+            <h1>OpolCod Admin</h1>
+        </div>
+        <div class="actions">
+            <!-- Acciones globales si se necesitan -->
+        </div>
+    </header>
+
+    <main>
+        <section id="welcome-screen" class="active">
+            <div class="empty-state-card">
+                <span class="material-icons">dashboard</span>
+                <h2>Admin OpolCod Pro</h2>
+                <p>Sistema de gestión de ordenanzas sin backend.</p>
+                <div style="margin-top: 2rem;">
+                    <label for="file-input" class="btn btn-primary">
+                        <span class="material-icons">folder_open</span> Abrir Archivo JSON
+                    </label>
+                    <input type="file" id="file-input" accept=".json" style="display: none;">
+                </div>
+                <p class="warning-text"><small>Versión 2.0 - Edición Avanzada</small></p>
+            </div>
+        </section>
+
+        <section id="editor-screen">
+            <div class="editor-toolbar">
+                <div class="toolbar-left" style="display:flex; align-items:center; gap:1rem;">
+                    <button class="btn btn-secondary" onclick="closeEditor()"><span
+                            class="material-icons">arrow_back</span> Atrás</button>
+                    <span id="current-filename" class="filename-badge">archivo.json</span>
+                </div>
+                <div class="toolbar-right" style="display:flex; gap:0.5rem;">
+                    <button id="btn-add-item" class="btn btn-secondary"><span class="material-icons">add_circle</span>
+                        Nueva Infracción</button>
+                    <button id="btn-save" class="btn btn-primary"><span class="material-icons">save_alt</span> Guardar
+                        Cambios</button>
+                </div>
+            </div>
+
+            <div class="editor-content">
+                <!-- Sidebar for Metadata -->
+                <aside class="sidebar-meta" id="metadata-sidebar">
+                    <h3>Metadatos</h3>
+                    <div id="metadata-form-container">
+                        <!-- Metadata inputs go here -->
+                    </div>
+                </aside>
+
+                <!-- Main Content for Items -->
+                <div class="main-list-area" id="items-list-container">
+                    <!-- Cards go here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>
