@@ -45,7 +45,7 @@
     {
       "id": "daimiel",
       "nombre": "Daimiel",
-      "filePath": "data/ordenanzas_daimiel.json"
+      "filePath": "data/ordenanzas/daimiel/index.json"
     },
     {
       "id": "estatalyclm",

@@ -550,9 +550,25 @@ document.addEventListener('DOMContentLoaded', () => {
                                 throw new Error(`No se pudo cargar: ${selectedLocalityMeta.filePath}`);
                             }
                             const data = await response.json();
+
+                            let normasToProcess = [];
+                            // Check for index file format (with "files" array)
+                            if (data.files && Array.isArray(data.files)) {
+                                const filePromises = data.files.map(url => fetch(url).then(r => r.json()));
+                                normasToProcess = await Promise.all(filePromises);
+                            } else if (data.localNorms) {
+                                // Legacy single file format
+                                normasToProcess = data.localNorms;
+                            } else {
+                                // Maybe single norm object? Treat as array of one if it has infracciones
+                                if (data.infracciones) {
+                                    normasToProcess = [data];
+                                }
+                            }
+
                             // Aplanar y adjuntar propiedades padre a las infracciones locales
-                            currentLocalNorms = data.localNorms.flatMap(norma => // Asumo que el JSON local tiene un array 'localNorms'
-                                norma.infracciones.map(infraccion => ({
+                            currentLocalNorms = normasToProcess.flatMap(norma =>
+                                (norma.infracciones || []).map(infraccion => ({
                                     ...infraccion,
                                     normagris_identificador: norma.identificador,
                                     normagris_tematica: norma.tematica,
@@ -597,7 +613,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             applyFilters(); // Re-aplicar filtros con los datos combinados
         }
-
 
         // Función principal para aplicar todos los filtros y renderizar
         function applyFilters() {

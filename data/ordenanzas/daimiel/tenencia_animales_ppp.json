@@ -1,0 +1,236 @@
+{
+    "identificador": "O.M Daimiel.",
+    "tematica": "Tenecia y Protección de Animales PPP.",
+    "modelo_sancion": "solo_importe_rango",
+    "rango": "Ordenanza",
+    "ambito": "Local",
+    "areaId": "animales",
+    "localidadId": "daimiel",
+    "infracciones": [
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "1 a)",
+            "importe": "2404,06 a 15025,30 €",
+            "descripcion": "Abandonar un animal potencialmente peligroso.",
+            "tags": [
+                "APP",
+                "Abandono",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "1 b)",
+            "importe": "2404,06 a 15025,30 €",
+            "descripcion": "Tener perros o animales potencialmente peligrosos sin licencia.",
+            "tags": [
+                "APP",
+                "Sin Licencia",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "1 c)",
+            "importe": "2404,06 a 15025,30 €",
+            "descripcion": "Vender o transmitir un perro o animal potencialmente peligroso a quien carezca de licencia.",
+            "tags": [
+                "APP",
+                "Venta",
+                "Transferencia",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "1 d)",
+            "importe": "2404,06 a 15025,30 €",
+            "descripcion": "Adiestrar animales para activar su agresividad o para finalidades prohibidas.",
+            "tags": [
+                "APP",
+                "Adiestramiento",
+                "Agresividad",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "1 e)",
+            "importe": "2404,06 a 15025,30 €",
+            "descripcion": "Adiestrar animales potencialmente peligrosos por quien carezca de certificado de capacitación.",
+            "tags": [
+                "APP",
+                "Adiestramiento",
+                "Sin Certificado",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "1 f)",
+            "importe": "2404,06 a 15025,30 €",
+            "descripcion": "Organizar o celebrar concursos, ejercicios, exhibiciones o espectáculos de animales potencialmente peligrosos, o su participación en ellos, destinados a demostrar la agresividad de los animales.",
+            "tags": [
+                "APP",
+                "Espectáculos",
+                "Agresividad",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "2 a)",
+            "importe": "300,52 a 2404,05 €",
+            "descripcion": "Dejar suelto un animal potencialmente peligroso o no haber adoptado las medidas necesarias para evitar su escapada o extravío.",
+            "tags": [
+                "APP",
+                "Suelto",
+                "Extravío",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "2 b)",
+            "importe": "300,52 a 2404,05 €",
+            "descripcion": "Incumplir la obligación de identificar al animal.",
+            "tags": [
+                "APP",
+                "Identificación",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "2 c)",
+            "importe": "300,52 a 2404,05 €",
+            "descripcion": "Omitir la inscripción en el registro.",
+            "tags": [
+                "APP",
+                "Registro",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "2 d)",
+            "importe": "300,52 a 2404,05 €",
+            "descripcion": "Hallarse el perro potencialmente peligroso en lugares públicos sin bozal o no sujeto con cadena.",
+            "tags": [
+                "APP",
+                "Bozal",
+                "Cadena",
+                "Vía Pública",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "2 e)",
+            "importe": "300,52 a 2404,05 €",
+            "descripcion": "Transportar animales potencialmente peligrosos sin tomar las medidas precautorias necesarias para garantizar la seguridad de las personas, bienes y otros animales.",
+            "tags": [
+                "APP",
+                "Transporte",
+                "Seguridad",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "57",
+            "apartado": "2 f)",
+            "importe": "300,52 a 2404,05 €",
+            "descripcion": "La negativa o resistencia a suministrar datos o facilitar la información requerida por la autoridad o sus agentes, así como el suministro de información inexacta o documentación falsa.",
+            "tags": [
+                "APP",
+                "Resistencia",
+                "Información Falsa",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "53",
+            "apartado": "5",
+            "importe": "150,30 a 300,51 €",
+            "descripcion": "No comunicar la sustracción o pérdida de un animal potencialmente peligroso, en el plazo máximo de 48 horas al Registro Municipal.",
+            "tags": [
+                "APP",
+                "Sustracción",
+                "Pérdida",
+                "Comunicación",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "54",
+            "apartado": "3 a)",
+            "importe": "150,30 a 300,51 €",
+            "descripcion": "No reunir las medidas de seguridad necesarias, que eviten su salida sin vigilancia o el acceso de personas sin el debido control de sus responsables, los locales o viviendas que alberguen animales potencialmente peligrosos. -No señalizar el local o vivienda en todos sus accesos, con cartel bien visible de que se alberga un animal potencialmente peligroso, indicando la especie o raza del mismo.",
+            "tags": [
+                "APP",
+                "Medidas de Seguridad",
+                "Señalización",
+                "PPP"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "54",
+            "apartado": "3 c)",
+            "importe": "150,30 a 300,51 €",
+            "descripcion": "Incumplimiento de las normas de presencia y circulación de perros potencialmente peligrosos en espacios públicos: animales no provistos de su correspondiente identificación (obligatoria con MICROCHIP para APP); uso de correa o cadena NO extensible de menos de 2 mts de longitud; uso de BOZAL homologado y adecuado a la raza; conducción por menores de edad; incitación a los animales a arremeter contra personas u otros animales; y conducción de más de un perro por persona.",
+            "tags": [
+                "APP",
+                "Circulación",
+                "Vía Pública",
+                "Bozal",
+                "Correa",
+                "PPP"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,780 @@
+{
+    "identificador": "O.M Daimiel.",
+    "tematica": "Parada y Estacionamiento.",
+    "modelo_sancion": "estandar_sin_puntos",
+    "rango": "Ordenanza",
+    "ambito": "Local",
+    "areaId": "trafico",
+    "localidadId": "daimiel",
+    "infracciones": [
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "7",
+            "apartado": "a",
+            "importe": "50 €",
+            "importe_reducido": "25 €",
+            "descripcion": "Parar en lugar prohibido por señal y no sujeto a otra restricción de parada específica calificada como grave.",
+            "tags": [
+                "Parada",
+                "Prohibido",
+                "Señal"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "7",
+            "apartado": "b",
+            "importe": "50 €",
+            "importe_reducido": "25 €",
+            "descripcion": "Estacionar en lugar prohibido por señal y no sujeto a otra restricción de estacionamiento calificada como grave.",
+            "tags": [
+                "Estacionamiento",
+                "Prohibido",
+                "Señal"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "7",
+            "apartado": "c",
+            "importe": "50 €",
+            "importe_reducido": "25 €",
+            "descripcion": "Estacionar el vehículo con cualquier tipo de anuncio o rótulo que indique la promoción o venta del mismo sin contar con la correspondiente autorización o licencia municipal.",
+            "tags": [
+                "Estacionamiento",
+                "Venta Vehículo",
+                "Publicidad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "a",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Parar el vehículo obstaculizando la circulación o creando peligro para otros usuarios.",
+            "tags": [
+                "Parada",
+                "Obstaculizar",
+                "Peligro"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "b",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Estacionar el vehículo obstaculizando la circulación o creando peligro para otros usuarios.",
+            "tags": [
+                "Estacionamiento",
+                "Obstaculizar",
+                "Peligro"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "c",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Estacionar el vehículo de forma que no permita la mejor utilización del restante espacio disponible.",
+            "tags": [
+                "Estacionamiento",
+                "Mal Estacionamiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "d",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Abandonar el puesto de conductor del vehículo sin tomar las medidas reglamentarias que eviten que se ponga en movimiento.",
+            "tags": [
+                "Seguridad",
+                "Abandono Puesto"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "e",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "Parar en un carril o parte de la vía reservada exclusivamente para la circulación.",
+            "tags": [
+                "Parada",
+                "Carril Circulación"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "f",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "No respetar la prohibición de parada o estacionamiento por una marca de pintura amarilla longitudinal continua en el bordillo o junto al borde de la calzada.",
+            "tags": [
+                "Línea Amarilla",
+                "Continua",
+                "Parada",
+                "Estacionamiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "8",
+            "apartado": "g",
+            "importe": "80 €",
+            "importe_reducido": "40 €",
+            "descripcion": "No respetar la prohibición de estacionamiento por una marca de pintura amarilla longitudinal discontinua en el bordillo o junto al borde de la calzada.",
+            "tags": [
+                "Línea Amarilla",
+                "Discontinua",
+                "Estacionamiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "9",
+            "apartado": "a",
+            "importe": "90 €",
+            "importe_reducido": "45 €",
+            "descripcion": "Estacionar en un carril o parte de la vía reservado exclusivamente para la circulación.",
+            "tags": [
+                "Estacionamiento",
+                "Carril Circulación"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "9",
+            "apartado": "b",
+            "importe": "90 €",
+            "importe_reducido": "45 €",
+            "descripcion": "Estacionar en un carril o parte de la vía reservada exclusivamente para el servicio de determinados usuarios.",
+            "tags": [
+                "Estacionamiento",
+                "Carril Reservado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "9",
+            "apartado": "c",
+            "importe": "90 €",
+            "importe_reducido": "45 €",
+            "descripcion": "Estacionar en zona señalizada para carga y descarga –sin horario específico-.",
+            "tags": [
+                "Estacionamiento",
+                "Carga y Descarga"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "9",
+            "apartado": "d",
+            "importe": "90 €",
+            "importe_reducido": "45 €",
+            "descripcion": "Estacionar delante de un VADO señalizado correctamente.",
+            "tags": [
+                "Estacionamiento",
+                "Vado"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "1",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar un vehículo de forma que impida la incorporación a la circulación de otro vehículo debidamente parado o estacionado.",
+            "tags": [
+                "Parada",
+                "Obstaculizar",
+                "Incorporación"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "2",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar un vehículo cuando se obstaculice la utilización normal del paso de salida o acceso a un inmueble de personas o animales o de vehículos en un vado señalizado correctamente.",
+            "tags": [
+                "Parada",
+                "Obstaculizar",
+                "Vado"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "3",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar un vehículo cuando se obstaculice la utilización normal del paso de salida o acceso a un inmueble de personas o animales o de vehículos en un vado señalizado correctamente.",
+            "tags": [
+                "Estacionamiento",
+                "Obstaculizar",
+                "Vado"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "4",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar un vehículo obstaculizando la utilización normal de los pasos rebajados para discapacitados físicos.",
+            "tags": [
+                "Parada",
+                "Paso Discapacitados",
+                "Accesibilidad"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "5",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar un vehículo obstaculizando la utilización normal de los pasos para personas con movilidad reducida.",
+            "tags": [
+                "Estacionamiento",
+                "Paso Discapacitados",
+                "Accesibilidad"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "6",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar un vehículo en mediana, separador, isleta u otro elemento de canalización del tráfico.",
+            "tags": [
+                "Parada",
+                "Isleta",
+                "Mediana"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "7",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar un vehículo en zona reservada a carga y descarga durante las horas de utilización.",
+            "tags": [
+                "Estacionamiento",
+                "Carga y Descarga"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "8",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar un vehículo en doble fila sin conductor.",
+            "tags": [
+                "Estacionamiento",
+                "Doble Fila"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "9",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar un vehículo en una parada de transporte público, señalizada y delimitada.",
+            "tags": [
+                "Estacionamiento",
+                "Transporte Público",
+                "Autobús"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "10",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar el vehículo constituyendo un peligro u obstaculizando gravemente el tráfico de peatones, vehículos o animales.",
+            "tags": [
+                "Estacionamiento",
+                "Peligro",
+                "Obstaculizar Gravemente"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "11",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un cruce de visibilidad reducida o en sus proximidades.",
+            "tags": [
+                "Parada",
+                "Cruce",
+                "Visibilidad Reducida"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "12",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un cambio de rasante de visibilidad reducida o en sus proximidades.",
+            "tags": [
+                "Parada",
+                "Cambio de Rasante",
+                "Visibilidad Reducida"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "13",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en túnel o tramo de vía afectado por la señal de 'túnel'.",
+            "tags": [
+                "Parada",
+                "Túnel"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "14",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un paso inferior.",
+            "tags": [
+                "Parada",
+                "Paso Inferior"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "15",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un paso a nivel.",
+            "tags": [
+                "Parada",
+                "Paso a Nivel"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "16",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un paso para ciclistas.",
+            "tags": [
+                "Parada",
+                "Paso Ciclista"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "17",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un paso para peatones.",
+            "tags": [
+                "Parada",
+                "Paso de Peatones"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "18",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un carril o parte de la vía reservada exclusivamente para el servicio de determinados usuarios.",
+            "tags": [
+                "Parada",
+                "Carril Reservado"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "19",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en vía urbana en intersección o en sus proximidades dificultando el giro a otros vehículos.",
+            "tags": [
+                "Parada",
+                "Intersección",
+                "Dificultar Giro"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "20",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en el lugar indicado en el boletín de denuncia impidiendo la visibilidad de la señalización a otros usuarios.",
+            "tags": [
+                "Parada",
+                "Visibilidad Señal"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "21",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en el lugar indicado en el boletín de denuncia obligando a otros usuarios a realizar maniobras antirreglamentarias.",
+            "tags": [
+                "Parada",
+                "Maniobra Antirreglamentaria"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "22",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en un carril reservado para las bicicletas.",
+            "tags": [
+                "Parada",
+                "Carril Bici"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "23",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en una zona destinada para estacionamiento y parada de uso exclusivo para el transporte público urbano.",
+            "tags": [
+                "Parada",
+                "Transporte Público",
+                "Autobús"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "24",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Parar en zona señalizada para uso exclusivo de minusválidos.",
+            "tags": [
+                "Parada",
+                "Zona Discapacitados",
+                "Accesibilidad"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "25",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en un cruce de visibilidad reducida o en sus proximidades.",
+            "tags": [
+                "Estacionamiento",
+                "Cruce",
+                "Visibilidad Reducida"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "26",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en un cambio de rasante de visibilidad reducida o en sus proximidades.",
+            "tags": [
+                "Estacionamiento",
+                "Cambio de Rasante",
+                "Visibilidad Reducida"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "27",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en túnel o tramo de vía afectado por la señal de 'túnel'.",
+            "tags": [
+                "Estacionamiento",
+                "Túnel"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "28",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en un paso inferior.",
+            "tags": [
+                "Estacionamiento",
+                "Paso Inferior"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "29",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en un paso a nivel.",
+            "tags": [
+                "Estacionamiento",
+                "Paso a Nivel"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "30",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en un paso para ciclistas.",
+            "tags": [
+                "Estacionamiento",
+                "Paso Ciclista"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "31",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en vía urbana en intersección o en sus proximidades dificultando el giro a otros vehículos.",
+            "tags": [
+                "Estacionamiento",
+                "Intersección",
+                "Dificultar Giro"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "32",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en el lugar indicado en el boletín de denuncia impidiendo la visibilidad de la señalización a otros usuarios.",
+            "tags": [
+                "Estacionamiento",
+                "Visibilidad Señal"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "33",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en el lugar indicado en el boletín de denuncia obligando a otros usuarios a realizar maniobras antirreglamentarias.",
+            "tags": [
+                "Estacionamiento",
+                "Maniobra Antirreglamentaria"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "34",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en un carril reservado para las bicicletas.",
+            "tags": [
+                "Estacionamiento",
+                "Carril Bici"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "35",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en zona destinada para estacionamiento o parada de uso exclusivo para el transporte público urbano.",
+            "tags": [
+                "Estacionamiento",
+                "Transporte Público",
+                "Autobús"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "36",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en zona señalizada para uso exclusivo de minusválidos.",
+            "tags": [
+                "Estacionamiento",
+                "Zona Discapacitados",
+                "Accesibilidad"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "37",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en zona señalizada como paso para peatones.",
+            "tags": [
+                "Estacionamiento",
+                "Paso de Peatones"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "38",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar sobre la acera, paseo y demás zonas destinadas al paso de peatones.",
+            "tags": [
+                "Estacionamiento",
+                "Acera",
+                "Zona Peatonal"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Parada y Estacionamiento Daimiel",
+            "articulo": "10",
+            "apartado": "39",
+            "importe": "200 €",
+            "importe_reducido": "100 €",
+            "descripcion": "Estacionar en doble fila.",
+            "tags": [
+                "Estacionamiento",
+                "Doble Fila"
+            ]
+        }
+    ]
+}

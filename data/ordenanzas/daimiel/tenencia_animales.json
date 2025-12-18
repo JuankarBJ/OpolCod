@@ -1,0 +1,601 @@
+{
+    "identificador": "O.M Daimiel.",
+    "tematica": "Tenecia y Protección de Animales.",
+    "modelo_sancion": "solo_importe_rango",
+    "rango": "Ordenanza",
+    "ambito": "Local",
+    "areaId": "animales",
+    "localidadId": "daimiel",
+    "infracciones": [
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "31",
+            "apartado": "1",
+            "importe": "151 a 300 €",
+            "descripcion": "No garantizar las debidas condiciones sanitarias o no proporcionar los controles veterinarios necesarios el propietario de animales.",
+            "tags": [
+                "Condiciones Sanitarias",
+                "Controles Veterinarios",
+                "Propietarios"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "31",
+            "apartado": "2",
+            "importe": "151 a 300 €",
+            "descripcion": "No disponer de la documentación sanitaria en la que se especifiquen las características del animal y sus vacunas y tratamientos.",
+            "tags": [
+                "Documentación Sanitaria",
+                "Vacunas",
+                "Tratamientos"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "32",
+            "apartado": "",
+            "importe": "151 a 300 €",
+            "descripcion": "No cumplir los dueños de animales las prevenciones dictadas por autoridad competente en caso de epizootías -epidemias animales-.",
+            "tags": [
+                "Epizootías",
+                "Autoridad",
+                "Prevenciones"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "34",
+            "apartado": "1",
+            "importe": "151 a 300 €",
+            "descripcion": "No sacrificar o entregar para su sacrificio un animal cuando lo indique la autoridad competente.",
+            "tags": [
+                "Sacrificio",
+                "Autoridad Competente"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "34",
+            "apartado": "2",
+            "importe": "151 a 300 €",
+            "descripcion": "No comunicar los profesionales veterinarios al servicio municipal correspondiente, la detección en el término municipal de cualquier enfermedad de declaración obligatoria.",
+            "tags": [
+                "Veterinarios",
+                "Enfermedades Obligatorias"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "1",
+            "importe": "151 a 300 €",
+            "descripcion": "Causar la muerte de un animal, salvo caso ineludible o enfermedad incurable y solo por veterinarios y por métodos eutanásicos.",
+            "tags": [
+                "Muerte Animal",
+                "Eutanasia",
+                "Veterinarios"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "5",
+            "importe": "151 a 300 €",
+            "descripcion": "Las peleas de animales, o parodias en las que se mate, hiera o enseñe a ser hostiles a los animales y, en general, todos aquellos no regulados legalmente que puedan herir la sensibilidad de las personas que los contemplen.",
+            "tags": [
+                "Peleas Animales",
+                "Crueldad Animal",
+                "Sensibilidad"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "7",
+            "importe": "151 a 300 €",
+            "descripcion": "La venta de animales a menores de edad y a personas mentalmente discapacitadas sin autorización de quienes tengan su patria potestad o custodia.",
+            "tags": [
+                "Venta Animales",
+                "Menores",
+                "Discapacitados"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "8",
+            "importe": "151 a 300 €",
+            "descripcion": "La venta de animales pertenecientes a especies protegidas, así como su posesión y exhibición según lo previsto en su legislación específica.",
+            "tags": [
+                "Especies Protegidas",
+                "Posesión Ilegal"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "44",
+            "apartado": "",
+            "opc": "",
+            "puntos": "0",
+            "importe": "151 a 300 €",
+            "importe_reducido": "0 €",
+            "descripcion": "Las infracciones al Art. 44 de la ordenanza, en materia de requisitos de los establecimientos para el fomento y cuidado de animales de compañía, incluyendo:\n\n* **a)** Construcciones, instalaciones y equipos adecuados para asegurar un ambiente higiénico y zoosanitario;\n* **b)** Dotación de agua corriente y desagües adecuados;\n* **c)** Disposición de medios suficientes para limpieza y desinfección;\n* **d)** Realización de desinfecciones, desinsectaciones y desratizaciones periódicas;\n* **e)** Cumplimiento de lo establecido en el artículo 35;\n* **f)** Eliminación higiénica de cadáveres o restos;\n* **g)** Disposición obligatoria de sala de espera;\n* **h)** Declaración como Núcleo zoológico para la concesión de licencia de apertura por el Ayuntamiento.\n\nAdicionalmente, se requiere:\n\n1.  Contar con servicio veterinario colaborador que garantice el adecuado estado sanitario de los animales antes de su venta.\n2.  Venta de animales desparasitados, libres de enfermedades y con vacunas pertinentes.\n3.  Obligación del vendedor de entregar documentación acreditativa y/o cartilla sanitaria.",
+            "tags": [
+                "Establecimientos Animales",
+                "Núcleo Zoológico",
+                "Sanidad Veterinaria",
+                "Ordenanza Municipal"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "46",
+            "apartado": "4",
+            "importe": "151 a 300 €",
+            "descripcion": "Reiteración de una falta grave.",
+            "tags": [
+                "Reiteración"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "2",
+            "importe": "61 a 150 €",
+            "descripcion": "Daños, actos de crueldad y malos tratos a animales propios o ajenos o someterlos a prácticas que les causen sufrimiento o daños injustificados.",
+            "tags": [
+                "Malos Tratos",
+                "Crueldad Animal",
+                "Sufrimiento"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "3",
+            "importe": "61 a 150 €",
+            "descripcion": "Practicarles mutilaciones, excepto las controladas por veterinarios por razones de necesidad, exigencia funcional o mantenimiento de las características de la raza.",
+            "tags": [
+                "Mutilaciones",
+                "Veterinarios"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "4",
+            "importe": "61 a 150 €",
+            "descripcion": "Utilización de animales en teatros, salas de fiestas, filmaciones o actividades de propaganda que supongan daño, sufrimiento o degradación del animal.",
+            "tags": [
+                "Espectáculos",
+                "Propaganda",
+                "Degradación Animal"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "6",
+            "importe": "61 a 150 €",
+            "descripcion": "Venta ambulante de animales, fuera de los mercados y ferias autorizados a tal fin.",
+            "tags": [
+                "Venta Ambulante"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "8",
+            "apartado": "9",
+            "importe": "61 a 150 €",
+            "descripcion": "Tenencia de animales en solares o lugares en que no pueda ejercerse sobre los mismos la adecuada vigilancia.",
+            "tags": [
+                "Tenencia",
+                "Vigilancia"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "10",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "No inscribir, los poseedores o propietarios de perros o gatos que vivan habitualmente en el término municipal de Daimiel en el Censo Municipal de Animales, en el plazo máximo de tres meses desde la fecha de su nacimiento, o de un mes desde la fecha de su adquisición, recogida o adopción (si tienen más de tres meses). -Están obligados a poseer el documento que acredite la inscripción-.",
+            "tags": [
+                "Censo Municipal",
+                "Inscripción",
+                "Perros",
+                "Gatos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "12",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "No comunicar la cesión, venta o cambio de domicilio de algún perro o gato ya censado el propietario o poseedor al Censo Municipal de Animales en el plazo de un mes, indicando expresamente su número de identificación censal.",
+            "tags": [
+                "Censo Municipal",
+                "Cambio de Domicilio",
+                "Cesión",
+                "Venta"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "14",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "No estar dotado de tatuaje o microchip que contenga los datos de su propietario para casos de extravío o abandono todo animal inscrito en el Censo Municipal de Animales y/o en el registro de animales potencialmente peligrosos.",
+            "tags": [
+                "Identificación",
+                "Microchip",
+                "Tatuaje"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "47",
+            "apartado": "4",
+            "importe": "61 a 150 €",
+            "descripcion": "No facilitar los datos y antecedentes requeridos para la inscripción censal.",
+            "tags": [
+                "Inscripción Censal",
+                "Datos Falsos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "16",
+            "apartado": "1",
+            "importe": "61 a 150 €",
+            "descripcion": "No disponer en los domicilios particulares de alojamiento adecuado para los animales (en el aspecto higiénico-sanitario y sin que se produzca situación alguna de peligro, incomodidad o molestia razonable para los vecinos u otras personas).",
+            "tags": [
+                "Alojamiento",
+                "Higiene",
+                "Salud Pública",
+                "Molestias"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "17",
+            "apartado": "2",
+            "importe": "61 a 150 €",
+            "descripcion": "No higienizar y desinfectar con la frecuencia precisa los alojamientos de los animales.",
+            "tags": [
+                "Higiene",
+                "Desinfección"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "18",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "Tener alojados a los animales de compañía en un lugar sin ventilación, sin luz o en condiciones climáticas extremas. No retirar de forma cotidiana los excrementos y los orines, manteniendo, el alojamiento limpio, desinfectado y desinsectado.",
+            "tags": [
+                "Ventilación",
+                "Excrementos",
+                "Limpieza"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "19",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "Mantener atado permanentemente al animal.",
+            "tags": [
+                "Alojamiento",
+                "Atado Permanente"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "20",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "La estancia de animales en terrazas, patios o jardines en horario nocturno.",
+            "tags": [
+                "Horario Nocturno",
+                "Terrazas",
+                "Jardines"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "21",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "La estancia permanente de los animales en terrazas de las viviendas, patios y jardines, sin cumplir las condiciones del Art 19 (recinto cerrado con las adecuadas medidas de seguridad e higiene).",
+            "tags": [
+                "Estancia Permanente",
+                "Seguridad",
+                "Higiene"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "22",
+            "apartado": "2",
+            "importe": "61 a 150 €",
+            "descripcion": "No advertir en lugar visible y de forma adecuada de la presencia del perro, en parcelas con alojamiento para animales.",
+            "tags": [
+                "Parcelas",
+                "Advertencia"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "23",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "Incitar a los perros a atacarse entre sí o a lanzarse contra personas o bienes, o, hacer cualquier ostentación de la agresividad del animal.",
+            "tags": [
+                "Agresividad",
+                "Ataques",
+                "Seguridad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "24",
+            "apartado": "1",
+            "importe": "61 a 150 €",
+            "descripcion": "No estar los perros destinados a guarda en recintos donde no puedan causar daños en las personas o cosas bajo la responsabilidad de sus dueños, o no advertirse en lugar visible su existencia.",
+            "tags": [
+                "Perros Guarda",
+                "Recintos",
+                "Daños"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "24",
+            "apartado": "2",
+            "importe": "61 a 150 €",
+            "descripcion": "Tener perros guardianes de menos de seis meses de edad.",
+            "tags": [
+                "Perros Guarda",
+                "Edad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "24",
+            "apartado": "3",
+            "importe": "61 a 150 €",
+            "descripcion": "Tener atado permanentemente a un perro guardián o sujeto con algún medio que no permita su libertad de movimientos.",
+            "tags": [
+                "Perros Guarda",
+                "Atado Permanente"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "25",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "Tener en la vivienda, entre perros y gatos, más de cinco animales, salvo autorización del Ayuntamiento.",
+            "tags": [
+                "Límite de Animales",
+                "Vivienda",
+                "Autorización"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "26",
+            "apartado": "2",
+            "importe": "61 a 150 €",
+            "descripcion": "Circular un animal doméstico suelto por la zona urbana del municipio, incluidos parques y jardines.",
+            "tags": [
+                "Animales Sueltos",
+                "Vía Pública",
+                "Parques"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "26",
+            "apartado": "3",
+            "importe": "61 a 150 €",
+            "descripcion": "No ir provisto el animal de collar o conducido con correa o cadena resistentes y de longitud adecuada para dominarlo en todo momento.",
+            "tags": [
+                "Collar",
+                "Correa",
+                "Seguridad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "28",
+            "apartado": "1",
+            "importe": "61 a 150 €",
+            "descripcion": "No presentar, el propietario del animal la cartilla o documentación sanitaria o no aportar los datos que puedan ser de utilidad, en caso de agresión del animal a una persona.",
+            "tags": [
+                "Agresión",
+                "Documentación",
+                "Responsabilidad"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "29",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "Prohibiciones: a) La entrada de animales en las zonas de juego infantiles así como que beban de fuentes de uso público; b) La circulación o permanencia de perros y otros animales en las piscinas públicas durante la temporada de baños; c) Alimentar a los animales en la vía pública y/o espacios públicos, especialmente por lo que respecta a gatos o palomas.",
+            "tags": [
+                "Zonas Públicas",
+                "Prohibiciones",
+                "Piscinas",
+                "Alimentación"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "38",
+            "apartado": "",
+            "importe": "61 a 150 €",
+            "descripcion": "El abandono de animales muertos o su depósito en contenedores de recogida de basuras.",
+            "tags": [
+                "Animales Muertos",
+                "Abandono"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "47",
+            "apartado": "7",
+            "importe": "61 a 150 €",
+            "descripcion": "Reiteración de una falta leve.",
+            "tags": [
+                "Reiteración"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "9",
+            "apartado": "",
+            "importe": "6 a 60 €",
+            "descripcion": "Prohibiciones específicas, incluyendo la entrada y permanencia de animales en los establecimientos de fabricación, manipulación, almacenamiento, transporte o venta de alimentos; espectáculos públicos, recintos deportivos o culturales, piscinas públicas y centros sanitarios (excepto casos autorizados); centros educativos; y el transporte de animales en vehículos particulares de forma que afecte negativamente a la conducción o a la seguridad vial.",
+            "tags": [
+                "Prohibiciones Específicas",
+                "Salud Pública",
+                "Seguridad Vial"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "11",
+            "apartado": "",
+            "importe": "6 a 60 €",
+            "descripcion": "No proveerse el dueño de perros o gatos, de la documentación relativa a su censado si el animal tiene más de 3 meses o carece de ella.",
+            "tags": [
+                "Censado",
+                "Documentación"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "30",
+            "apartado": "",
+            "importe": "6 A 60 €",
+            "descripcion": "a) Hacer los perros sus deposiciones en las áreas infantiles; b) Hacer los animales sus deposiciones en la vía pública, parques o jardines; c) No proceder el propietario o conductor del animal a la eliminación de las deyecciones depositadas sobre aceras o zonas peatonales, parques o jardines.",
+            "tags": [
+                "Deposiciones",
+                "Vía Pública",
+                "Higiene"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "40",
+            "apartado": "",
+            "importe": "6 a 60 €",
+            "descripcion": "Llevar a cabo la crianza doméstica de aves de corral, conejos, palomas y otros animales análogos en domicilios particulares, terrazas, azoteas o patios, sin que las circunstancias de alojamiento, adecuación de las instalaciones y número de animales lo permitan, tanto en el aspecto higiénico sanitario, como por las incomodidades o peligros para los vecinos, otras personas o animales.",
+            "tags": [
+                "Crianza Doméstica",
+                "Higiene",
+                "Molestias"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza Tenencia y Proteccion de animales Daimiel",
+            "articulo": "41",
+            "apartado": "",
+            "importe": "6 a 60 €",
+            "descripcion": "Queda prohibido el establecimiento de vaquerías, establos, corrales de ganado y aves dentro del núcleo urbano conforme a lo establecido en el RAMINP.",
+            "tags": [
+                "Prohibido Establecimiento",
+                "Núcleo Urbano"
+            ]
+        }
+    ]
+}

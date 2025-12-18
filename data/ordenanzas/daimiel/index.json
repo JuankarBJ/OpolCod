@@ -1,0 +1,8 @@
+{
+    "files": [
+        "data/ordenanzas/daimiel/parada_estacionamiento.json",
+        "data/ordenanzas/daimiel/tenencia_animales.json",
+        "data/ordenanzas/daimiel/tenencia_animales_ppp.json",
+        "data/ordenanzas/daimiel/convivencia_ciudadana.json"
+    ]
+}

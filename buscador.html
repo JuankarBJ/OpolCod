@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codificador Infracciones</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="main-header">
         <a href="index.html" class="header-nav-button" title="Volver a Inicio">
-        Inicio
-    </a>
-        
-            <h1 class="home-title-link">CODIFICADO INFRACCIONES</h1>
-        
+            Inicio
+        </a>
+
+        <h1 class="home-title-link">CODIFICADO INFRACCIONES</h1>
+
     </header>
 
     <div class="search-bar-fixed">
@@ -24,7 +26,7 @@
     </div>
 
     <div class="active-filters-container">
-        </div>
+    </div>
 
     <main class="infracciones-agrupadas">
         <p class="loading-message">Cargando infracciones... Esto puede tardar unos segundos.</p>
@@ -38,34 +40,35 @@
                 <label for="area-filter">Filtrar por Área:</label>
                 <select id="area-filter" class="custom-select">
                     <option value="">Todas las Áreas</option>
-                    </select>
+                </select>
             </div>
 
             <div class="filter-option-group">
                 <label for="rango-filter">Filtrar por Rango:</label>
                 <select id="rango-filter" class="custom-select">
                     <option value="">Todos los Rangos</option>
-                    </select>
+                </select>
             </div>
 
             <div class="filter-option-group">
                 <label for="ambito-filter">Filtrar por Ámbito:</label>
                 <select id="ambito-filter" class="custom-select">
                     <option value="">Todos los Ámbitos</option>
-                    </select>
+                </select>
             </div>
-            
+
             <p style="margin-top: 2rem;">Contenido adicional de la barra lateral (próximamente)</p>
-             <div class="filter-option-group locality-display-group">
+            <div class="filter-option-group locality-display-group">
                 <label>Localidad Actual:</label>
-                <span id="current-locality-display" style="font-weight: bold; color: var(--color-light-text);">No seleccionada</span>
+                <span id="current-locality-display" style="font-weight: bold; color: var(--color-light-text);">No
+                    seleccionada</span>
             </div>
 
             <div class="filter-option-group">
                 <label for="sidebar-locality-select">Cambiar Localidad:</label>
                 <select id="sidebar-locality-select" class="custom-select">
                     <option value="">Todas las Localidades</option>
-                    </select>
+                </select>
             </div>
         </div>
     </aside>
@@ -73,21 +76,27 @@
     <div class="floating-action-buttons">
         <button id="toggleSidebarBtn" class="fab" title="Abrir barra lateral" aria-label="Abrir barra lateral">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
             </svg>
         </button>
-        
+
         <button id="showSearchBtn" class="fab" title="Mostrar filtros y título" aria-label="Mostrar filtros y título">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path
+                    d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+            </svg>
         </button>
         <button id="scrollTopBtn" class="fab hidden" title="Subir al inicio" aria-label="Subir al inicio">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z" />
+            </svg>
         </button>
     </div>
     <footer>&copy; Juan Carlos Ballesteros - Todos los derechos reservados</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,349 @@
+{
+    "identificador": "O.M Daimiel.",
+    "tematica": "Bienes Públicos y Convivencia Ciudadana.",
+    "modelo_sancion": "solo_importe_rango",
+    "rango": "Ordenanza",
+    "ambito": "Local",
+    "areaId": "seguridad_ciudadana",
+    "localidadId": "daimiel",
+    "infracciones": [
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "1",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "La permanencia y concentración de personas que se encuentren consumiendo bebidas o realizando otras actividades que pongan en peligro la pacífica convivencia ciudadana fuera de las zonas del término municipal que el Ayuntamiento haya establecido como permitidas.",
+            "tags": [
+                "Botellón",
+                "Consumo Bebidas",
+                "Convivencia Ciudadana"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "2",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "El depósito y acopio de los residuos fuera de los contenedores de recogida correspondientes, así como su manipulación o selección.",
+            "tags": [
+                "Residuos",
+                "Depósito Ilegal",
+                "Recogida Selectiva"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "3",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "Esparcir en la vía pública los residuos depositados en las papeleras y demás contenedores instalados en los espacios públicos.",
+            "tags": [
+                "Vía Pública",
+                "Residuos",
+                "Limpieza"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "4",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "Rasgar, arrancar y tirar al espacio público carteles, pancartas, y objetos de publicidad similares.",
+            "tags": [
+                "Publicidad",
+                "Deterioro",
+                "Vandalismo"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "5",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "Lavarse o bañarse en las fuentes, estanques y similares.",
+            "tags": [
+                "Espacios Públicos",
+                "Fuentes",
+                "Normas de Higiene"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "6",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "Ensuciar, enturbiar o alterar las características del agua de fuentes, estanques o similares.",
+            "tags": [
+                "Fuentes",
+                "Contaminación",
+                "Agua"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "7",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "Hacer en los espacios públicos necesidades fisiológicas como defecar u orinar.",
+            "tags": [
+                "Higiene Pública",
+                "Vía Pública",
+                "Defecar",
+                "Orinar"
+            ]
+        },
+        {
+            "tipo": "leve",
+            "circulo": "L",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "36",
+            "apartado": "8",
+            "importe": "Multa hasta 150 euros",
+            "descripcion": "Esparcir y tirar toda clase de papeles, publicidad, prensa y otros soportes o reclamos publicitarios en los espacios públicos.",
+            "tags": [
+                "Publicidad",
+                "Limpieza",
+                "Vía Pública"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "1",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "El consumo de bebidas alcohólicas por menores de dieciocho años en los espacios abiertos.",
+            "tags": [
+                "Menores",
+                "Alcohol",
+                "Consumo"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "2",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "La entrega o dispensación por parte de los establecimientos comerciales de bebidas alcohólicas fuera del horario establecido normativamente para la venta.",
+            "tags": [
+                "Alcohol",
+                "Venta",
+                "Horario Comercial"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "3",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "La venta o dispensación por parte de los establecimientos de hostelería o de esparcimiento de bebidas alcohólicas, para su consumo fuera del establecimiento y de las zonas anexas a los mismos debidamente autorizadas.",
+            "tags": [
+                "Alcohol",
+                "Hostelería",
+                "Consumo Exterior"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "4",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "Arrojar basuras o residuos a la red de alcantarillado y a los espacios públicos que dificulten el tránsito o generen riesgos de insalubridad.",
+            "tags": [
+                "Residuos",
+                "Insalubridad",
+                "Alcantarillado"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "5",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "Causar daños en árboles, plantas y jardines públicos que no constituyan infracción muy grave.",
+            "tags": [
+                "Jardines Públicos",
+                "Daños",
+                "Plantas"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "6",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "La realización de todo tipo de grafito, pintada, garabato, firma, escrito, inscripción, mancha o grafismo, con cualquier materia (tinta, pintura o similares), o bien rayando la superficie sobre cualquier elemento del espacio público, así como en el interior y exterior de equipamientos, mobiliario, infraestructuras, instalaciones y demás elementos de un servicio público, incluidos mobiliario urbano, árboles, zonas verdes.",
+            "tags": [
+                "Graffiti",
+                "Pintadas",
+                "Vandalismo",
+                "Mobiliario Urbano"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "7",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "La colocación de carteles, vallas, rótulos, pancartas, adhesivos, papeles pegados o cualquier otra forma de publicidad, anuncio o propaganda, en lugares o elementos no habilitados o autorizados por el Ayuntamiento.",
+            "tags": [
+                "Publicidad",
+                "Carteles",
+                "Vía Pública"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "8",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "Dejar propaganda fuera del recinto del portal de los edificios o, en su caso, fuera de los buzones de correspondencia o de publicidad existentes en el exterior y que resulten accesibles desde la vía pública.",
+            "tags": [
+                "Publicidad",
+                "Propaganda",
+                "Buzones"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "9",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "Los actos de deterioro, inutilización o destrozo del espacio público o de cualquiera de sus instalaciones y equipamientos.",
+            "tags": [
+                "Deterioro",
+                "Vandalismo",
+                "Mobiliario Urbano"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "10",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "Circular o estacionar con los equipos reproductores de sonido a una potencia que trascienda al exterior y que causen molestias produciendo ruidos innecesarios, haciendo sonar el claxon, aceleraciones o frenadas bruscas.",
+            "tags": [
+                "Ruido",
+                "Vehículos",
+                "Molestias"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "11",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "Disparar petardos, cohetes y toda clase de artículos pirotécnicos que puedan producir ruidos, salvo excepciones para eventos autorizados.",
+            "tags": [
+                "Pirotecnia",
+                "Ruido",
+                "Eventos"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "12",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "La emisión de cualquier ruido doméstico que por su volumen u horario exceda de los límites que exija la tranquilidad pública y en todo caso se supere el nivel sonoro legalmente establecido para los locales interiores de una edificación.",
+            "tags": [
+                "Ruido Doméstico",
+                "Horario",
+                "Tranquilidad Pública"
+            ]
+        },
+        {
+            "tipo": "media",
+            "circulo": "G",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "37",
+            "apartado": "13",
+            "importe": "151 a 1.500 euros",
+            "descripcion": "La reiteración de dos o más infracciones leves en el transcurso de un año.",
+            "tags": [
+                "Reiteración",
+                "Infracciones Leves"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "38",
+            "apartado": "1",
+            "importe": "1.501 a 3.000 euros",
+            "descripcion": "La reiteración de dos o más infracciones graves en el transcurso de un año.",
+            "tags": [
+                "Reiteración",
+                "Infracciones Graves"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "38",
+            "apartado": "2",
+            "importe": "1.501 a 3.000 euros",
+            "descripcion": "Cualquier acto que constituya infracción leve o grave, que se realice sobre monumentos o edificios catalogados o protegidos y cuando tengan lugar en las señales de tráfico o de identificación viaria, o en cualquier elemento del mobiliario urbano cuando implique la inutilización o pérdida total o parcial de la funcionalidad del elemento.",
+            "tags": [
+                "Monumentos",
+                "Edificios Protegidos",
+                "Mobiliario Urbano",
+                "Inutilización"
+            ]
+        },
+        {
+            "tipo": "grave",
+            "circulo": "MG",
+            "norma": "Ordenanza de Convivencia Ciudadana Daimiel",
+            "articulo": "38",
+            "apartado": "3",
+            "importe": "1.501 a 3.000 euros",
+            "descripcion": "Cualquier acto que constituya infracción leve o grave cuando los daños producidos alcancen el 70% del valor de reposición del bien afectado y, en todo caso, cuando los actos de deterioro producidos sobre los bienes que puedan afectar a la salud e integridad personal, en especial cuando tengan lugar sobre juegos infantiles.",
+            "tags": [
+                "Daños Materiales",
+                "Salud",
+                "Juegos Infantiles",
+                "Peligro"
+            ]
+        }
+    ]
+}
