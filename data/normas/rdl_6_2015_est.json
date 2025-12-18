@@ -1,697 +1,697 @@
 {
-    "identificador": "Real Decreto Legislativo 6/2015, de 30 de octubre.",
-    "tematica": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.",
-    "modelo_sancion": "modelo_estandar",
-    "rango": "Real Decreto Legislativo",
-    "ambito": "Estatal",
-    "areaId": "trafico",
-    "infracciones": [
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "10",
-            "apartado": "1",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "100 €",
-            "importe_reducido": "50 €",
-            "descripcion": "Comportarse el usuario de la vía entorpeciendo indebidamente la circulación, causando **daños al medioambiente**.\n\n*Nota: Deberán indicarse detalladamente los hechos que generan el entorpecimiento o daño causados. Responsable: Usuario.*",
-            "tags": [
-                "comportamiento indebido",
-                "medioambiente",
-                "daños"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "10",
-            "apartado": "2",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Circular con un vehículo cuyas **placas de matrícula presentan obstáculos** que impiden o dificultan su lectura e identificación.\n\n*Nota: Detallar si existe obstáculo, falta de visibilidad o inexistencia de placas. Responsable: Titular/Conductor.*",
-            "tags": [
-                "placas",
-                "matricula",
-                "identificacion",
-                "visibilidad"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "11",
-            "apartado": "1",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "El doble de la originaria",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "No facilitar el titular o arrendatario del vehículo, debidamente requerido, la **identificación veraz del conductor** del mismo en el momento de ser cometida una **infracción leve**.\n\n*Nota: Responsable: Titular/Conductor habitual/Arrendatario a largo plazo.*",
-            "tags": [
-                "identificacion conductor",
-                "infraccion leve"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "11",
-            "apartado": "1",
-            "opc": "5B",
-            "puntos": "0",
-            "importe": "El triple de la originaria",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "No facilitar el titular o arrendatario del vehículo, debidamente requerido, la **identificación veraz del conductor** del mismo en el momento de ser cometida una **infracción grave o muy grave**.\n\n*Nota: Responsable: Titular/Conductor habitual/Arrendatario a largo plazo.*",
-            "tags": [
-                "identificacion conductor",
-                "infraccion grave",
-                "infraccion muy grave"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "11",
-            "apartado": "1",
-            "opc": "5C",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "No impedir el titular, arrendatario a largo plazo, o conductor habitual, que el vehículo sea conducido por **quien nunca ha obtenido el permiso** o licencia de conducción.\n\n*Nota: Responsable: Titular/Conductor habitual/Arrendatario a largo plazo.*",
-            "tags": [
-                "carencia permiso conducir",
-                "sin carnet",
-                "responsabilidad"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "11",
-            "apartado": "4",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "100 €",
-            "importe_reducido": "50 €",
-            "descripcion": "No comunicar el titular del vehículo en régimen de **arrendamiento a largo plazo** al Registro de Vehículos la **identidad del arrendatario**.\n\n*Nota: Responsable: Titular.*",
-            "tags": [
-                "documentacion",
-                "arrendamiento",
-                "renting"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "11 bis",
-            "apartado": "-",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "No comunicar el titular del **sistema de conducción automatizado** de un vehículo las capacidades, funcionalidades, dominio de diseño operativo y sus actualizaciones al Registro de Vehículos.\n\n*Nota: Responsable: Titular.*",
-            "tags": [
-                "actividades industriales",
-                "conduccion automatizada",
-                "tecnologia"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "13",
-            "apartado": "6",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "**Instalar un inhibidor de radar** o cinemómetros, o cualesquiera otros mecanismos encaminados a eludir o a interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico.\n\n*Nota: Posible inmovilización del vehículo. Responsable: Titular/Taller.*",
-            "tags": [
-                "inhibidor/detector",
-                "radar",
-                "cinemometro",
-                "instalacion"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "13",
-            "apartado": "6",
-            "opc": "5C",
-            "puntos": "3",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Conducir el vehículo llevando en el mismo **mecanismos de detección de radares** o cinemómetros.\n\n*Nota: Se exceptúan los mecanismos de aviso. Se debe concretar el mecanismo y adjuntar fotografía. Responsable: Conductor.*",
-            "tags": [
-                "inhibidor/detector",
-                "puntos",
-                "detector radar"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "13",
-            "apartado": "6",
-            "opc": "5D",
-            "puntos": "0",
-            "importe": "100 €",
-            "importe_reducido": "50 €",
-            "descripcion": "Conducir el vehículo **emitiendo o haciendo señales** con el fin de eludir o interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico.\n\n*Nota: Especificar la forma o método utilizado. Responsable: Conductor.*",
-            "tags": [
-                "comportamiento indebido",
-                "eludir vigilancia",
-                "señales"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "14",
-            "apartado": "1",
-            "opc": "5A",
-            "puntos": "6",
-            "importe": "1000 €",
-            "importe_reducido": "500 €",
-            "descripcion": "Circular con el vehículo reseñado teniendo **presencia de drogas en el organismo**.\n\n*Nota: Se excluyen sustancias bajo prescripción facultativa con finalidad terapéutica, si se está en condiciones de conducir. Responsable: Conductor.*",
-            "tags": [
-                "drogas",
-                "puntos",
-                "positivo"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "14",
-            "apartado": "1",
-            "opc": "5B",
-            "puntos": "0",
-            "importe": "500 €",
-            "importe_reducido": "250 €",
-            "descripcion": "Circular un **menor de edad con una tasa de alcohol superior a 0** mg/l en aire espirado o 0 g/l en sangre.\n\n*Nota: Un conductor menor de edad no puede circular con tasa de alcohol alguna. Para tasas superiores a las del Anexo II, se usarán las codificaciones del art. 20 RGCIR. Responsable: Conductor.*",
-            "tags": [
-                "alcohol",
-                "menor",
-                "tasa cero"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "14",
-            "apartado": "1",
-            "opc": "5C",
-            "puntos": "0",
-            "importe": "1000 €",
-            "importe_reducido": "500 €",
-            "descripcion": "Circular un **menor de edad con una tasa de alcohol superior a 0**, teniendo una sanción firme por alcoholemia en el año anterior.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "alcohol",
-                "menor",
-                "tasa cero",
-                "reincidente"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "14",
-            "apartado": "2",
-            "opc": "5A",
-            "puntos": "6",
-            "importe": "1000 €",
-            "importe_reducido": "500 €",
-            "descripcion": "**No someterse a las pruebas de detección** de la posible presencia de **drogas** en el organismo.\n\n*Nota: Puede ser constitutivo de delito (art. 383 CP). Responsable: Conductor.*",
-            "tags": [
-                "drogas",
-                "puntos",
-                "negativa a pruebas"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "14",
-            "apartado": "2",
-            "opc": "5B",
-            "puntos": "0",
-            "importe": "1000 €",
-            "importe_reducido": "500 €",
-            "descripcion": "**No someterse a las pruebas de detección de alcohol**, estando implicado en un accidente de tráfico o habiendo cometido una infracción.\n\n*Nota: Responsable: Usuario.*",
-            "tags": [
-                "alcohol",
-                "negativa a pruebas",
-                "accidente"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "14",
-            "apartado": "2",
-            "opc": "5C",
-            "puntos": "0",
-            "importe": "1000 €",
-            "importe_reducido": "500 €",
-            "descripcion": "**No someterse a las pruebas de detección de drogas**, estando implicado en un accidente de tráfico o habiendo cometido una infracción.\n\n*Nota: Responsable: Usuario.*",
-            "tags": [
-                "drogas",
-                "negativa a pruebas",
-                "accidente"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "20",
-            "apartado": "1",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Circular por **autopista o autovía con vehículo de movilidad personal (VMP)**.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "autopista-autovia",
-                "vmp",
-                "prohibicion circulacion"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "35",
-            "apartado": "4",
-            "opc": "5A",
-            "puntos": "6",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Adelantar a un ciclo o conjunto de ellos sin ocupar el carril contiguo o contrario, **no guardando una anchura de seguridad de, al menos, 1,5 metros**.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "adelantamiento",
-                "puntos",
-                "ciclistas",
-                "separacion lateral"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "35",
-            "apartado": "4",
-            "opc": "5B",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Adelantar a un ciclo o conjunto de ellos, **sin cambiar completamente de carril**, existiendo en la calzada más de un carril por sentido.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "adelantamiento",
-                "ciclistas",
-                "cambio de carril"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "47",
-            "apartado": "-",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "No utilizar adecuadamente el **conductor** de la bicicleta o ciclo el correspondiente **casco de protección** homologado o certificado.\n\n*Nota: Obligatorio en vías interurbanas para todos y para menores de 16 también en vías urbanas. Responsable: Conductor.*",
-            "tags": [
-                "casco protector",
-                "bicicleta",
-                "ciclo"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "47",
-            "apartado": "-",
-            "opc": "5B",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "No utilizar adecuadamente el **pasajero** de la bicicleta o ciclo el correspondiente **casco de protección** homologado o certificado.\n\n*Nota: Responsable: Pasajero.*",
-            "tags": [
-                "casco protector",
-                "bicicleta",
-                "ciclo",
-                "pasajero"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "59",
-            "apartado": "2",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "60 €",
-            "importe_reducido": "30 €",
-            "descripcion": "Circular con el vehículo reseñado **sin llevar consigo el permiso válido para conducir, permiso de circulación y tarjeta de inspección técnica**, no exhibiendo los mismos a solicitud del agente.\n\n*Nota: Se puede acreditar mediante presentación física o digital. Responsable: Conductor.*",
-            "tags": [
-                "documentacion",
-                "permiso de conducir",
-                "permiso de circulacion",
-                "itv"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "60",
-            "apartado": "1",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "80 €",
-            "importe_reducido": "40 €",
-            "descripcion": "No haber **comunicado el titular** del permiso de conducción y/o de circulación su **actual domicilio** a los registros de la Jefatura Central de Tráfico.\n\n*Nota: Responsable: Titular/Conductor.*",
-            "tags": [
-                "documentacion",
-                "cambio de domicilio"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "73",
-            "apartado": "2",
-            "opc": "5A",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "No haber superado con aprovechamiento el **curso de reeducación y sensibilización vial** tras haber sido condenado a la privación del derecho a conducir por periodo inferior a dos años.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "permiso invalido",
-                "curso reeducacion",
-                "puntos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "76",
-            "apartado": "-",
-            "opc": "5A",
-            "puntos": "6",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Utilizar, **sujetándolo con la mano, un dispositivo de telefonía móvil** mientras conduce.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "uso de dispositivos",
-                "puntos",
-                "telefono movil"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "76",
-            "apartado": "-",
-            "opc": "5B",
-            "puntos": "3",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Utilizar, **manteniéndolo ajustado entre el casco y la cabeza** del usuario, un dispositivo de telefonía móvil mientras conduce.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "uso de dispositivos",
-                "puntos",
-                "telefono movil",
-                "casco"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "76",
-            "apartado": "-",
-            "opc": "5C",
-            "puntos": "4",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "No respetar las **señales o las órdenes de la autoridad** encargada de la regulación, ordenación, gestión, vigilancia y disciplina del tráfico.\n\n*Nota: Describir la señal u orden desobedecida. Responsable: Conductor.*",
-            "tags": [
-                "desobediencia ord. y señales",
-                "puntos",
-                "agente",
-                "panel variable"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "76",
-            "apartado": "-",
-            "opc": "5E",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "Incumplimiento por parte de un **operador cuya actividad está vinculada con la DGT** de las normas legales que les sean de aplicación.\n\n*Nota: Gestorías, CATs, CRC, EPC, etc. Responsable: Titular.*",
-            "tags": [
-                "centro operador",
-                "gestoria",
-                "autoescuela"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "76",
-            "apartado": "-",
-            "opc": "5F",
-            "puntos": "0",
-            "importe": "200 €",
-            "importe_reducido": "100 €",
-            "descripcion": "No respetar las **restricciones de circulación** derivadas de la aplicación de los protocolos ante episodios de **contaminación y de las zonas de bajas emisiones (ZBE)**.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "limitaciones a la circulacion",
-                "contaminacion",
-                "zbe"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5A",
-            "puntos": "6",
-            "importe": "6000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "Conducir con el vehículo reseñado llevando instalado un **inhibidor de radar** o cualesquiera otros mecanismos encaminados a interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico.\n\n*Nota: Responsable: Conductor.*",
-            "tags": [
-                "inhibidor/detector",
-                "puntos",
-                "inhibidor radar"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5B",
-            "puntos": "6",
-            "importe": "500 €",
-            "importe_reducido": "250 €",
-            "descripcion": "Participar o colaborar en la colocación o puesta en funcionamiento de elementos que **alteren el normal funcionamiento del uso del tacógrafo o del limitador de velocidad**.\n\n*Nota: La detracción de puntos solo procederá al conductor que haya participado o colaborado. Responsable: Conductor.*",
-            "tags": [
-                "inhibidor/detector",
-                "puntos",
-                "tacografo",
-                "limitador de velocidad"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5C",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "**Causar daños a la infraestructura** de la vía o alteraciones a la circulación debido a la masa o dimensiones del vehículo, **careciendo de la correspondiente autorización** administrativa.\n\n*Nota: Solo se aplicará cuando haya especial y grave afectación a la seguridad vial. Responsable: Titular/Arrendatario a largo plazo.*",
-            "tags": [
-                "daños infraestructura",
-                "masas y dimensiones",
-                "sin autorizacion"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5D",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "**Causar daños a la infraestructura** de la vía o alteraciones a la circulación debido a la masa o dimensiones del vehículo, habiéndose **incumplido las condiciones de la autorización** administrativa.\n\n*Nota: Solo se aplicará cuando haya especial y grave afectación a la seguridad vial. Responsable: Titular/Arrendatario a largo plazo.*",
-            "tags": [
-                "daños infraestructura",
-                "masas y dimensiones",
-                "incumplir autorizacion"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5E",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "**No colaborar en la realización de la inspección** de la autoescuela (EPC), impidiendo las labores de control.\n\n*Nota: Responsable: Titular.*",
-            "tags": [
-                "autoescuela",
-                "inspeccion",
-                "no colaborar"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5F",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "**No colaborar en la realización de la inspección** del centro de formación vial, impidiendo las labores de control.\n\n*Nota: Responsable: Titular.*",
-            "tags": [
-                "centro de formacion vial",
-                "inspeccion",
-                "no colaborar"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5G",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "SIN REDUC.",
-            "descripcion": "**No colaborar en la realización de la inspección** del Centro de Reconocimiento de Conductores (CRC), impidiendo las labores de control.\n\n*Nota: Responsable: Titular.*",
-            "tags": [
-                "centros de reconocimiento",
-                "inspeccion",
-                "no colaborar"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5I",
-            "puntos": "0",
-            "importe": "3000 €",
-            "importe_reducido": "1500 €",
-            "descripcion": "Incumplir los operadores las normas de actuación que sean **reiteración de errores de tramitación administrativa** o que supongan un impedimento a las labores de control.\n\n*Nota: Afecta a centros colaboradores de la DGT (Gestorías, CAT, CRC, etc). Responsable: Titular/Responsable.*",
-            "tags": [
-                "centro operador",
-                "tramitacion",
-                "inspeccion"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5J",
-            "puntos": "0",
-            "importe": "500 €",
-            "importe_reducido": "250 €",
-            "descripcion": "Utilizar **dispositivos de intercomunicación no autorizados** en las pruebas para la obtención y recuperación de permisos y otras autorizaciones para conducir.\n\n*Nota: El aspirante no podrá presentarse de nuevo a las pruebas en el plazo de 6 meses. Responsable: Titular/Autor.*",
-            "tags": [
-                "intercomunicadores",
-                "examen",
-                "fraude"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5K",
-            "puntos": "0",
-            "importe": "500 €",
-            "importe_reducido": "250 €",
-            "descripcion": "Incumplir las normas en materia de **auxilio en vías públicas**.\n\n*Nota: Destinada a perseguir el desempeño de estos servicios por empresas o personas no autorizadas. Responsable: Autor.*",
-            "tags": [
-                "inmovilizacion del vehiculo",
-                "auxilio en via publica",
-                "grua"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
-            "articulo": "77",
-            "apartado": "-",
-            "opc": "5L",
-            "puntos": "0",
-            "importe": "500 €",
-            "importe_reducido": "250 €",
-            "descripcion": "Incumplir las normas sobre el uso de los **alcoholímetros antiarranque** (Interfaz de Conexión).\n\n*Nota: Se exigirá en vehículos de categoría M2 y M3 a partir del 6 de julio de 2022. Responsable: Conductor.*",
-            "tags": [
-                "alcohol",
-                "alcoholimetro antiarranque",
-                "autobus"
-            ]
-        }
-    ]
+  "identificador": "Real Decreto Legislativo 6/2015, de 30 de octubre.",
+  "tematica": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial.",
+  "modelo_sancion": "modelo_estandar",
+  "rango": "Real Decreto Legislativo",
+  "ambito": "Estatal",
+  "areaId": "trafico",
+  "infracciones": [
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "10",
+      "apartado": "1",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "100 €",
+      "importe_reducido": "50 €",
+      "descripcion": "Comportarse el usuario de la vía entorpeciendo indebidamente la circulación, causando **daños al medioambiente**.\n\n*Nota: Deberán indicarse detalladamente los hechos que generan el entorpecimiento o daño causados. Responsable: Usuario.*",
+      "tags": [
+        "comportamiento indebido",
+        "medioambiente",
+        "daños"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "10",
+      "apartado": "2",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Circular con un vehículo cuyas **placas de matrícula presentan obstáculos** que impiden o dificultan su lectura e identificación.\n\n*Nota: Detallar si existe obstáculo, falta de visibilidad o inexistencia de placas. Responsable: Titular/Conductor.*",
+      "tags": [
+        "placas",
+        "matricula",
+        "identificacion",
+        "visibilidad"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "11",
+      "apartado": "1",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "El doble de la originaria",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "No facilitar el titular o arrendatario del vehículo, debidamente requerido, la **identificación veraz del conductor** del mismo en el momento de ser cometida una **infracción leve**.\n\n*Nota: Responsable: Titular/Conductor habitual/Arrendatario a largo plazo.*",
+      "tags": [
+        "identificacion conductor",
+        "infraccion leve"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "11",
+      "apartado": "1",
+      "opc": "5B",
+      "puntos": "0",
+      "importe": "El triple de la originaria",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "No facilitar el titular o arrendatario del vehículo, debidamente requerido, la **identificación veraz del conductor** del mismo en el momento de ser cometida una **infracción grave o muy grave**.\n\n*Nota: Responsable: Titular/Conductor habitual/Arrendatario a largo plazo.*",
+      "tags": [
+        "identificacion conductor",
+        "infraccion grave",
+        "infraccion muy grave"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "11",
+      "apartado": "1",
+      "opc": "5C",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "No impedir el titular, arrendatario a largo plazo, o conductor habitual, que el vehículo sea conducido por **quien nunca ha obtenido el permiso** o licencia de conducción.\n\n*Nota: Responsable: Titular/Conductor habitual/Arrendatario a largo plazo.*",
+      "tags": [
+        "carencia permiso conducir",
+        "sin carnet",
+        "responsabilidad"
+      ]
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "11",
+      "apartado": "4",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "100 €",
+      "importe_reducido": "50 €",
+      "descripcion": "No comunicar el titular del vehículo en régimen de **arrendamiento a largo plazo** al Registro de Vehículos la **identidad del arrendatario**.\n\n*Nota: Responsable: Titular.*",
+      "tags": [
+        "documentacion",
+        "arrendamiento",
+        "renting"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "11 bis",
+      "apartado": "-",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "No comunicar el titular del **sistema de conducción automatizado** de un vehículo las capacidades, funcionalidades, dominio de diseño operativo y sus actualizaciones al Registro de Vehículos.\n\n*Nota: Responsable: Titular.*",
+      "tags": [
+        "actividades industriales",
+        "conduccion automatizada",
+        "tecnologia"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "13",
+      "apartado": "6",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "**Instalar un inhibidor de radar** o cinemómetros, o cualesquiera otros mecanismos encaminados a eludir o a interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico.\n\n*Nota: Posible inmovilización del vehículo. Responsable: Titular/Taller.*",
+      "tags": [
+        "inhibidor/detector",
+        "radar",
+        "cinemometro",
+        "instalacion"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "13",
+      "apartado": "6",
+      "opc": "5C",
+      "puntos": "3",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Conducir el vehículo llevando en el mismo **mecanismos de detección de radares** o cinemómetros.\n\n*Nota: Se exceptúan los mecanismos de aviso. Se debe concretar el mecanismo y adjuntar fotografía. Responsable: Conductor.*",
+      "tags": [
+        "inhibidor/detector",
+        "puntos",
+        "detector radar"
+      ]
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "13",
+      "apartado": "6",
+      "opc": "5D",
+      "puntos": "0",
+      "importe": "100 €",
+      "importe_reducido": "50 €",
+      "descripcion": "Conducir el vehículo **emitiendo o haciendo señales** con el fin de eludir o interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico.\n\n*Nota: Especificar la forma o método utilizado. Responsable: Conductor.*",
+      "tags": [
+        "comportamiento indebido",
+        "eludir vigilancia",
+        "señales"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "14",
+      "apartado": "1",
+      "opc": "5A",
+      "puntos": "6",
+      "importe": "1000 €",
+      "importe_reducido": "500 €",
+      "descripcion": "Circular con el vehículo reseñado teniendo **presencia de drogas en el organismo**.\n\n*Nota: Se excluyen sustancias bajo prescripción facultativa con finalidad terapéutica, si se está en condiciones de conducir. Responsable: Conductor.*",
+      "tags": [
+        "drogas",
+        "puntos",
+        "positivo"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "14",
+      "apartado": "1",
+      "opc": "5B",
+      "puntos": "0",
+      "importe": "500 €",
+      "importe_reducido": "250 €",
+      "descripcion": "Circular un **menor de edad con una tasa de alcohol superior a 0** mg/l en aire espirado o 0 g/l en sangre.\n\n*Nota: Un conductor menor de edad no puede circular con tasa de alcohol alguna. Para tasas superiores a las del Anexo II, se usarán las codificaciones del art. 20 RGCIR. Responsable: Conductor.*",
+      "tags": [
+        "alcohol",
+        "menor",
+        "tasa cero"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "14",
+      "apartado": "1",
+      "opc": "5C",
+      "puntos": "0",
+      "importe": "1000 €",
+      "importe_reducido": "500 €",
+      "descripcion": "Circular un **menor de edad con una tasa de alcohol superior a 0**, teniendo una sanción firme por alcoholemia en el año anterior.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "alcohol",
+        "menor",
+        "tasa cero",
+        "reincidente"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "14",
+      "apartado": "2",
+      "opc": "5A",
+      "puntos": "6",
+      "importe": "1000 €",
+      "importe_reducido": "500 €",
+      "descripcion": "**No someterse a las pruebas de detección** de la posible presencia de **drogas** en el organismo.\n\n*Nota: Puede ser constitutivo de delito (art. 383 CP). Responsable: Conductor.*",
+      "tags": [
+        "drogas",
+        "puntos",
+        "negativa a pruebas"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "14",
+      "apartado": "2",
+      "opc": "5B",
+      "puntos": "0",
+      "importe": "1000 €",
+      "importe_reducido": "500 €",
+      "descripcion": "**No someterse a las pruebas de detección de alcohol**, estando implicado en un accidente de tráfico o habiendo cometido una infracción.\n\n*Nota: Responsable: Usuario.*",
+      "tags": [
+        "alcohol",
+        "negativa a pruebas",
+        "accidente"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "14",
+      "apartado": "2",
+      "opc": "5C",
+      "puntos": "0",
+      "importe": "1000 €",
+      "importe_reducido": "500 €",
+      "descripcion": "**No someterse a las pruebas de detección de drogas**, estando implicado en un accidente de tráfico o habiendo cometido una infracción.\n\n*Nota: Responsable: Usuario.*",
+      "tags": [
+        "drogas",
+        "negativa a pruebas",
+        "accidente"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "20",
+      "apartado": "1",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Circular por **autopista o autovía con vehículo de movilidad personal (VMP)**.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "autopista-autovia",
+        "vmp",
+        "prohibicion circulacion"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "35",
+      "apartado": "4",
+      "opc": "5A",
+      "puntos": "6",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Adelantar a un ciclo o conjunto de ellos sin ocupar el carril contiguo o contrario, **no guardando una anchura de seguridad de, al menos, 1,5 metros**.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "adelantamiento",
+        "puntos",
+        "ciclistas",
+        "separacion lateral"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "35",
+      "apartado": "4",
+      "opc": "5B",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Adelantar a un ciclo o conjunto de ellos, **sin cambiar completamente de carril**, existiendo en la calzada más de un carril por sentido.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "adelantamiento",
+        "ciclistas",
+        "cambio de carril"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "47",
+      "apartado": "-",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "No utilizar adecuadamente el **conductor** de la bicicleta o ciclo el correspondiente **casco de protección** homologado o certificado.\n\n*Nota: Obligatorio en vías interurbanas para todos y para menores de 16 también en vías urbanas. Responsable: Conductor.*",
+      "tags": [
+        "casco protector",
+        "bicicleta",
+        "ciclo"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "47",
+      "apartado": "-",
+      "opc": "5B",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "No utilizar adecuadamente el **pasajero** de la bicicleta o ciclo el correspondiente **casco de protección** homologado o certificado.\n\n*Nota: Responsable: Pasajero.*",
+      "tags": [
+        "casco protector",
+        "bicicleta",
+        "ciclo",
+        "pasajero"
+      ]
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "59",
+      "apartado": "2",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "60 €",
+      "importe_reducido": "30 €",
+      "descripcion": "Circular con el vehículo reseñado **sin llevar consigo el permiso válido para conducir, permiso de circulación y tarjeta de inspección técnica**, no exhibiendo los mismos a solicitud del agente.\n\n*Nota: Se puede acreditar mediante presentación física o digital. Responsable: Conductor.*",
+      "tags": [
+        "documentacion",
+        "permiso de conducir",
+        "permiso de circulacion",
+        "itv"
+      ]
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "60",
+      "apartado": "1",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "80 €",
+      "importe_reducido": "40 €",
+      "descripcion": "No haber **comunicado el titular** del permiso de conducción y/o de circulación su **actual domicilio** a los registros de la Jefatura Central de Tráfico.\n\n*Nota: Responsable: Titular/Conductor.*",
+      "tags": [
+        "documentacion",
+        "cambio de domicilio"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "73",
+      "apartado": "2",
+      "opc": "5A",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "No haber superado con aprovechamiento el **curso de reeducación y sensibilización vial** tras haber sido condenado a la privación del derecho a conducir por periodo inferior a dos años.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "permiso invalido",
+        "curso reeducacion",
+        "puntos"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "76",
+      "apartado": "-",
+      "opc": "5A",
+      "puntos": "6",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Utilizar, **sujetándolo con la mano, un dispositivo de telefonía móvil** mientras conduce.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "uso de dispositivos",
+        "puntos",
+        "telefono movil"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "76",
+      "apartado": "-",
+      "opc": "5B",
+      "puntos": "3",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Utilizar, **manteniéndolo ajustado entre el casco y la cabeza** del usuario, un dispositivo de telefonía móvil mientras conduce.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "uso de dispositivos",
+        "puntos",
+        "telefono movil",
+        "casco"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "76",
+      "apartado": "-",
+      "opc": "5C",
+      "puntos": "4",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "No respetar las **señales o las órdenes de la autoridad** encargada de la regulación, ordenación, gestión, vigilancia y disciplina del tráfico.\n\n*Nota: Describir la señal u orden desobedecida. Responsable: Conductor.*",
+      "tags": [
+        "desobediencia ord. y señales",
+        "puntos",
+        "agente",
+        "panel variable"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "76",
+      "apartado": "-",
+      "opc": "5E",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "Incumplimiento por parte de un **operador cuya actividad está vinculada con la DGT** de las normas legales que les sean de aplicación.\n\n*Nota: Gestorías, CATs, CRC, EPC, etc. Responsable: Titular.*",
+      "tags": [
+        "centro operador",
+        "gestoria",
+        "autoescuela"
+      ]
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "76",
+      "apartado": "-",
+      "opc": "5F",
+      "puntos": "0",
+      "importe": "200 €",
+      "importe_reducido": "100 €",
+      "descripcion": "No respetar las **restricciones de circulación** derivadas de la aplicación de los protocolos ante episodios de **contaminación y de las zonas de bajas emisiones (ZBE)**.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "limitaciones a la circulacion",
+        "contaminacion",
+        "zbe"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5A",
+      "puntos": "6",
+      "importe": "6000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "Conducir con el vehículo reseñado llevando instalado un **inhibidor de radar** o cualesquiera otros mecanismos encaminados a interferir en el correcto funcionamiento de los sistemas de vigilancia del tráfico.\n\n*Nota: Responsable: Conductor.*",
+      "tags": [
+        "inhibidor/detector",
+        "puntos",
+        "inhibidor radar"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5B",
+      "puntos": "6",
+      "importe": "500 €",
+      "importe_reducido": "250 €",
+      "descripcion": "Participar o colaborar en la colocación o puesta en funcionamiento de elementos que **alteren el normal funcionamiento del uso del tacógrafo o del limitador de velocidad**.\n\n*Nota: La detracción de puntos solo procederá al conductor que haya participado o colaborado. Responsable: Conductor.*",
+      "tags": [
+        "inhibidor/detector",
+        "puntos",
+        "tacografo",
+        "limitador de velocidad"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5C",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "**Causar daños a la infraestructura** de la vía o alteraciones a la circulación debido a la masa o dimensiones del vehículo, **careciendo de la correspondiente autorización** administrativa.\n\n*Nota: Solo se aplicará cuando haya especial y grave afectación a la seguridad vial. Responsable: Titular/Arrendatario a largo plazo.*",
+      "tags": [
+        "daños infraestructura",
+        "masas y dimensiones",
+        "sin autorizacion"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5D",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "**Causar daños a la infraestructura** de la vía o alteraciones a la circulación debido a la masa o dimensiones del vehículo, habiéndose **incumplido las condiciones de la autorización** administrativa.\n\n*Nota: Solo se aplicará cuando haya especial y grave afectación a la seguridad vial. Responsable: Titular/Arrendatario a largo plazo.*",
+      "tags": [
+        "daños infraestructura",
+        "masas y dimensiones",
+        "incumplir autorizacion"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5E",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "**No colaborar en la realización de la inspección** de la autoescuela (EPC), impidiendo las labores de control.\n\n*Nota: Responsable: Titular.*",
+      "tags": [
+        "autoescuela",
+        "inspeccion",
+        "no colaborar"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5F",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "**No colaborar en la realización de la inspección** del centro de formación vial, impidiendo las labores de control.\n\n*Nota: Responsable: Titular.*",
+      "tags": [
+        "centro de formacion vial",
+        "inspeccion",
+        "no colaborar"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5G",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "SIN REDUC.",
+      "descripcion": "**No colaborar en la realización de la inspección** del Centro de Reconocimiento de Conductores (CRC), impidiendo las labores de control.\n\n*Nota: Responsable: Titular.*",
+      "tags": [
+        "centros de reconocimiento",
+        "inspeccion",
+        "no colaborar"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5I",
+      "puntos": "0",
+      "importe": "3000 €",
+      "importe_reducido": "1500 €",
+      "descripcion": "Incumplir los operadores las normas de actuación que sean **reiteración de errores de tramitación administrativa** o que supongan un impedimento a las labores de control.\n\n*Nota: Afecta a centros colaboradores de la DGT (Gestorías, CAT, CRC, etc). Responsable: Titular/Responsable.*",
+      "tags": [
+        "centro operador",
+        "tramitacion",
+        "inspeccion"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5J",
+      "puntos": "0",
+      "importe": "500 €",
+      "importe_reducido": "250 €",
+      "descripcion": "Utilizar **dispositivos de intercomunicación no autorizados** en las pruebas para la obtención y recuperación de permisos y otras autorizaciones para conducir.\n\n*Nota: El aspirante no podrá presentarse de nuevo a las pruebas en el plazo de 6 meses. Responsable: Titular/Autor.*",
+      "tags": [
+        "intercomunicadores",
+        "examen",
+        "fraude"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5K",
+      "puntos": "0",
+      "importe": "500 €",
+      "importe_reducido": "250 €",
+      "descripcion": "Incumplir las normas en materia de **auxilio en vías públicas**.\n\n*Nota: Destinada a perseguir el desempeño de estos servicios por empresas o personas no autorizadas. Responsable: Autor.*",
+      "tags": [
+        "inmovilizacion del vehiculo",
+        "auxilio en via publica",
+        "grua"
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial",
+      "articulo": "77",
+      "apartado": "-",
+      "opc": "5L",
+      "puntos": "0",
+      "importe": "500 €",
+      "importe_reducido": "250 €",
+      "descripcion": "Incumplir las normas sobre el uso de los **alcoholímetros antiarranque** (Interfaz de Conexión).\n\n*Nota: Se exigirá en vehículos de categoría M2 y M3 a partir del 6 de julio de 2022. Responsable: Conductor.*",
+      "tags": [
+        "alcohol",
+        "alcoholimetro antiarranque",
+        "autobus"
+      ]
+    }
+  ]
 }

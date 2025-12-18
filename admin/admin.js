@@ -373,9 +373,14 @@ function renderInfraccionCard(infraccion, index) {
     body.appendChild(createInputDOM('Artículo', infraccion.articulo, v => updateInfraccion(index, 'articulo', v)));
     body.appendChild(createInputDOM('Apartado', infraccion.apartado, v => updateInfraccion(index, 'apartado', v)));
 
-    const importeWrap = createInputDOM('Importe', infraccion.importe, v => updateInfraccion(index, 'importe', v));
-    importeWrap.classList.add('col-full'); // Importe full width? Or maybe not
-    body.appendChild(importeWrap);
+    // Importe & Puntos Row
+    const moneyRow = document.createElement('div');
+    moneyRow.className = 'grid-2 col-full';
+
+    moneyRow.appendChild(createInputDOM('Importe', infraccion.importe, v => updateInfraccion(index, 'importe', v)));
+    moneyRow.appendChild(createInputDOM('Puntos', infraccion.puntos, v => updateInfraccion(index, 'puntos', v)));
+
+    body.appendChild(moneyRow);
 
     const descWrap = createInputDOM('Descripción', infraccion.descripcion, v => updateInfraccion(index, 'descripcion', v), 'textarea');
     descWrap.classList.add('col-full');
@@ -456,6 +461,7 @@ function addNewItem() {
         circulo: detectedSeverityOptions[0] ? detectedSeverityOptions[0].code : "L",
         articulo: "",
         importe: "0 €",
+        puntos: "0",
         descripcion: "",
         tags: []
     });
