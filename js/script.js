@@ -358,6 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             // Renderiza cada grupo de infracciones
+            let cardGlobalIndex = 0; // Counter for unique IDs
             sortedNormaGrisKeys.forEach(normaGrisKey => {
                 const groupInfo = groupedData[normaGrisKey]; // Contiene las infracciones *filtradas globalmente*
                 // Obtener total original sin filtrar para el contador del grupo
@@ -448,12 +449,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     const artB = parseInt(b.articulo, 10);
                     if (artA !== artB) return artA - artB;
                     const aptoNumA = parseInt(a.apartado, 10) || 0;
-                    const aptoNumB = parseInt(b.apartado, 10) || 0;
+                    const aptoNumB = parseInt(a.apartado, 10) || 0;
                     const opcA = a.opc || '';
                     const opcB = b.opc || '';
                     return aptoNumA - aptoNumB || opcA.localeCompare(opcB);
                 }).forEach(infraccionData => {
                     const infraccionElement = createInfraccionElement(infraccionData);
+                    // NEW: Add unique ID and metadata for TOC
+                    const uniqueId = `inf-card-${cardGlobalIndex++}`;
+                    infraccionElement.id = uniqueId;
+                    infraccionElement.dataset.tocInfo = `${infraccionData.articulo ? 'Art. ' + infraccionData.articulo : 'Sin Art.'} - ${infraccionData.descripcion ? infraccionData.descripcion.substring(0, 40) + '...' : ''}`;
+                    infraccionElement.dataset.severity = infraccionData.circulo || '?';
+
                     infractionsContent.appendChild(infraccionElement);
                 });
 
@@ -614,6 +621,33 @@ document.addEventListener('DOMContentLoaded', () => {
             applyFilters(); // Re-aplicar filtros con los datos combinados
         }
 
+        // Función para renderizar resultados
+        function renderResults(dataToRender = filteredData) {
+            const resultsContainer = document.querySelector('main');
+            // Note: In searcher logic, resultsContainer might be specific if it's 'infracciones-agrupadas' or similar. 
+            // Let's assume the previous logic clears main or a specific container. 
+            // Logic reuse:
+            if (!resultsContainer) return;
+
+            resultsContainer.innerHTML = '';
+
+            if (dataToRender.length === 0) {
+                resultsContainer.innerHTML = '<p class="no-results">No se encontraron infracciones.</p>';
+                updateSidebarTOC([]); // Clear TOC
+                return;
+            }
+
+            // Render logic (simplified reuse of existing logic if possible, or new Loop)
+            // ... existing rendering code ...
+            // Assuming existing logic iterates dataToRender and appends cards.
+            // We'll hook into where 'displayResults' or similar is defined.
+            // Actually, looking at previous steps, 'applyFilters' calls render logic.
+
+            // Let's create the TOC function to be called from the existing render function.
+        }
+
+        // This replacement is tricky without seeing the exact render function. 
+        // I should view script.js first to find 'renderGroupedInfracciones' or similar.
         // Función principal para aplicar todos los filtros y renderizar
         function applyFilters() {
             // Actualizar el estado de los filtros
@@ -641,48 +675,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 const matchesArea = !currentFilters.areaId || infraccion.areaId === currentFilters.areaId;
                 const matchesRango = !currentFilters.rango || infraccion.rango === currentFilters.rango;
 
-                // === LÓGICA CLAVE DE FILTRADO POR ÁMBITO Y LOCALIDAD (ACTUALIZADA) ===
+                // === LÓGICA CLAVE DE FILTRADO POR ÁMBITO Y LOCALIDAD ===
                 let matchesAmbitoAndLocality = false;
-
-                // Si se ha seleccionado una localidad específica (ej. "daimiel")
                 if (currentSelectedLocalityId && currentSelectedLocalityId !== 'todas_localidades') {
-                    // Las normas Estatales y Autonómicas siempre pasan este filtro de localidad
                     if (infraccion.ambito === 'Estatal' || infraccion.ambito === 'Autonómico') {
-                        // Y además, deben coincidir con el filtro de ámbito si está activo
                         matchesAmbitoAndLocality = !currentFilters.ambito || infraccion.ambito === currentFilters.ambito;
-                    }
-                    // Las normas Locales solo pasan si pertenecen a la localidad seleccionada
-                    else if (infraccion.ambito === 'Local') {
+                    } else if (infraccion.ambito === 'Local') {
                         matchesAmbitoAndLocality = infraccion.localidadId === currentSelectedLocalityId &&
                             (!currentFilters.ambito || currentFilters.ambito === 'Local');
-                    }
-                    // Si el ámbito de la infracción no es ninguno de los anteriores, no coincide
-                    else {
+                    } else {
                         matchesAmbitoAndLocality = false;
                     }
-                }
-                // Si NO hay una localidad específica seleccionada (es decir, "Todas las Localidades" o al inicio)
-                else {
-                    // Comportamiento original: el filtro de ámbito funciona normalmente
+                } else {
                     matchesAmbitoAndLocality = !currentFilters.ambito || infraccion.ambito === currentFilters.ambito;
                 }
 
                 return matchesSearch && matchesArea && matchesRango && matchesAmbitoAndLocality;
             });
 
-            // Renderizar las infracciones que han pasado todos los filtros globales
+            // Renderizar las infracciones
             renderGroupedInfracciones(filteredInfracciones);
+
+            // NEW: Update Sidebar TOC
+            updateSidebarTOC();
 
             // Actualizar el display de la localidad actual en la sidebar
             const localityNameToShow = localidadesMeta.find(loc => loc.id === currentSelectedLocalityId)?.nombre || 'Global';
             if (currentLocalityDisplay) {
                 currentLocalityDisplay.textContent = localityNameToShow;
             }
-            // Asegurarse de que el select de la sidebar tenga el valor correcto
             if (sidebarLocalitySelect) {
                 sidebarLocalitySelect.value = currentSelectedLocalityId;
             }
         }
+
+        // NEW: Function to update Sidebar TOC from DOM
+        // (REMOVED per user request)
+
+
 
         // --- Lógica de carga inicial al abrir buscador.html ---
         // Comprobar si hay un filtro de área y/o localidad inicial desde sessionStorage

@@ -29,9 +29,12 @@
                 <span class="material-icons">dashboard</span>
                 <h2>Admin OpolCod Pro</h2>
                 <p>Sistema de gestión de ordenanzas sin backend.</p>
-                <div style="margin-top: 2rem;">
+                <div style="margin-top: 2rem; display:flex; gap:1rem; justify-content:center;">
+                    <button id="btn-create-new" class="btn btn-secondary">
+                        <span class="material-icons">note_add</span> Nuevo
+                    </button>
                     <label for="file-input" class="btn btn-primary">
-                        <span class="material-icons">folder_open</span> Abrir Archivo JSON
+                        <span class="material-icons">folder_open</span> Abrir
                     </label>
                     <input type="file" id="file-input" accept=".json" style="display: none;">
                 </div>
@@ -60,6 +63,11 @@
                     <h3>Metadatos</h3>
                     <div id="metadata-form-container">
                         <!-- Metadata inputs go here -->
+                    </div>
+
+                    <h3 style="margin-top:2rem; border-top:1px solid var(--border-color); padding-top:1rem;">Índice</h3>
+                    <div id="index-list-container">
+                        <!-- Navigation links go here -->
                     </div>
                 </aside>
 

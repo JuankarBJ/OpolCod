@@ -140,7 +140,7 @@ main {
     overflow: hidden;
 }
 
-/* Sidebar (Metadata) */
+/* Sidebar (Metadata & Index) */
 .sidebar-meta {
     width: 320px;
     background-color: var(--bg-surface);
@@ -158,6 +158,43 @@ main {
     color: var(--text-secondary);
     margin: 0 0 1rem 0;
     letter-spacing: 1px;
+}
+
+#index-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.nav-item {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item:hover {
+    background-color: var(--bg-surface-lighter);
+    color: var(--text-primary);
+}
+
+.nav-item.active {
+    background-color: rgba(0, 229, 255, 0.1);
+    color: var(--primary-color);
+    border-left: 2px solid var(--primary-color);
+}
+
+.nav-item .mini-badge {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 10px;
+    background: #333;
 }
 
 /* Main Content (Infracciones) */

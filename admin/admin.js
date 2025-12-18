@@ -5,12 +5,13 @@ const editorScreen = document.getElementById('editor-screen');
 const currentFilenameEl = document.getElementById('current-filename');
 const btnSave = document.getElementById('btn-save');
 const btnAddItem = document.getElementById('btn-add-item');
+const btnCreateNew = document.getElementById('btn-create-new');
 const metadataContainer = document.getElementById('metadata-form-container');
 const itemsListContainer = document.getElementById('items-list-container');
 
 // State
 let currentData = null;
-let currentFilename = 'data.json';
+let currentFilename = 'nuevo_archivo.json';
 let isConfigMode = false;
 let detectedSeverityOptions = [];
 
@@ -18,6 +19,29 @@ let detectedSeverityOptions = [];
 fileInput.addEventListener('change', handleFileSelect);
 btnSave.addEventListener('click', saveJSON);
 btnAddItem.addEventListener('click', addNewItem);
+if (btnCreateNew) btnCreateNew.addEventListener('click', createNewFile);
+
+function createNewFile() {
+    currentFilename = "nuevo_archivo.json";
+    currentFilenameEl.textContent = currentFilename;
+    isConfigMode = false;
+
+    // Default Template
+    currentData = {
+        "identificador": "Nueva Norma",
+        "tematica": "",
+        "modelo_sancion": "modelo_estandar",
+        "rango": "Ordenanza",
+        "ambito": "Local",
+        "areaId": "trafico",
+        "localidadId": "",
+        "infracciones": []
+    };
+
+    scanSeverityOptions(); // Defaults
+    renderEditor();
+    switchScreen('editor');
+}
 
 // Global close function
 window.closeEditor = function () {
@@ -107,12 +131,13 @@ function renderEditor() {
 
 function renderNormEditor() {
     // 1. Metadata (Sidebar)
+    // 1. Metadata (Sidebar)
     const metaFields = [
         { key: 'identificador', label: 'Identificador' },
         { key: 'tematica', label: 'Temática' },
         { key: 'rango', label: 'Rango' },
         { key: 'ambito', label: 'Ámbito' },
-        { key: 'modelo_sancion', label: 'Mod. Sanción' },
+        // modelo_sancion handled separately
         { key: 'areaId', label: 'Area ID' },
         { key: 'localidadId', label: 'Localidad ID' }
     ];
@@ -123,14 +148,94 @@ function renderNormEditor() {
         }
     });
 
+    // Custom Render for modelo_sancion (Dropdown)
+    if (currentData.modelo_sancion !== undefined) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'form-group';
+
+        const labelEl = document.createElement('label');
+        labelEl.textContent = 'Modelo Sanción';
+        wrapper.appendChild(labelEl);
+
+        const select = document.createElement('select');
+        select.className = 'form-control';
+
+        const options = [
+            { val: 'modelo_estandar', label: 'Estándar (Con Puntos)' },
+            { val: 'estandar_sin_puntos', label: 'Estándar (Sin Puntos)' },
+            { val: 'solo_importe_rango', label: 'Solo Importe/Rango' }
+        ];
+
+        options.forEach(opt => {
+            const optionEl = document.createElement('option');
+            optionEl.value = opt.val;
+            optionEl.textContent = opt.label;
+            if (currentData.modelo_sancion === opt.val) optionEl.selected = true;
+            select.appendChild(optionEl);
+        });
+
+        select.addEventListener('change', (e) => {
+            currentData.modelo_sancion = e.target.value;
+        });
+
+        wrapper.appendChild(select);
+        metadataContainer.appendChild(wrapper);
+    }
+
     // 2. Infracciones List
     if (currentData.infracciones && Array.isArray(currentData.infracciones)) {
         currentData.infracciones.forEach((infraccion, index) => {
             renderInfraccionCard(infraccion, index);
         });
+        renderSidebarIndex(); // NEW: Render sidebar index
     } else {
         itemsListContainer.innerHTML = '<div class="empty-state-card" style="margin:auto"><p>No hay infracciones. Añade una nueva.</p></div>';
+        document.getElementById('index-list-container').innerHTML = '';
     }
+}
+
+function renderSidebarIndex() {
+    const container = document.getElementById('index-list-container');
+    container.innerHTML = '';
+
+    if (!currentData.infracciones) return;
+
+    currentData.infracciones.forEach((inf, index) => {
+        const item = document.createElement('div');
+        item.className = 'nav-item';
+        // Format: "Art 12.1 - Título o resumen"
+        const artText = inf.articulo ? `Art. ${inf.articulo}` : 'Sin art.';
+        const snippet = inf.descripcion ? (inf.descripcion.substring(0, 25) + '...') : 'Sin descripción';
+
+        item.innerHTML = `
+            <span>${artText}</span>
+            <span class="mini-badge" style="background:${getBadgeColor(inf.circulo)}22; color:${getBadgeColor(inf.circulo)}">${inf.circulo || '?'}</span>
+        `;
+
+        item.addEventListener('click', () => {
+            // Scroll to card
+            const card = document.querySelector(`.item-card[data-index="${index}"]`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Highlight effect
+                card.style.borderColor = 'var(--primary-color)';
+                setTimeout(() => card.style.borderColor = 'var(--border-color)', 1500);
+
+                // Update active nav state
+                document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+                item.classList.add('active');
+            }
+        });
+
+        container.appendChild(item);
+    });
+}
+
+function getBadgeColor(code) {
+    if (code === 'L') return '#4caf50';
+    if (code === 'G') return '#ff9800';
+    if (code === 'MG') return '#f44336';
+    return '#ccc';
 }
 
 function renderInfraccionCard(infraccion, index) {
