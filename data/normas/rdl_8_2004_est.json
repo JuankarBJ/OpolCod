@@ -176,7 +176,7 @@
         "seguro obligatorio",
         "sin seguro",
         "VMP",
-        "patín",
+        "patín"
         
       ]
     },
@@ -197,6 +197,7 @@
         "sin seguro",
         "VMP",
         "estacionado",
+						"patín"
         
       ]
     },
@@ -215,8 +216,8 @@
         "seguro",
         "seguro obligatorio",
         "sin seguro",
-        "VMP",
-        "estacionado",
+        "VPL",
+						"patin"
         
       ]
     }
