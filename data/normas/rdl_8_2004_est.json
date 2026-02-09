@@ -170,7 +170,7 @@
       "puntos": "0",
       "importe": "800 €",
       "importe_reducido": "400 €",
-      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).\n\n*Nota:VMP. Para vehicúlos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).\n\n*Nota:VMP. Para vehículos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
       "tags": [
         "seguro",
         "seguro obligatorio",
@@ -190,7 +190,27 @@
       "puntos": "0",
       "importe": "610 €",
       "importe_reducido": "305 €",
-      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).\n\n*Nota:VMP. Para vehicúlos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
+      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).\n\n*Nota:VMP. Para vehículos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
+      "tags": [
+        "seguro",
+        "seguro obligatorio",
+        "sin seguro",
+        "VMP",
+        "estacionado",
+        
+      ]
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor",
+      "articulo": "2",
+      "apartado": "1",
+      "opc": "5P",
+      "puntos": "0",
+      "importe": "350 €",
+      "importe_reducido": "175 €",
+      "descripcion": "**Circular el vehículo personal ligero sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿).\n\n*Nota:VMP. Para vehículos personales ligeros no considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de contar con un certificado de circulación debidamente registrado en la sección correspondiente del Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
       "tags": [
         "seguro",
         "seguro obligatorio",
