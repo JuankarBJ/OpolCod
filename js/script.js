@@ -94,7 +94,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const sidebarLocalitySelect = document.getElementById('sidebar-locality-select'); // Selector del select de localidad en sidebar
 
 
-        // Mapeo de iconos para mostrar en las opciones de filtro (si aplica)
+        // --- Debounce Utility ---
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
         const iconEmojiMap = {
             'building': '🏗️',
             'car': '🚗',
@@ -103,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'circus': '🎪'
         };
 
+        const debouncedApplyFilters = debounce(applyFilters, 800);
 
         // Rellenar el select de áreas
         function populateAreaFilter() {
@@ -758,7 +771,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         // Event Listeners para los elementos de filtro
-        searchInput.addEventListener('input', applyFilters);
+        searchInput.addEventListener('input', (e) => {
+            // Actualizar el término de búsqueda inmediatamente en el objeto de filtros
+            // pero usar la versión debounced para renderizar los resultados pesados
+            currentFilters.searchTerm = e.target.value.toLowerCase().trim();
+            debouncedApplyFilters();
+        });
         areaFilterSelect.addEventListener('change', applyFilters);
         rangoFilterSelect.addEventListener('change', applyFilters);
         ambitoFilterSelect.addEventListener('change', applyFilters);

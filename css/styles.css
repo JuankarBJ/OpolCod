@@ -1401,6 +1401,29 @@ footer {
     /* Esta era una regla antigua, ahora se usa .art-apto-opc-group */
     .infraccion .normagris-tematica {
         font-size: 1.1rem;
+        white-space: normal;
+        /* Permitir salto de línea */
+        overflow: visible;
+        text-overflow: clip;
+    }
+
+    .normagris-tematica {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+
+    .norma-main-info .norma-update-date {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+
+    .area-badge {
+        min-width: auto;
+        /* Evitar que empuje en móviles */
+        width: fit-content;
+        max-width: 150px;
     }
 
     .normagris-identificador {
@@ -1478,6 +1501,7 @@ footer {
     font-weight: bold;
     margin-left: 8px;
 }
+
 /* =========================================================
    13. NUEVOS CAMPOS: NOTA Y RESPONSABLES
    ========================================================= */
