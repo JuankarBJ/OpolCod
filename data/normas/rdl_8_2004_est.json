@@ -1,5 +1,6 @@
 {
   "identificador": "Real Decreto Legislativo 8/2004, de 29 de octubre",
+  "fecha_actualizacion": "Codificado DGT 30 enero 2026",
   "tematica": "Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor",
   "modelo_sancion": "modelo_estandar",
   "rango": "Real Decreto Legislativo",
@@ -16,14 +17,18 @@
       "puntos": "0",
       "importe": "1000 €",
       "importe_reducido": "500 €",
-      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (ciclomotores: permiso de conducción de la clase AM)**.\n\n*Nota: Aplicable a vehículos en circulación. La carencia de seguro conlleva el depósito del vehículo. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (ciclomotores: permiso de conducción de la clase AM, el agente constatará que la última anotación de seguro vigente en FIVA es de fecha...)**.",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "ciclomotor",
         "circulando"
-      ]
+      ],
+      "responsables": [
+        "Titular"
+      ],
+      "nota": "Causa de posible inmovilización y depósito del vehículo (art. 104 y 105 LSV y 3 RDL 8/2004)."
     },
     {
       "tipo": "grave",
@@ -35,14 +40,18 @@
       "puntos": "0",
       "importe": "1250 €",
       "importe_reducido": "625 €",
-      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (motocicletas para las que se requiera permiso de conducción de la clase A1, A2 o A)**.\n\n*Nota: Aplicable a vehículos en circulación. La carencia de seguro conlleva el depósito del vehículo. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (motocicletas para las que se requiera permiso de conducción de la clase A1, A2 o A.** El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "motocicleta",
         "circulando"
-      ]
+      ],
+      "responsables": [
+        "Titular"
+      ],
+      "nota": "Causa de posible inmovilización y depósito del vehículo (art. 104 y 105 LSV y 3 RDL 8/2004)."
     },
     {
       "tipo": "grave",
@@ -54,13 +63,17 @@
       "puntos": "0",
       "importe": "1500 €",
       "importe_reducido": "750 €",
-      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (turismos y demás automóviles para los que se requiera permiso de conducción la clase B)**.\n\n*Nota: Aplicable a vehículos en circulación. La carencia de seguro conlleva el depósito del vehículo. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (turismos y demás automóviles para los que se requiera permiso de conducción la clase B**.  El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "turismo",
         "circulando"
+      ],
+      "nota": "Causa de posible inmovilización y depósito del vehículo (art. 104 y 105 LSV y 3 RDL 8/2004).",
+      "responsables": [
+        "Titular"
       ]
     },
     {
@@ -73,7 +86,7 @@
       "puntos": "0",
       "importe": "2800 €",
       "importe_reducido": "1400 €",
-      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (vehículos para los que se requiera para su conducción el permiso de la clase C1, C1+E, C, C+E, D1, D1+E, D o D+E)**.\n\n*Nota: Aplicable a vehículos en circulación. La carencia de seguro conlleva el depósito del vehículo. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (vehículos para los que se requiera para su conducción el permiso de la clase C1, C1+E, C, C+E, D1, D1+E, D o D+E**.  El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).",
       "tags": [
         "seguro",
         "seguro obligatorio",
@@ -81,6 +94,10 @@
         "camion",
         "autobus",
         "circulando"
+      ],
+      "nota": "Causa de posible inmovilización y depósito del vehículo (art. 104 y 105 LSV y 3 RDL 8/2004).",
+      "responsables": [
+        "Titular"
       ]
     },
     {
@@ -93,13 +110,17 @@
       "puntos": "0",
       "importe": "650 €",
       "importe_reducido": "325 €",
-      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (ciclomotores: permiso de conducción de la clase AM)**.\n\n*Nota: Aplicable a vehículos estacionados sin conductor presente. Responsable: Titular.*",
+      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (ciclomotores: permiso de conducción de la clase AM**.  El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "ciclomotor",
         "estacionado"
+      ],
+      "nota": "*Aplicable a vehículos estacionados sin conductor presente.*",
+      "responsables": [
+        "Titular"
       ]
     },
     {
@@ -112,13 +133,17 @@
       "puntos": "0",
       "importe": "700 €",
       "importe_reducido": "350 €",
-      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (motocicletas para las que se requiera permiso de la clase A1, A2 o A)**.\n\n*Nota: Aplicable a vehículos estacionados sin conductor presente. Responsable: Titular.*",
+      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (motocicletas para las que se requiera permiso de la clase A1, A2 o A**.  El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).\n",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "motocicleta",
         "estacionado"
+      ],
+      "nota": "*Aplicable a vehículos estacionados sin conductor presente.*",
+      "responsables": [
+        "Titular"
       ]
     },
     {
@@ -131,14 +156,18 @@
       "puntos": "0",
       "importe": "800 €",
       "importe_reducido": "400 €",
-      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (turismos y demás automóviles para los que se requiera permiso de la clase B)**.\n\n*Nota: Aplicable a vehículos estacionados sin conductor presente. Responsable: Titular.*",
+      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (turismos y demás automóviles para los que se requiera permiso de la clase B**.  El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "turismo",
         "estacionado"
-      ]
+      ],
+      "responsables": [
+        "Titular"
+      ],
+      "nota": "*Aplicable a vehículos estacionados sin conductor presente.*"
     },
     {
       "tipo": "grave",
@@ -150,7 +179,7 @@
       "puntos": "0",
       "importe": "1500 €",
       "importe_reducido": "750 €",
-      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (vehículos que requieran para su conducción permiso de la clase C1, C1+E, C, C+E, D1, D1+E, D o D+E)**.\n\n*Nota: Aplicable a vehículos estacionados sin conductor presente. Responsable: Titular.*",
+      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación (vehículos que requieran para su conducción permiso de la clase C1, C1+E, C, C+E, D1, D1+E, D o D+E**.  El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...).",
       "tags": [
         "seguro",
         "seguro obligatorio",
@@ -158,7 +187,11 @@
         "camion",
         "autobus",
         "estacionado"
-      ]
+      ],
+      "responsables": [
+        "Titular"
+      ],
+      "nota": "*Aplicable a vehículos estacionados sin conductor presente.*"
     },
     {
       "tipo": "grave",
@@ -170,14 +203,18 @@
       "puntos": "0",
       "importe": "800 €",
       "importe_reducido": "400 €",
-      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).\n\n*Nota: VMP. Para vehículos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo reseñado sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "VMP",
-						"VPL",
+        "VPL",
         "patín"
+      ],
+      "nota": " VMP. Para vehículos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación.",
+      "responsables": [
+        "Titular"
       ]
     },
     {
@@ -190,15 +227,19 @@
       "puntos": "0",
       "importe": "610 €",
       "importe_reducido": "305 €",
-      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).\n\n*Nota:VMP. Para vehículos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
+      "descripcion": "**Incumplir el propietario del vehículo reseñado la obligación de suscribir y mantener en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿). Art. 1 BIS LSOA para VMP con velocidad por diseño superior a 14 Km/h y peso superior a 25 Kg).",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "VMP",
-							"VPL",
+        "VPL",
         "estacionado"
-      ]
+      ],
+      "responsables": [
+        "Titular"
+      ],
+      "nota": "**VMP**. Para vehículos de movilidad personal, considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de estar debidamente registrados en el Registro nacional de vehículos para considerarse admitida su posible circulación. "
     },
     {
       "tipo": "grave",
@@ -210,15 +251,19 @@
       "puntos": "0",
       "importe": "350 €",
       "importe_reducido": "175 €",
-      "descripcion": "**Circular el vehículo personal ligero sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**((El agente constatará que la última anotación de seguro vigente en FIVA es de fecha ¿).\n\n*Nota: VPL. Para vehículos personales ligeros no considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de contar con un certificado de circulación debidamente registrado en la sección correspondiente del Registro nacional de vehículos para considerarse admitida su posible circulación. Responsable: Titular.*",
+      "descripcion": "**Circular el vehículo personal ligero sin que conste que su propietario tenga suscrito y mantenga en vigor un contrato de seguro que cubra la responsabilidad civil derivada de su circulación**(El agente constatará que la última anotación de seguro vigente en FIVA es de fecha...)",
       "tags": [
         "seguro",
         "seguro obligatorio",
         "sin seguro",
         "VMP",
-						"VPL",
+        "VPL",
         "estacionado"
-      ]
+      ],
+      "responsables": [
+        "Titular"
+      ],
+      "nota": "**VPL**. Para vehículos personales ligeros no considerados ¿vehículos a motor¿, cuyos conductores no precisan ser titulares de permiso de conducción, si bien han de contar con un certificado de circulación debidamente registrado en la sección correspondiente del Registro nacional de vehículos para considerarse admitida su posible circulación."
     }
   ]
 }

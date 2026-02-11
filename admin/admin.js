@@ -147,52 +147,57 @@ function renderEditor() {
 }
 
 function renderNormEditor() {
-    // 1. Metadata (Sidebar)
-    const metaFields = [
-        { key: 'identificador', label: 'Identificador' },
-        { key: 'tematica', label: 'Temática' },
-        { key: 'rango', label: 'Rango', list: 'list-rango' },
-        { key: 'ambito', label: 'Ámbito', list: 'list-ambito' },
-        // modelo_sancion handled separately
-        { key: 'areaId', label: 'Area ID', list: 'list-areaId' },
-        { key: 'localidadId', label: 'Localidad ID', list: 'list-localidadId' }
-    ];
+    // 1. Metadata (Sidebar) - DYNAMIC VERSION
+    const excludedKeys = ['infracciones'];
+    const knownFields = {
+        'identificador': { label: 'Identificador' },
+        'tematica': { label: 'Temática' },
+        'rango': { label: 'Rango', list: 'list-rango' },
+        'ambito': { label: 'Ámbito', list: 'list-ambito' },
+        'areaId': { label: 'Area ID', list: 'list-areaId' },
+        'localidadId': { label: 'Localidad ID', list: 'list-localidadId' },
+        'modelo_sancion': { skip: true } // Handled separately
+    };
 
-    metaFields.forEach(field => {
-        if (currentData[field.key] !== undefined) {
-            const inputWrap = createInputDOM(field.label, currentData[field.key], (val) => currentData[field.key] = val);
+    Object.keys(currentData).forEach(key => {
+        if (excludedKeys.includes(key)) return;
 
-            // If field has a list and we have config, add datalist
-            if (field.list && globalConfig) {
-                const input = inputWrap.querySelector('input');
-                input.setAttribute('list', field.list);
+        const fieldCfg = knownFields[key] || { label: capitalize(key) };
+        if (fieldCfg.skip) return;
 
-                // Check if datalist already exists
-                if (!document.getElementById(field.list)) {
-                    const datalist = document.createElement('datalist');
-                    datalist.id = field.list;
+        const inputWrap = createInputDOM(fieldCfg.label, currentData[key], (val) => currentData[key] = val);
 
-                    let options = [];
-                    if (field.key === 'rango' && globalConfig.settings?.rangoOrder) options = globalConfig.settings.rangoOrder;
-                    if (field.key === 'ambito' && globalConfig.settings?.ambitoOrder) options = globalConfig.settings.ambitoOrder;
-                    if (field.key === 'areaId' && globalConfig.grandesAreas) options = Object.keys(globalConfig.grandesAreas);
-                    if (field.key === 'localidadId' && globalConfig.localidadesMeta) options = globalConfig.localidadesMeta.map(l => ({ val: l.id, label: l.nombre }));
+        // If field has a list and we have config, add datalist
+        const listId = fieldCfg.list;
+        if (listId && globalConfig) {
+            const input = inputWrap.querySelector('input');
+            input.setAttribute('list', listId);
 
-                    options.forEach(opt => {
-                        const option = document.createElement('option');
-                        if (typeof opt === 'string') {
-                            option.value = opt;
-                        } else {
-                            option.value = opt.val;
-                            option.label = opt.label; // Helper text
-                        }
-                        datalist.appendChild(option);
-                    });
-                    document.body.appendChild(datalist); // Append to body so it can be reused
-                }
+            // Check if datalist already exists
+            if (!document.getElementById(listId)) {
+                const datalist = document.createElement('datalist');
+                datalist.id = listId;
+
+                let options = [];
+                if (key === 'rango' && globalConfig.settings?.rangoOrder) options = globalConfig.settings.rangoOrder;
+                if (key === 'ambito' && globalConfig.settings?.ambitoOrder) options = globalConfig.settings.ambitoOrder;
+                if (key === 'areaId' && globalConfig.grandesAreas) options = Object.keys(globalConfig.grandesAreas);
+                if (key === 'localidadId' && globalConfig.localidadesMeta) options = globalConfig.localidadesMeta.map(l => ({ val: l.id, label: l.nombre }));
+
+                options.forEach(opt => {
+                    const option = document.createElement('option');
+                    if (typeof opt === 'string') {
+                        option.value = opt;
+                    } else {
+                        option.value = opt.val;
+                        option.label = opt.label; // Helper text
+                    }
+                    datalist.appendChild(option);
+                });
+                document.body.appendChild(datalist);
             }
-            metadataContainer.appendChild(inputWrap);
         }
+        metadataContainer.appendChild(inputWrap);
     });
 
     // Custom Render for modelo_sancion (Dropdown)
@@ -386,9 +391,56 @@ function renderInfraccionCard(infraccion, index) {
     descWrap.classList.add('col-full');
     body.appendChild(descWrap);
 
+    // OPC & NOTA
+    const opcNotaRow = document.createElement('div');
+    opcNotaRow.className = 'grid-2 col-full';
+
+    opcNotaRow.appendChild(createInputDOM('OPC', infraccion.opc, v => updateInfraccion(index, 'opc', v)));
+
+    // We'll put NOTA as a full width below or next to it. Let's make NOTA a textarea too.
+    const notaWrap = createInputDOM('NOTA (Aclaración)', infraccion.nota, v => updateInfraccion(index, 'nota', v), 'textarea');
+    notaWrap.classList.add('col-full');
+
+    body.appendChild(opcNotaRow);
+    body.appendChild(notaWrap);
+
     const tagsWrap = createInputDOM('Tags (separar por comas)', (infraccion.tags || []).join(', '), v => updateInfraccion(index, 'tags', v.split(',').map(t => t.trim())));
     tagsWrap.classList.add('col-full');
     body.appendChild(tagsWrap);
+
+    // 3. Responsables Selector
+    const respWrapper = document.createElement('div');
+    respWrapper.className = 'form-group col-full';
+    respWrapper.innerHTML = `<label>Responsables</label>`;
+
+    const respContainer = document.createElement('div');
+    respContainer.className = 'responsables-selector';
+
+    const possibleResponsables = ['Titular', 'Conductor', 'Pasajero', 'Usuario', 'Propietario', 'Taller', 'Otros'];
+    const currentResps = infraccion.responsables || [];
+
+    possibleResponsables.forEach(resp => {
+        const btn = document.createElement('button');
+        btn.className = `btn-choice ${currentResps.includes(resp) ? 'active' : ''}`;
+        btn.textContent = resp;
+        btn.type = 'button';
+        btn.onclick = () => {
+            const indexResp = (infraccion.responsables || []).indexOf(resp);
+            if (!infraccion.responsables) infraccion.responsables = [];
+
+            if (indexResp > -1) {
+                infraccion.responsables.splice(indexResp, 1);
+                btn.classList.remove('active');
+            } else {
+                infraccion.responsables.push(resp);
+                btn.classList.add('active');
+            }
+        };
+        respContainer.appendChild(btn);
+    });
+
+    respWrapper.appendChild(respContainer);
+    body.appendChild(respWrapper);
 
     itemsListContainer.appendChild(card);
 }
@@ -460,9 +512,13 @@ function addNewItem() {
         tipo: detectedSeverityOptions[0] ? (detectedSeverityOptions[0].value_tipo || detectedSeverityOptions[0].label.toLowerCase()) : "leve",
         circulo: detectedSeverityOptions[0] ? detectedSeverityOptions[0].code : "L",
         articulo: "",
+        apartado: "",
+        opc: "",
         importe: "0 €",
         puntos: "0",
         descripcion: "",
+        nota: "",
+        responsables: [],
         tags: []
     });
     renderEditor();

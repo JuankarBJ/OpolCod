@@ -308,6 +308,27 @@ document.addEventListener('DOMContentLoaded', () => {
             // Renderizado de la descripción con Marked.js para Markdown
             const descriptionRenderedHtml = marked.parse(data.descripcion || '');
 
+            // NOTA & Responsables aesthetically
+            let extrasHtml = '';
+
+            if (data.nota && data.nota.trim() !== '') {
+                extrasHtml += `
+                    <div class="nota-aclaracion">
+                        <span class="material-icons">Nota</span>
+                        <div class="nota-content">${marked.parse(data.nota)}</div>
+                    </div>
+                `;
+            }
+
+            if (data.responsables && data.responsables.length > 0) {
+                extrasHtml += `
+                    <div class="responsables-badges">
+                        <span class="label">Responsables:</span>
+                        ${data.responsables.map(r => `<span class="resp-badge">${r}</span>`).join('')}
+                    </div>
+                `;
+            }
+
             // Estructura final de la tarjeta de infracción
             infraccionDiv.innerHTML = `
                 <div class="infraccion-header">
@@ -320,6 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
                 <div class="descripcion">${descriptionRenderedHtml}</div>
+                ${extrasHtml}
                 ${importeContainerHtml}
                 ${tagsHtml}
             `;

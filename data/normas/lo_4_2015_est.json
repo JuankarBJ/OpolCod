@@ -1,639 +1,772 @@
 {
-    "identificador": "Ley Orgánica 4/2015, de 30 de marzo.",
-    "tematica": "Protección De La Seguridad Ciudadana.",
-    "modelo_sancion": "solo_importe_rango",
-    "rango": "Ley Orgánica",
-    "ambito": "Estatal",
-    "areaId": "seguridad_ciudadana",
-    "infracciones": [
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "1",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La celebración de reuniones en lugares de tránsito público o de manifestaciones, incumpliendo lo preceptuado en los artículos 4.2, 8, 9, 10 y 11 de la Ley Orgánica 9/1983.",
-            "tags": [
-                "Manifestaciones",
-                "Reuniones Públicas",
-                "Orden Público"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "2",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La exhibición de objetos peligrosos con ánimo intimidatorio, siempre que no constituya delito o infracción grave.",
-            "tags": [
-                "Intimidación",
-                "Seguridad Ciudadana",
-                "Objetos Peligrosos"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "3",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "El incumplimiento de las restricciones de circulación peatonal con ocasión de un acto público, cuando provoquen alteraciones menores.",
-            "tags": [
-                "Circulación",
-                "Eventos Públicos",
-                "Orden Público"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "4",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "Las faltas de respeto y consideración hacia miembros de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones.",
-            "tags": [
-                "Seguridad Ciudadana",
-                "Orden Público",
-                "Agentes de Autoridad"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "5",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La realización o incitación a actos que atenten contra la libertad e indemnidad sexual, o actos de exhibición obscena no constitutivos de infracción penal.",
-            "tags": [
-                "Conducta Obscena",
-                "Libertad Sexual",
-                "Orden Público"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "6",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La proyección de haces de luz sobre agentes para impedir o dificultar sus funciones.",
-            "tags": [
-                "Agentes de Autoridad",
-                "Seguridad Ciudadana",
-                "Luz Intencionada"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "7",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La ocupación de inmuebles ajenos o de la vía pública en contra de lo dispuesto legalmente, siempre que no constituya infracción penal.",
-            "tags": [
-                "Ocupación Ilegal",
-                "Vía Pública",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "8",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La omisión o insuficiencia de medidas para conservar la documentación de armas y explosivos, o la falta de denuncia de su pérdida o robo.",
-            "tags": [
-                "Armas",
-                "Explosivos",
-                "Documentación"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "9",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "Las irregularidades en la cumplimentación de registros previstos en la ley con trascendencia para la seguridad ciudadana.",
-            "tags": [
-                "Registros",
-                "Seguridad Ciudadana",
-                "Datos Falsos"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "10",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "El incumplimiento de la obligación de obtener documentación personal o de denunciar su pérdida o sustracción.",
-            "tags": [
-                "Documentación Personal",
-                "Identificación",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "11",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La negligencia en la custodia de documentación personal exigida legalmente, considerándose la tercera pérdida en un año.",
-            "tags": [
-                "Negligencia",
-                "Documentación Personal",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "12",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La negativa a entregar la documentación personal legalmente exigida cuando se hubiese acordado su retirada o retención.",
-            "tags": [
-                "Identificación",
-                "Documentación",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "13",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "Los daños o el deslucimiento de bienes de uso o servicio público, o de bienes privados en la vía pública, cuando no constituyan infracción penal.",
-            "tags": [
-                "Daños a Bienes",
-                "Vía Pública",
-                "Mobiliario Urbano"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "14",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "El escalamiento de edificios o monumentos sin autorización cuando exista riesgo cierto de daño.",
-            "tags": [
-                "Escalamiento",
-                "Edificios",
-                "Monumentos"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "15",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "La remoción de vallas u otros elementos colocados por los agentes para delimitar perímetros de seguridad.",
-            "tags": [
-                "Perímetros de Seguridad",
-                "Agentes",
-                "Vallas"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "16",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "Dejar sueltos animales feroces o dañinos, o abandonar animales domésticos en condiciones que pongan en peligro su vida.",
-            "tags": [
-                "Animales",
-                "Abandono",
-                "Seguridad"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "37",
-            "apartado": "17",
-            "importe": "De 100 a 600 euros",
-            "descripcion": "El consumo de bebidas alcohólicas en lugares, vías, establecimientos o transportes públicos cuando perturbe gravemente la tranquilidad ciudadana.",
-            "tags": [
-                "Alcohol",
-                "Vía Pública",
-                "Tranquilidad Ciudadana",
-                "Consumo Público"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "1",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La perturbación de la seguridad ciudadana en actos públicos, espectáculos deportivos o culturales, solemnidades y oficios religiosos u otras reuniones a las que asistan numerosas personas, cuando no sean constitutivas de infracción penal.",
-            "tags": [
-                "Perturbación",
-                "Actos Públicos",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "2",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La perturbación grave de la seguridad ciudadana que se produzca con ocasión de reuniones o manifestaciones frente a las sedes del Congreso de los Diputados, el Senado y las asambleas legislativas de las comunidades autónomas, aunque no estuvieran reunidas, cuando no constituya infracción penal.",
-            "tags": [
-                "Perturbación",
-                "Sedes Oficiales",
-                "Manifestaciones",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "3",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "Causar desórdenes en las vías, espacios o establecimientos públicos, u obstaculizar la vía pública con mobiliario urbano, vehículos, contenedores, neumáticos u otros objetos, cuando en ambos casos se ocasione una alteración grave de la seguridad ciudadana.",
-            "tags": [
-                "Desórdenes",
-                "Vía Pública",
-                "Obstaculización",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "4",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "Los actos de obstrucción que pretendan impedir a cualquier autoridad, empleado público o corporación oficial el ejercicio legítimo de sus funciones, el cumplimiento o la ejecución de acuerdos o resoluciones administrativas o judiciales, siempre que se produzcan al margen de los procedimientos legalmente establecidos y no sean constitutivos de delito.",
-            "tags": [
-                "Obstrucción",
-                "Autoridad",
-                "Funciones Públicas"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "5",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "Las acciones y omisiones que impidan u obstaculicen el funcionamiento de los servicios de emergencia, provocando o incrementando un riesgo para la vida o integridad de las personas o de daños en los bienes, o agravando las consecuencias del suceso que motive la actuación de aquéllos.",
-            "tags": [
-                "Emergencias",
-                "Obstrucción",
-                "Riesgo"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "6",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La desobediencia o la resistencia a la autoridad o a sus agentes en el ejercicio de sus funciones, cuando no sean constitutivas de delito, así como la negativa a identificarse a requerimiento de la autoridad o de sus agentes o la alegación de datos falsos o inexactos en los procesos de identificación.",
-            "tags": [
-                "Desobediencia",
-                "Resistencia",
-                "Autoridad",
-                "Identificación"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "7",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La negativa a la disolución de reuniones y manifestaciones en lugares de tránsito público ordenada por la autoridad competente cuando concurran los supuestos del artículo 5 de la Ley Orgánica 9/1983, de 15 de julio.",
-            "tags": [
-                "Disolución",
-                "Reuniones",
-                "Manifestaciones",
-                "Autoridad"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "8",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La perturbación del desarrollo de una reunión o manifestación lícita, cuando no constituya infracción penal.",
-            "tags": [
-                "Perturbación",
-                "Reunión Lícita",
-                "Manifestación Lícita"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "9",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La intrusión en infraestructuras o instalaciones en las que se prestan servicios básicos para la comunidad, incluyendo su sobrevuelo, cuando se haya producido una interferencia grave en su funcionamiento.",
-            "tags": [
-                "Intrusión",
-                "Infraestructuras",
-                "Servicios Básicos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "10",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "Portar, exhibir o usar armas prohibidas, así como portar, exhibir o usar armas de modo negligente, temerario o intimidatorio, o fuera de los lugares habilitados para su uso, aún cuando en este último caso se tuviera licencia, siempre que dichas conductas no constituyan infracción penal.",
-            "tags": [
-                "Armas Prohibidas",
-                "Uso Negligente",
-                "Armas"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "11",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La solicitud o aceptación por el demandante de servicios sexuales retribuidos en zonas de tránsito público en las proximidades de lugares destinados a su uso por menores, como centros educativos, parques infantiles o espacios de ocio accesibles a menores de edad, o cuando estas conductas, por el lugar en que se realicen, puedan generar un riesgo para la seguridad vial. Los agentes de la autoridad requerirán a las personas que ofrezcan estos servicios para que se abstengan de hacerlo en dichos lugares, informándoles de que la inobservancia de dicho requerimiento podría constituir una infracción del párrafo 6 de este artículo.",
-            "tags": [
-                "Servicios Sexuales",
-                "Menores",
-                "Seguridad Vial"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "12",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La fabricación, reparación, almacenamiento, circulación, comercio, transporte, distribución, adquisición, certificación, enajenación o utilización de armas reglamentarias, explosivos catalogados, cartuchería o artículos pirotécnicos, incumpliendo la normativa de aplicación, careciendo de la documentación o autorización requeridas o excediendo los límites autorizados cuando tales conductas no sean constitutivas de delito, así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad o precauciones que resulten obligatorias.",
-            "tags": [
-                "Armas Reglamentarias",
-                "Explosivos",
-                "Pirotecnia",
-                "Normativa"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "13",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La negativa de acceso o la obstrucción deliberada de las inspecciones o controles reglamentarios, establecidos conforme a lo dispuesto en esta Ley, en fábricas, locales, establecimientos, embarcaciones y aeronaves.",
-            "tags": [
-                "Inspecciones",
-                "Controles",
-                "Obstrucción"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "14",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "El uso público e indebido de uniformes, insignias o condecoraciones oficiales, o réplicas de los mismos, así como otros elementos del equipamiento de los cuerpos policiales o de los servicios de emergencia que puedan generar engaño acerca de la condición de quien los use, cuando no sea constitutivo de infracción penal.",
-            "tags": [
-                "Uniformes Oficiales",
-                "Engaño",
-                "Cuerpos Policiales"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "15",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La falta de colaboración con las Fuerzas y Cuerpos de Seguridad en la averiguación de delitos o en la prevención de acciones que puedan poner en riesgo la seguridad ciudadana en los supuestos previstos en el artículo 7.",
-            "tags": [
-                "Colaboración",
-                "Fuerzas de Seguridad",
-                "Prevención"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "16",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "El consumo o la tenencia ilícitos de drogas tóxicas, estupefacientes o sustancias psicotrópicas, aunque no estuvieran destinadas al tráfico, en lugares, vías, establecimientos públicos o transportes colectivos, así como el abandono de los instrumentos u otros efectos empleados para ello en los citados lugares.",
-            "tags": [
-                "Drogas",
-                "Consumo Ilícito",
-                "Tenencia Ilícita",
-                "Lugares Públicos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "17",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "El traslado de personas, con cualquier tipo de vehículo, con el objeto de facilitar a éstas el acceso a drogas tóxicas, estupefacientes o sustancias psicotrópicas, siempre que no constituya delito.",
-            "tags": [
-                "Drogas",
-                "Tráfico",
-                "Facilitación"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "18",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La ejecución de actos de plantación y cultivo ilícitos de drogas tóxicas, estupefacientes o sustancias psicotrópicas en lugares visibles al público, cuando no sean constitutivos de infracción penal.",
-            "tags": [
-                "Drogas",
-                "Cultivo Ilícito",
-                "Plantación Ilícita"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "19",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La tolerancia del consumo ilegal o el tráfico de drogas tóxicas, estupefacientes o sustancias psicotrópicas en locales o establecimientos públicos o la falta de diligencia en orden a impedirlos por parte de los propietarios, administradores o encargados de los mismos.",
-            "tags": [
-                "Drogas",
-                "Tolerancia",
-                "Tráfico",
-                "Locales Públicos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "20",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La carencia de los registros previstos en esta Ley para las actividades con trascendencia para la seguridad ciudadana o la omisión de comunicaciones obligatorias.",
-            "tags": [
-                "Registros",
-                "Comunicaciones Obligatorias",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "21",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "La alegación de datos o circunstancias falsos para la obtención de las documentaciones previstas en esta Ley, siempre que no constituya infracción penal.",
-            "tags": [
-                "Datos Falsos",
-                "Documentación",
-                "Fraude"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "22",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "El incumplimiento de las restricciones a la navegación reglamentariamente impuestas a las embarcaciones de alta velocidad y aeronaves ligeras. Téngase en cuenta que se declara que el apartado 22 no es inconstitucional siempre que se interprete que la conducta que tipifica consiste en (i) el incumplimiento de las restricciones a la navegación en esos sectores impuestas por motivos de seguridad ciudadana (ii) que produjese como resultado un perjuicio real para la seguridad ciudadana o una amenaza concreta de la que razonablemente se pueda seguir aquel perjuicio, por la Sentencia del TC 13/2021, de 28 de enero. Ref. BOE-A-2021-2832",
-            "tags": [
-                "Navegación",
-                "Restricciones",
-                "Seguridad Ciudadana"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "36",
-            "apartado": "23",
-            "importe": "De 601 a 30.000 euros",
-            "descripcion": "El uso no autorizado de imágenes o datos personales o profesionales de autoridades o miembros de las Fuerzas y Cuerpos de Seguridad que pueda poner en peligro la seguridad personal o familiar de los agentes, de las instalaciones protegidas o en riesgo el éxito de una operación, con respeto al derecho fundamental a la información.",
-            "tags": [
-                "Imágenes No Autorizadas",
-                "Datos Personales",
-                "Fuerzas de Seguridad",
-                "Seguridad Personal"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "35",
-            "apartado": "1",
-            "importe": "De 30.001 a 600.000 euros",
-            "descripcion": "Las reuniones o manifestaciones no comunicadas o prohibidas en infraestructuras o instalaciones en las que se prestan servicios básicos para la comunidad o en sus inmediaciones, así como la intrusión en los recintos de éstas, incluido su sobrevuelo, cuando, en cualquiera de estos supuestos, se haya generado un riesgo para la vida o la integridad física de las personas. En el caso de las reuniones y manifestaciones serán responsables los organizadores o promotores.",
-            "tags": [
-                "Manifestaciones Ilegales",
-                "Intrusión",
-                "Infraestructuras Críticas",
-                "Riesgo Vital"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "35",
-            "apartado": "2",
-            "importe": "De 30.001 a 600.000 euros",
-            "descripcion": "La fabricación, reparación, almacenamiento, circulación, comercio, transporte, distribución, adquisición, certificación, enajenación o utilización de armas reglamentarias, explosivos catalogados, cartuchería o artículos pirotécnicos, incumpliendo la normativa de aplicación, careciendo de la documentación o autorización requeridas o excediendo los límites autorizados cuando tales conductas no sean constitutivas de delito así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad o precauciones que resulten obligatorias, siempre que en tales actuaciones se causen perjuicios muy graves.",
-            "tags": [
-                "Armas",
-                "Explosivos",
-                "Pirotecnia",
-                "Perjuicios Graves",
-                "Incumplimiento Normativa"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "35",
-            "apartado": "3",
-            "importe": "De 30.001 a 600.000 euros",
-            "descripcion": "La celebración de espectáculos públicos o actividades recreativas quebrantando la prohibición o suspensión ordenada por la autoridad correspondiente por razones de seguridad pública.",
-            "tags": [
-                "Espectáculos Prohibidos",
-                "Suspensión",
-                "Seguridad Pública"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
-            "articulo": "35",
-            "apartado": "4",
-            "importe": "De 30.001 a 600.000 euros",
-            "descripcion": "La proyección de haces de luz, mediante cualquier tipo de dispositivo, sobre los pilotos o conductores de medios de transporte que puedan deslumbrarles o distraer su atención y provocar accidentes.",
-            "tags": [
-                "Haces de Luz",
-                "Deslumbramiento",
-                "Accidentes",
-                "Seguridad Vial"
-            ]
-        }
-    ]
+  "identificador": "Ley Orgánica 4/2015, de 30 de marzo.",
+  "tematica": "Protección De La Seguridad Ciudadana.",
+  "modelo_sancion": "solo_importe_rango",
+  "rango": "Ley Orgánica",
+  "ambito": "Estatal",
+  "areaId": "seguridad_ciudadana",
+  "infracciones": [
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "1",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La celebración de reuniones en lugares de tránsito público o de manifestaciones, incumpliendo lo preceptuado en los artículos 4.2, 8, 9, 10 y 11 de la Ley Orgánica 9/1983.",
+      "tags": [
+        "Manifestaciones",
+        "Reuniones Públicas",
+        "Orden Público"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "2",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La exhibición de objetos peligrosos con ánimo intimidatorio, siempre que no constituya delito o infracción grave.",
+      "tags": [
+        "Intimidación",
+        "Seguridad Ciudadana",
+        "Objetos Peligrosos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "3",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "El incumplimiento de las restricciones de circulación peatonal con ocasión de un acto público, cuando provoquen alteraciones menores.",
+      "tags": [
+        "Circulación",
+        "Eventos Públicos",
+        "Orden Público"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "4",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "Las faltas de respeto y consideración hacia miembros de las Fuerzas y Cuerpos de Seguridad en el ejercicio de sus funciones.",
+      "tags": [
+        "Seguridad Ciudadana",
+        "Orden Público",
+        "Agentes de Autoridad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "5",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La realización o incitación a actos que atenten contra la libertad e indemnidad sexual, o actos de exhibición obscena no constitutivos de infracción penal.",
+      "tags": [
+        "Conducta Obscena",
+        "Libertad Sexual",
+        "Orden Público"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "6",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La proyección de haces de luz sobre agentes para impedir o dificultar sus funciones.",
+      "tags": [
+        "Agentes de Autoridad",
+        "Seguridad Ciudadana",
+        "Luz Intencionada"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "7",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La ocupación de inmuebles ajenos o de la vía pública en contra de lo dispuesto legalmente, siempre que no constituya infracción penal.",
+      "tags": [
+        "Ocupación Ilegal",
+        "Vía Pública",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "8",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La omisión o insuficiencia de medidas para conservar la documentación de armas y explosivos, o la falta de denuncia de su pérdida o robo.",
+      "tags": [
+        "Armas",
+        "Explosivos",
+        "Documentación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "9",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "Las irregularidades en la cumplimentación de registros previstos en la ley con trascendencia para la seguridad ciudadana.",
+      "tags": [
+        "Registros",
+        "Seguridad Ciudadana",
+        "Datos Falsos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "10",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "El incumplimiento de la obligación de obtener documentación personal o de denunciar su pérdida o sustracción.",
+      "tags": [
+        "Documentación Personal",
+        "Identificación",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "11",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La negligencia en la custodia de documentación personal exigida legalmente, considerándose la tercera pérdida en un año.",
+      "tags": [
+        "Negligencia",
+        "Documentación Personal",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "12",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La negativa a entregar la documentación personal legalmente exigida cuando se hubiese acordado su retirada o retención.",
+      "tags": [
+        "Identificación",
+        "Documentación",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "13",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "Los daños o el deslucimiento de bienes de uso o servicio público, o de bienes privados en la vía pública, cuando no constituyan infracción penal.",
+      "tags": [
+        "Daños a Bienes",
+        "Vía Pública",
+        "Mobiliario Urbano"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "14",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "El escalamiento de edificios o monumentos sin autorización cuando exista riesgo cierto de daño.",
+      "tags": [
+        "Escalamiento",
+        "Edificios",
+        "Monumentos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "15",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "La remoción de vallas u otros elementos colocados por los agentes para delimitar perímetros de seguridad.",
+      "tags": [
+        "Perímetros de Seguridad",
+        "Agentes",
+        "Vallas"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "16",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "Dejar sueltos animales feroces o dañinos, o abandonar animales domésticos en condiciones que pongan en peligro su vida.",
+      "tags": [
+        "Animales",
+        "Abandono",
+        "Seguridad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "37",
+      "apartado": "17",
+      "importe": "De 100 a 600 euros",
+      "descripcion": "El consumo de bebidas alcohólicas en lugares, vías, establecimientos o transportes públicos cuando perturbe gravemente la tranquilidad ciudadana.",
+      "tags": [
+        "Alcohol",
+        "Vía Pública",
+        "Tranquilidad Ciudadana",
+        "Consumo Público"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "1",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La perturbación de la seguridad ciudadana en actos públicos, espectáculos deportivos o culturales, solemnidades y oficios religiosos u otras reuniones a las que asistan numerosas personas, cuando no sean constitutivas de infracción penal.",
+      "tags": [
+        "Perturbación",
+        "Actos Públicos",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "2",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La perturbación grave de la seguridad ciudadana que se produzca con ocasión de reuniones o manifestaciones frente a las sedes del Congreso de los Diputados, el Senado y las asambleas legislativas de las comunidades autónomas, aunque no estuvieran reunidas, cuando no constituya infracción penal.",
+      "tags": [
+        "Perturbación",
+        "Sedes Oficiales",
+        "Manifestaciones",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "3",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "Causar desórdenes en las vías, espacios o establecimientos públicos, u obstaculizar la vía pública con mobiliario urbano, vehículos, contenedores, neumáticos u otros objetos, cuando en ambos casos se ocasione una alteración grave de la seguridad ciudadana.",
+      "tags": [
+        "Desórdenes",
+        "Vía Pública",
+        "Obstaculización",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "4",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "Los actos de obstrucción que pretendan impedir a cualquier autoridad, empleado público o corporación oficial el ejercicio legítimo de sus funciones, el cumplimiento o la ejecución de acuerdos o resoluciones administrativas o judiciales, siempre que se produzcan al margen de los procedimientos legalmente establecidos y no sean constitutivos de delito.",
+      "tags": [
+        "Obstrucción",
+        "Autoridad",
+        "Funciones Públicas"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "5",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "Las acciones y omisiones que impidan u obstaculicen el funcionamiento de los servicios de emergencia, provocando o incrementando un riesgo para la vida o integridad de las personas o de daños en los bienes, o agravando las consecuencias del suceso que motive la actuación de aquéllos.",
+      "tags": [
+        "Emergencias",
+        "Obstrucción",
+        "Riesgo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "6",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La desobediencia o la resistencia a la autoridad o a sus agentes en el ejercicio de sus funciones, cuando no sean constitutivas de delito, así como la negativa a identificarse a requerimiento de la autoridad o de sus agentes o la alegación de datos falsos o inexactos en los procesos de identificación.",
+      "tags": [
+        "Desobediencia",
+        "Resistencia",
+        "Autoridad",
+        "Identificación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "7",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La negativa a la disolución de reuniones y manifestaciones en lugares de tránsito público ordenada por la autoridad competente cuando concurran los supuestos del artículo 5 de la Ley Orgánica 9/1983, de 15 de julio.",
+      "tags": [
+        "Disolución",
+        "Reuniones",
+        "Manifestaciones",
+        "Autoridad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "8",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La perturbación del desarrollo de una reunión o manifestación lícita, cuando no constituya infracción penal.",
+      "tags": [
+        "Perturbación",
+        "Reunión Lícita",
+        "Manifestación Lícita"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "9",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La intrusión en infraestructuras o instalaciones en las que se prestan servicios básicos para la comunidad, incluyendo su sobrevuelo, cuando se haya producido una interferencia grave en su funcionamiento.",
+      "tags": [
+        "Intrusión",
+        "Infraestructuras",
+        "Servicios Básicos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "10",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "Portar, exhibir o usar armas prohibidas, así como portar, exhibir o usar armas de modo negligente, temerario o intimidatorio, o fuera de los lugares habilitados para su uso, aún cuando en este último caso se tuviera licencia, siempre que dichas conductas no constituyan infracción penal.",
+      "tags": [
+        "Armas Prohibidas",
+        "Uso Negligente",
+        "Armas"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "11",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La solicitud o aceptación por el demandante de servicios sexuales retribuidos en zonas de tránsito público en las proximidades de lugares destinados a su uso por menores, como centros educativos, parques infantiles o espacios de ocio accesibles a menores de edad, o cuando estas conductas, por el lugar en que se realicen, puedan generar un riesgo para la seguridad vial. Los agentes de la autoridad requerirán a las personas que ofrezcan estos servicios para que se abstengan de hacerlo en dichos lugares, informándoles de que la inobservancia de dicho requerimiento podría constituir una infracción del párrafo 6 de este artículo.",
+      "tags": [
+        "Servicios Sexuales",
+        "Menores",
+        "Seguridad Vial"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "12",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La fabricación, reparación, almacenamiento, circulación, comercio, transporte, distribución, adquisición, certificación, enajenación o utilización de armas reglamentarias, explosivos catalogados, cartuchería o artículos pirotécnicos, incumpliendo la normativa de aplicación, careciendo de la documentación o autorización requeridas o excediendo los límites autorizados cuando tales conductas no sean constitutivas de delito, así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad o precauciones que resulten obligatorias.",
+      "tags": [
+        "Armas Reglamentarias",
+        "Explosivos",
+        "Pirotecnia",
+        "Normativa"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "13",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La negativa de acceso o la obstrucción deliberada de las inspecciones o controles reglamentarios, establecidos conforme a lo dispuesto en esta Ley, en fábricas, locales, establecimientos, embarcaciones y aeronaves.",
+      "tags": [
+        "Inspecciones",
+        "Controles",
+        "Obstrucción"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "14",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "El uso público e indebido de uniformes, insignias o condecoraciones oficiales, o réplicas de los mismos, así como otros elementos del equipamiento de los cuerpos policiales o de los servicios de emergencia que puedan generar engaño acerca de la condición de quien los use, cuando no sea constitutivo de infracción penal.",
+      "tags": [
+        "Uniformes Oficiales",
+        "Engaño",
+        "Cuerpos Policiales"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "15",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La falta de colaboración con las Fuerzas y Cuerpos de Seguridad en la averiguación de delitos o en la prevención de acciones que puedan poner en riesgo la seguridad ciudadana en los supuestos previstos en el artículo 7.",
+      "tags": [
+        "Colaboración",
+        "Fuerzas de Seguridad",
+        "Prevención"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "16",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "El consumo o la tenencia ilícitos de drogas tóxicas, estupefacientes o sustancias psicotrópicas, aunque no estuvieran destinadas al tráfico, en lugares, vías, establecimientos públicos o transportes colectivos, así como el abandono de los instrumentos u otros efectos empleados para ello en los citados lugares.",
+      "tags": [
+        "Drogas",
+        "Consumo Ilícito",
+        "Tenencia Ilícita",
+        "Lugares Públicos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "17",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "El traslado de personas, con cualquier tipo de vehículo, con el objeto de facilitar a éstas el acceso a drogas tóxicas, estupefacientes o sustancias psicotrópicas, siempre que no constituya delito.",
+      "tags": [
+        "Drogas",
+        "Tráfico",
+        "Facilitación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "18",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La ejecución de actos de plantación y cultivo ilícitos de drogas tóxicas, estupefacientes o sustancias psicotrópicas en lugares visibles al público, cuando no sean constitutivos de infracción penal.",
+      "tags": [
+        "Drogas",
+        "Cultivo Ilícito",
+        "Plantación Ilícita"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "19",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La tolerancia del consumo ilegal o el tráfico de drogas tóxicas, estupefacientes o sustancias psicotrópicas en locales o establecimientos públicos o la falta de diligencia en orden a impedirlos por parte de los propietarios, administradores o encargados de los mismos.",
+      "tags": [
+        "Drogas",
+        "Tolerancia",
+        "Tráfico",
+        "Locales Públicos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "20",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La carencia de los registros previstos en esta Ley para las actividades con trascendencia para la seguridad ciudadana o la omisión de comunicaciones obligatorias.",
+      "tags": [
+        "Registros",
+        "Comunicaciones Obligatorias",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "21",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "La alegación de datos o circunstancias falsos para la obtención de las documentaciones previstas en esta Ley, siempre que no constituya infracción penal.",
+      "tags": [
+        "Datos Falsos",
+        "Documentación",
+        "Fraude"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "22",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "El incumplimiento de las restricciones a la navegación reglamentariamente impuestas a las embarcaciones de alta velocidad y aeronaves ligeras. Téngase en cuenta que se declara que el apartado 22 no es inconstitucional siempre que se interprete que la conducta que tipifica consiste en (i) el incumplimiento de las restricciones a la navegación en esos sectores impuestas por motivos de seguridad ciudadana (ii) que produjese como resultado un perjuicio real para la seguridad ciudadana o una amenaza concreta de la que razonablemente se pueda seguir aquel perjuicio, por la Sentencia del TC 13/2021, de 28 de enero. Ref. BOE-A-2021-2832",
+      "tags": [
+        "Navegación",
+        "Restricciones",
+        "Seguridad Ciudadana"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "36",
+      "apartado": "23",
+      "importe": "De 601 a 30.000 euros",
+      "descripcion": "El uso no autorizado de imágenes o datos personales o profesionales de autoridades o miembros de las Fuerzas y Cuerpos de Seguridad que pueda poner en peligro la seguridad personal o familiar de los agentes, de las instalaciones protegidas o en riesgo el éxito de una operación, con respeto al derecho fundamental a la información.",
+      "tags": [
+        "Imágenes No Autorizadas",
+        "Datos Personales",
+        "Fuerzas de Seguridad",
+        "Seguridad Personal"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "35",
+      "apartado": "1",
+      "importe": "De 30.001 a 600.000 euros",
+      "descripcion": "Las reuniones o manifestaciones no comunicadas o prohibidas en infraestructuras o instalaciones en las que se prestan servicios básicos para la comunidad o en sus inmediaciones, así como la intrusión en los recintos de éstas, incluido su sobrevuelo, cuando, en cualquiera de estos supuestos, se haya generado un riesgo para la vida o la integridad física de las personas. En el caso de las reuniones y manifestaciones serán responsables los organizadores o promotores.",
+      "tags": [
+        "Manifestaciones Ilegales",
+        "Intrusión",
+        "Infraestructuras Críticas",
+        "Riesgo Vital"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "35",
+      "apartado": "2",
+      "importe": "De 30.001 a 600.000 euros",
+      "descripcion": "La fabricación, reparación, almacenamiento, circulación, comercio, transporte, distribución, adquisición, certificación, enajenación o utilización de armas reglamentarias, explosivos catalogados, cartuchería o artículos pirotécnicos, incumpliendo la normativa de aplicación, careciendo de la documentación o autorización requeridas o excediendo los límites autorizados cuando tales conductas no sean constitutivas de delito así como la omisión, insuficiencia, o falta de eficacia de las medidas de seguridad o precauciones que resulten obligatorias, siempre que en tales actuaciones se causen perjuicios muy graves.",
+      "tags": [
+        "Armas",
+        "Explosivos",
+        "Pirotecnia",
+        "Perjuicios Graves",
+        "Incumplimiento Normativa"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "35",
+      "apartado": "3",
+      "importe": "De 30.001 a 600.000 euros",
+      "descripcion": "La celebración de espectáculos públicos o actividades recreativas quebrantando la prohibición o suspensión ordenada por la autoridad correspondiente por razones de seguridad pública.",
+      "tags": [
+        "Espectáculos Prohibidos",
+        "Suspensión",
+        "Seguridad Pública"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Ley Orgáncia de Protección de la Seguridad Ciudadana",
+      "articulo": "35",
+      "apartado": "4",
+      "importe": "De 30.001 a 600.000 euros",
+      "descripcion": "La proyección de haces de luz, mediante cualquier tipo de dispositivo, sobre los pilotos o conductores de medios de transporte que puedan deslumbrarles o distraer su atención y provocar accidentes.",
+      "tags": [
+        "Haces de Luz",
+        "Deslumbramiento",
+        "Accidentes",
+        "Seguridad Vial"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    }
+  ],
+  "fecha_actualizacion": "N/A"
 }

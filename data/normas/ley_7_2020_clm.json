@@ -1,814 +1,986 @@
 {
-    "identificador": "Ley 7/2020, de 31 de agosto.",
-    "tematica": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-    "modelo_sancion": "solo_importe_rango",
-    "rango": "Ley Ordinaria",
-    "ambito": "Autonómico",
-    "areaId": "animales",
-    "infracciones": [
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "1",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No facilitar a los animales alimentación adecuada** a sus necesidades, no solamente para su subsistencia, así como alimentarlos con productos o sustancias prohibidas por la legislación vigente o sin poseer la autorización en caso de que sea necesaria, siempre que con ello no se les cause trastornos graves o la muerte del animal.",
-            "tags": [
-                "Animales",
-                "Alimentación"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "2",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**Mantener a los animales en condiciones inadecuadas** desde el punto de vista higiénico-sanitario, desatendiendo su cuidado y atención, de acuerdo con las necesidades fisiológicas y etológicas por especie y raza, siempre que no se hayan causado lesiones, enfermedades o sufrimiento al animal.",
-            "tags": [
-                "Animales",
-                "Higiene",
-                "Bienestar"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "3",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No educar o socializar** a los animales de compañía que así lo requieran.",
-            "tags": [
-                "Animales",
-                "Educación",
-                "Socialización"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "4",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No estar en posesión del preceptivo documento sanitario** o no tenerlos adecuadamente diligenciados, en los casos que proceda.",
-            "tags": [
-                "Animales",
-                "Documentación"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "5",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No disponer, en su caso, de los archivos de las fichas clínicas** de los animales objeto de vacunación o de tratamiento obligatorio, o que éstos estén incompletos.",
-            "tags": [
-                "Animales",
-                "Documentación"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "6",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "La **falta de comunicación a los registros** de identificación de animales de compañía de las altas, bajas y cambios de titularidad de los mismos.",
-            "tags": [
-                "Animales",
-                "Registro"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "7",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "El **incumplimiento de las condiciones de circulación** de los animales de compañía previstas en esta ley.",
-            "tags": [
-                "Animales",
-                "Circulación"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "8",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "El **transporte de animales con vulneración de los requisitos** establecidos en la legislación vigente siempre que, como consecuencia de dicha vulneración, no se hayan producido trastornos graves, lesiones o heridas en los animales.",
-            "tags": [
-                "Animales",
-                "Transporte"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "9",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No entregar la documentación exigida** en la entrega, cesión, adopción y venta de animales.",
-            "tags": [
-                "Animales",
-                "Venta"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "10",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No comunicar en el tiempo establecido la desaparición** de un animal.",
-            "tags": [
-                "Animales",
-                "Registro"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "11",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "La **manipulación artificial de los animales con objeto de hacerlos atractivos** como diversión o juguete para su venta, si no se les causa sufrimiento, daño o lesión.",
-            "tags": [
-                "Animales",
-                "Maltrato",
-                "Comercio"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "12",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**Exhibir a los animales de compañía en escaparates** que estén en vías públicas y accesos públicos.",
-            "tags": [
-                "Animales",
-                "Comercio"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "13",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No realizar tratamientos sanitarios y vacunaciones** declarados obligatorios en los animales.",
-            "tags": [
-                "Animales",
-                "Salud Animal"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "14",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "No adoptar las medidas oportunas para **impedir que los animales ensucien** las vías, espacios públicos o establecimientos, o para **eliminar las deyecciones** que realicen en estos lugares.",
-            "tags": [
-                "Animales",
-                "Higiene Pública"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "15",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "La **carencia de los libros de registro** establecidos en esta ley en los núcleos zoológicos.",
-            "tags": [
-                "Animales",
-                "Registro",
-                "Núcleos Zoológicos"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "16",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "**No disponer de los correspondientes certificados de competencia** o cualificaciones profesionales exigidos en esta ley.",
-            "tags": [
-                "Animales",
-                "Cualificaciones"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "17",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "Cualquier **incumplimiento de los requisitos, obligaciones o prohibiciones** establecidas en esta ley que no esté calificado específicamente como grave o muy grave.",
-            "tags": [
-                "Animales",
-                "General"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "41",
-            "apartado": "18",
-            "importe": "De 300 a 3.000 euros",
-            "descripcion": "La utilización y uso de objetos que causen lesión a los animales (**collares de pinchos o púas, collares de ahogo y collares de descarga eléctrica**), fuera de lo previsto en esta ley.",
-            "tags": [
-                "Animales",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "1",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Mantener a los animales en condiciones inadecuadas** desde el punto de vista higiénico-sanitario, desatendiendo su cuidado y atención, siempre que se les cause **lesiones y enfermedades** a los animales.",
-            "tags": [
-                "Animales",
-                "Higiene",
-                "Sanidad",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "2",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**No facilitarles la alimentación necesaria** de acuerdo a sus necesidades ocasionando **trastornos graves** al animal.",
-            "tags": [
-                "Animales",
-                "Alimentación",
-                "Salud",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "3",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**No disponer de las autorizaciones, permisos y licencias** en cada caso necesarias, para la titularidad y posesión de un animal.",
-            "tags": [
-                "Animales",
-                "Autorizaciones",
-                "Permisos",
-                "Licencias"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "4",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**No facilitar a los animales la asistencia veterinaria necesaria**, cuando con ello se cause una **enfermedad grave, lesión en el animal o sufrimiento** innecesario.",
-            "tags": [
-                "Animales",
-                "Veterinaria",
-                "Salud",
-                "Sufrimiento"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "5",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Vender animales enfermos**.",
-            "tags": [
-                "Animales",
-                "Venta",
-                "Enfermedad"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "6",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Ceder, o donar animales enfermos**, sin el consentimiento de quien los recibe.",
-            "tags": [
-                "Animales",
-                "Cesión",
-                "Donación",
-                "Enfermedad"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "7",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "El **abandono de animales**.",
-            "tags": [
-                "Animales",
-                "Abandono"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "8",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Mantener **permanentemente atados o encadenados** a los animales.",
-            "tags": [
-                "Animales",
-                "Atados",
-                "Encadenados",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "9",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**No registrar e identificar** reglamentariamente los animales que deban estarlo de acuerdo con la legislación aplicable.",
-            "tags": [
-                "Animales",
-                "Registro",
-                "Identificación"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "10",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "La **negación de asistencia sanitaria**, por parte de los veterinarios en ejercicio, a animales enfermos o heridos.",
-            "tags": [
-                "Animales",
-                "Veterinarios",
-                "Asistencia Sanitaria"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "11",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Realizar prácticas de **experimentación animal y selección animal no autorizadas**.",
-            "tags": [
-                "Animales",
-                "Experimentación",
-                "Selección"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "12",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**No evitar la huida de animales** que por sus características puedan causar daños a personas, otros animales, vías públicas o medio natural.",
-            "tags": [
-                "Animales",
-                "Huida",
-                "Seguridad Pública",
-                "Medio Ambiente"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "13",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Sujeción de animales a vehículos a motor en movimiento** sin que existan daños, heridas o sufrimiento en el animal.",
-            "tags": [
-                "Animales",
-                "Transporte",
-                "Vehículos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "14",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Utilizar animales en **atracciones de feria**.",
-            "tags": [
-                "Animales",
-                "Ferias",
-                "Espectáculos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "15",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Incumplimiento de **registro de los núcleos zoológicos**.",
-            "tags": [
-                "Animales",
-                "Núcleos Zoológicos",
-                "Registro"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "16",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "La **manipulación artificial** de los animales con objeto de hacerlos atractivos para su venta, si les causa **sufrimiento, daño o lesión**.",
-            "tags": [
-                "Animales",
-                "Manipulación",
-                "Venta",
-                "Sufrimiento"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "17",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "La práctica de **mutilaciones**, salvo aquellas permitidas y realizadas por veterinarios en caso de necesidad médico-quirúrgica.",
-            "tags": [
-                "Animales",
-                "Mutilaciones",
-                "Veterinaria"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "18",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "La **cría, mantenimiento, venta y comercialización** de animales sin cumplir los correspondientes requisitos y sin tener las autorizaciones y registros necesarios.",
-            "tags": [
-                "Animales",
-                "Cría",
-                "Venta",
-                "Autorizaciones",
-                "Registro"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "19",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Impedir la libre inspección** de los animales y sus instalaciones a las autoridades competentes, así como no suministrar la información y documentos necesarios.",
-            "tags": [
-                "Animales",
-                "Inspección",
-                "Autoridades"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "20",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "El **transporte de animales con vulneración de los requisitos** establecidos cuando, como consecuencia, se hayan producido **lesiones o muerte evitable** de los mismos.",
-            "tags": [
-                "Animales",
-                "Transporte",
-                "Lesiones",
-                "Muerte Evitable"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "21",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Efectuar **venta ambulante de animales fuera de mercados, ferias** y cualquier otro certamen autorizado.",
-            "tags": [
-                "Animales",
-                "Venta Ambulante",
-                "Mercados",
-                "Ferias"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "22",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Vender o hacer donación de animales a menores de dieciséis años** y a personas con capacidad modificada judicialmente.",
-            "tags": [
-                "Animales",
-                "Venta",
-                "Donación",
-                "Menores"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "23",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Anular o manipular los sistemas de identificación** de los animales, sin prescripción ni control veterinario.",
-            "tags": [
-                "Animales",
-                "Identificación",
-                "Manipulación"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "24",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Suministrar sustancias** a un animal que le causen **alteraciones graves de la salud o del comportamiento**, salvo en los casos amparados por la normativa vigente.",
-            "tags": [
-                "Animales",
-                "Sustancias",
-                "Salud",
-                "Comportamiento"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "25",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Uso de **animales salvajes y fauna silvestre en circos**.",
-            "tags": [
-                "Animales",
-                "Fauna Silvestre",
-                "Circos",
-                "Espectáculos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "26",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Alimentar animales con alimento animal vivo** sin estar autorizado para ello.",
-            "tags": [
-                "Animales",
-                "Alimentación",
-                "Alimento Vivo"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "27",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "Hacer **donación de los animales como reclamo publicitario**, recompensa o regalo de compensación por otras adquisiciones de naturaleza distinta a la transacción onerosa de animales.",
-            "tags": [
-                "Animales",
-                "Donación",
-                "Publicidad"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "42",
-            "apartado": "28",
-            "importe": "De 3.001 a 9.000 euros",
-            "descripcion": "**Negativa a realizar las medidas provisionales** previstas en el artículo 48 de esta ley.",
-            "tags": [
-                "Animales",
-                "Medidas Provisionales",
-                "Autoridades"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "1",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "**Maltratar o agredir a los animales** o someterlos a cualquier práctica que pueda producir daños o sufrimientos innecesarios o injustificados, causándoles **lesiones, deformidades, defectos o la muerte**.",
-            "tags": [
-                "Maltrato",
-                "Agresión",
-                "Lesiones Graves",
-                "Muerte"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "2",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "**Disparar a los animales**, con las excepciones contempladas en el artículo 18.2.",
-            "tags": [
-                "Armas de Fuego",
-                "Agresión",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "3",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "**Depositar alimentos envenenados** en espacios y lugares públicos, salvo los empleados por empresas autorizadas para el control de plagas.",
-            "tags": [
-                "Veneno",
-                "Salud Pública",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "4",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "El suministro a los animales de **alimentos y medicamentos que contengan sustancias que puedan provocarles daño grave o muerte**.",
-            "tags": [
-                "Alimentación",
-                "Medicamentos",
-                "Veneno",
-                "Muerte"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "5",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "La **organización de peleas** con y entre animales.",
-            "tags": [
-                "Peleas",
-                "Organización",
-                "Maltrato",
-                "Crueldad"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "6",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "**Organización y participación de espectáculos o prácticas prohibidas** en la presente ley.",
-            "tags": [
-                "Espectáculos",
-                "Maltrato",
-                "Prohibido"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "7",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "La **utilización de animales por parte de sus titulares o poseedores para su participación en peleas**.",
-            "tags": [
-                "Peleas",
-                "Titulares",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "8",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "La **filmación con animales de escenas reales** que conlleven crueldad, maltrato o sufrimiento.",
-            "tags": [
-                "Filmación",
-                "Publicidad",
-                "Crueldad",
-                "Maltrato"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "9",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "Realizar el **sacrificio de un animal sin seguir las especificaciones** de esta ley y de la normativa aplicable.",
-            "tags": [
-                "Sacrificio",
-                "Maltrato",
-                "Eutanasia"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "10",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "**Esterilizaciones, mutilaciones y sacrificios de animales sin la asistencia de un veterinario**, y sin los requisitos y condiciones establecidos por esta ley.",
-            "tags": [
-                "Mutilaciones",
-                "Sacrificio",
-                "Veterinaria",
-                "Intrusismo"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
-            "articulo": "43",
-            "apartado": "11",
-            "importe": "De 9.001 a 60.000 euros",
-            "descripcion": "**Sujeción de animales a vehículos a motor en movimiento**, siempre que existan **daños, heridas o sufrimiento** en el animal.",
-            "tags": [
-                "Vehículos",
-                "Transporte",
-                "Maltrato",
-                "Lesiones Graves"
-            ]
-        }
-    ]
+  "identificador": "Ley 7/2020, de 31 de agosto.",
+  "tematica": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+  "modelo_sancion": "solo_importe_rango",
+  "rango": "Ley Ordinaria",
+  "ambito": "Autonómico",
+  "areaId": "animales",
+  "infracciones": [
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "1",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No facilitar a los animales alimentación adecuada** a sus necesidades, no solamente para su subsistencia, así como alimentarlos con productos o sustancias prohibidas por la legislación vigente o sin poseer la autorización en caso de que sea necesaria, siempre que con ello no se les cause trastornos graves o la muerte del animal.",
+      "tags": [
+        "Animales",
+        "Alimentación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "2",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**Mantener a los animales en condiciones inadecuadas** desde el punto de vista higiénico-sanitario, desatendiendo su cuidado y atención, de acuerdo con las necesidades fisiológicas y etológicas por especie y raza, siempre que no se hayan causado lesiones, enfermedades o sufrimiento al animal.",
+      "tags": [
+        "Animales",
+        "Higiene",
+        "Bienestar"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "3",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No educar o socializar** a los animales de compañía que así lo requieran.",
+      "tags": [
+        "Animales",
+        "Educación",
+        "Socialización"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "4",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No estar en posesión del preceptivo documento sanitario** o no tenerlos adecuadamente diligenciados, en los casos que proceda.",
+      "tags": [
+        "Animales",
+        "Documentación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "5",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No disponer, en su caso, de los archivos de las fichas clínicas** de los animales objeto de vacunación o de tratamiento obligatorio, o que éstos estén incompletos.",
+      "tags": [
+        "Animales",
+        "Documentación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "6",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "La **falta de comunicación a los registros** de identificación de animales de compañía de las altas, bajas y cambios de titularidad de los mismos.",
+      "tags": [
+        "Animales",
+        "Registro"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "7",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "El **incumplimiento de las condiciones de circulación** de los animales de compañía previstas en esta ley.",
+      "tags": [
+        "Animales",
+        "Circulación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "8",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "El **transporte de animales con vulneración de los requisitos** establecidos en la legislación vigente siempre que, como consecuencia de dicha vulneración, no se hayan producido trastornos graves, lesiones o heridas en los animales.",
+      "tags": [
+        "Animales",
+        "Transporte"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "9",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No entregar la documentación exigida** en la entrega, cesión, adopción y venta de animales.",
+      "tags": [
+        "Animales",
+        "Venta"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "10",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No comunicar en el tiempo establecido la desaparición** de un animal.",
+      "tags": [
+        "Animales",
+        "Registro"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "11",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "La **manipulación artificial de los animales con objeto de hacerlos atractivos** como diversión o juguete para su venta, si no se les causa sufrimiento, daño o lesión.",
+      "tags": [
+        "Animales",
+        "Maltrato",
+        "Comercio"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "12",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**Exhibir a los animales de compañía en escaparates** que estén en vías públicas y accesos públicos.",
+      "tags": [
+        "Animales",
+        "Comercio"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "13",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No realizar tratamientos sanitarios y vacunaciones** declarados obligatorios en los animales.",
+      "tags": [
+        "Animales",
+        "Salud Animal"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "14",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "No adoptar las medidas oportunas para **impedir que los animales ensucien** las vías, espacios públicos o establecimientos, o para **eliminar las deyecciones** que realicen en estos lugares.",
+      "tags": [
+        "Animales",
+        "Higiene Pública"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "15",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "La **carencia de los libros de registro** establecidos en esta ley en los núcleos zoológicos.",
+      "tags": [
+        "Animales",
+        "Registro",
+        "Núcleos Zoológicos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "16",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "**No disponer de los correspondientes certificados de competencia** o cualificaciones profesionales exigidos en esta ley.",
+      "tags": [
+        "Animales",
+        "Cualificaciones"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "17",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "Cualquier **incumplimiento de los requisitos, obligaciones o prohibiciones** establecidas en esta ley que no esté calificado específicamente como grave o muy grave.",
+      "tags": [
+        "Animales",
+        "General"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "41",
+      "apartado": "18",
+      "importe": "De 300 a 3.000 euros",
+      "descripcion": "La utilización y uso de objetos que causen lesión a los animales (**collares de pinchos o púas, collares de ahogo y collares de descarga eléctrica**), fuera de lo previsto en esta ley.",
+      "tags": [
+        "Animales",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "1",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Mantener a los animales en condiciones inadecuadas** desde el punto de vista higiénico-sanitario, desatendiendo su cuidado y atención, siempre que se les cause **lesiones y enfermedades** a los animales.",
+      "tags": [
+        "Animales",
+        "Higiene",
+        "Sanidad",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "2",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**No facilitarles la alimentación necesaria** de acuerdo a sus necesidades ocasionando **trastornos graves** al animal.",
+      "tags": [
+        "Animales",
+        "Alimentación",
+        "Salud",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "3",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**No disponer de las autorizaciones, permisos y licencias** en cada caso necesarias, para la titularidad y posesión de un animal.",
+      "tags": [
+        "Animales",
+        "Autorizaciones",
+        "Permisos",
+        "Licencias"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "4",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**No facilitar a los animales la asistencia veterinaria necesaria**, cuando con ello se cause una **enfermedad grave, lesión en el animal o sufrimiento** innecesario.",
+      "tags": [
+        "Animales",
+        "Veterinaria",
+        "Salud",
+        "Sufrimiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "5",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Vender animales enfermos**.",
+      "tags": [
+        "Animales",
+        "Venta",
+        "Enfermedad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "6",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Ceder, o donar animales enfermos**, sin el consentimiento de quien los recibe.",
+      "tags": [
+        "Animales",
+        "Cesión",
+        "Donación",
+        "Enfermedad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "7",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "El **abandono de animales**.",
+      "tags": [
+        "Animales",
+        "Abandono"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "8",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Mantener **permanentemente atados o encadenados** a los animales.",
+      "tags": [
+        "Animales",
+        "Atados",
+        "Encadenados",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "9",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**No registrar e identificar** reglamentariamente los animales que deban estarlo de acuerdo con la legislación aplicable.",
+      "tags": [
+        "Animales",
+        "Registro",
+        "Identificación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "10",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "La **negación de asistencia sanitaria**, por parte de los veterinarios en ejercicio, a animales enfermos o heridos.",
+      "tags": [
+        "Animales",
+        "Veterinarios",
+        "Asistencia Sanitaria"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "11",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Realizar prácticas de **experimentación animal y selección animal no autorizadas**.",
+      "tags": [
+        "Animales",
+        "Experimentación",
+        "Selección"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "12",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**No evitar la huida de animales** que por sus características puedan causar daños a personas, otros animales, vías públicas o medio natural.",
+      "tags": [
+        "Animales",
+        "Huida",
+        "Seguridad Pública",
+        "Medio Ambiente"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "13",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Sujeción de animales a vehículos a motor en movimiento** sin que existan daños, heridas o sufrimiento en el animal.",
+      "tags": [
+        "Animales",
+        "Transporte",
+        "Vehículos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "14",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Utilizar animales en **atracciones de feria**.",
+      "tags": [
+        "Animales",
+        "Ferias",
+        "Espectáculos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "15",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Incumplimiento de **registro de los núcleos zoológicos**.",
+      "tags": [
+        "Animales",
+        "Núcleos Zoológicos",
+        "Registro"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "16",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "La **manipulación artificial** de los animales con objeto de hacerlos atractivos para su venta, si les causa **sufrimiento, daño o lesión**.",
+      "tags": [
+        "Animales",
+        "Manipulación",
+        "Venta",
+        "Sufrimiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "17",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "La práctica de **mutilaciones**, salvo aquellas permitidas y realizadas por veterinarios en caso de necesidad médico-quirúrgica.",
+      "tags": [
+        "Animales",
+        "Mutilaciones",
+        "Veterinaria"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "18",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "La **cría, mantenimiento, venta y comercialización** de animales sin cumplir los correspondientes requisitos y sin tener las autorizaciones y registros necesarios.",
+      "tags": [
+        "Animales",
+        "Cría",
+        "Venta",
+        "Autorizaciones",
+        "Registro"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "19",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Impedir la libre inspección** de los animales y sus instalaciones a las autoridades competentes, así como no suministrar la información y documentos necesarios.",
+      "tags": [
+        "Animales",
+        "Inspección",
+        "Autoridades"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "20",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "El **transporte de animales con vulneración de los requisitos** establecidos cuando, como consecuencia, se hayan producido **lesiones o muerte evitable** de los mismos.",
+      "tags": [
+        "Animales",
+        "Transporte",
+        "Lesiones",
+        "Muerte Evitable"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "21",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Efectuar **venta ambulante de animales fuera de mercados, ferias** y cualquier otro certamen autorizado.",
+      "tags": [
+        "Animales",
+        "Venta Ambulante",
+        "Mercados",
+        "Ferias"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "22",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Vender o hacer donación de animales a menores de dieciséis años** y a personas con capacidad modificada judicialmente.",
+      "tags": [
+        "Animales",
+        "Venta",
+        "Donación",
+        "Menores"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "23",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Anular o manipular los sistemas de identificación** de los animales, sin prescripción ni control veterinario.",
+      "tags": [
+        "Animales",
+        "Identificación",
+        "Manipulación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "24",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Suministrar sustancias** a un animal que le causen **alteraciones graves de la salud o del comportamiento**, salvo en los casos amparados por la normativa vigente.",
+      "tags": [
+        "Animales",
+        "Sustancias",
+        "Salud",
+        "Comportamiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "25",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Uso de **animales salvajes y fauna silvestre en circos**.",
+      "tags": [
+        "Animales",
+        "Fauna Silvestre",
+        "Circos",
+        "Espectáculos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "26",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Alimentar animales con alimento animal vivo** sin estar autorizado para ello.",
+      "tags": [
+        "Animales",
+        "Alimentación",
+        "Alimento Vivo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "27",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "Hacer **donación de los animales como reclamo publicitario**, recompensa o regalo de compensación por otras adquisiciones de naturaleza distinta a la transacción onerosa de animales.",
+      "tags": [
+        "Animales",
+        "Donación",
+        "Publicidad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "42",
+      "apartado": "28",
+      "importe": "De 3.001 a 9.000 euros",
+      "descripcion": "**Negativa a realizar las medidas provisionales** previstas en el artículo 48 de esta ley.",
+      "tags": [
+        "Animales",
+        "Medidas Provisionales",
+        "Autoridades"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "1",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "**Maltratar o agredir a los animales** o someterlos a cualquier práctica que pueda producir daños o sufrimientos innecesarios o injustificados, causándoles **lesiones, deformidades, defectos o la muerte**.",
+      "tags": [
+        "Maltrato",
+        "Agresión",
+        "Lesiones Graves",
+        "Muerte"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "2",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "**Disparar a los animales**, con las excepciones contempladas en el artículo 18.2.",
+      "tags": [
+        "Armas de Fuego",
+        "Agresión",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "3",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "**Depositar alimentos envenenados** en espacios y lugares públicos, salvo los empleados por empresas autorizadas para el control de plagas.",
+      "tags": [
+        "Veneno",
+        "Salud Pública",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "4",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "El suministro a los animales de **alimentos y medicamentos que contengan sustancias que puedan provocarles daño grave o muerte**.",
+      "tags": [
+        "Alimentación",
+        "Medicamentos",
+        "Veneno",
+        "Muerte"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "5",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "La **organización de peleas** con y entre animales.",
+      "tags": [
+        "Peleas",
+        "Organización",
+        "Maltrato",
+        "Crueldad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "6",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "**Organización y participación de espectáculos o prácticas prohibidas** en la presente ley.",
+      "tags": [
+        "Espectáculos",
+        "Maltrato",
+        "Prohibido"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "7",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "La **utilización de animales por parte de sus titulares o poseedores para su participación en peleas**.",
+      "tags": [
+        "Peleas",
+        "Titulares",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "8",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "La **filmación con animales de escenas reales** que conlleven crueldad, maltrato o sufrimiento.",
+      "tags": [
+        "Filmación",
+        "Publicidad",
+        "Crueldad",
+        "Maltrato"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "9",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "Realizar el **sacrificio de un animal sin seguir las especificaciones** de esta ley y de la normativa aplicable.",
+      "tags": [
+        "Sacrificio",
+        "Maltrato",
+        "Eutanasia"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "10",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "**Esterilizaciones, mutilaciones y sacrificios de animales sin la asistencia de un veterinario**, y sin los requisitos y condiciones establecidos por esta ley.",
+      "tags": [
+        "Mutilaciones",
+        "Sacrificio",
+        "Veterinaria",
+        "Intrusismo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Bienestar, Protección y Defensa de los Animales de Castilla-La Mancha.",
+      "articulo": "43",
+      "apartado": "11",
+      "importe": "De 9.001 a 60.000 euros",
+      "descripcion": "**Sujeción de animales a vehículos a motor en movimiento**, siempre que existan **daños, heridas o sufrimiento** en el animal.",
+      "tags": [
+        "Vehículos",
+        "Transporte",
+        "Maltrato",
+        "Lesiones Graves"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    }
+  ],
+  "fecha_actualizacion": "N/A"
 }

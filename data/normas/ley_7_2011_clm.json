@@ -1,716 +1,858 @@
 {
-    "identificador": "Ley 7/2011, de 21 de marzo.",
-    "tematica": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha.",
-    "modelo_sancion": "solo_importe_rango",
-    "rango": "Ley Ordinaria",
-    "ambito": "Autonómico",
-    "areaId": "espectaculos",
-    "infracciones": [
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "1",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La permisividad o tolerancia de actividades o acciones ilegales, en relación con el consumo o tráfico de drogas.",
-            "tags": [
-                "Drogas",
-                "Tráfico",
-                "Consumo ilegal",
-                "Tolerancia"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "2",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La realización de espectáculos o actividades recreativas o la apertura de establecimientos públicos sin las preceptivas licencias, autorizaciones o declaraciones responsables, según proceda, cuando se deriven situaciones de grave riesgo para las personas o bienes.",
-            "tags": [
-                "Sin Licencia",
-                "Sin Autorización",
-                "Grave Riesgo",
-                "Apertura Ilegal"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "3",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de las medidas de seguridad establecidas en la normativa vigente, o exigidas en la licencia, autorización e inspecciones, cuando ello suponga un grave riesgo para la seguridad de las personas o bienes.",
-            "tags": [
-                "Medidas de Seguridad",
-                "Incumplimiento",
-                "Grave Riesgo",
-                "Inspecciones"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "4",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La superación del aforo máximo cuando suponga un grave riesgo para la seguridad de las personas o bienes y se produzcan accidentes o incidentes con resultado de daños o lesiones.",
-            "tags": [
-                "Aforo",
-                "Aforo Máximo",
-                "Grave Riesgo",
-                "Daños"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "5",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de las resoluciones de prohibición de espectáculos o actividades recreativas, cuando suponga un grave riesgo para la seguridad de las personas o bienes.",
-            "tags": [
-                "Prohibición",
-                "Espectáculos",
-                "Grave Riesgo"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "6",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La reapertura de establecimientos afectados por resolución de clausura o suspensión firme en vía administrativa, mientras perdure la vigencia de tales medidas.",
-            "tags": [
-                "Reapertura Ilegal",
-                "Clausura",
-                "Suspensión"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "7",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El deterioro de los establecimientos, instalaciones y servicios, que suponga un grave riesgo para la salud y seguridad de personas o bienes.",
-            "tags": [
-                "Deterioro",
-                "Grave Riesgo",
-                "Salud y Seguridad"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "8",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La comisión de una infracción grave, cuando hubiere sido sancionado por resolución firme en vía administrativa, en el plazo de un año, por dos o más infracciones graves.",
-            "tags": [
-                "Reincidencia",
-                "Infracción Grave",
-                "Sanción Firme"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "9",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La celebración de los espectáculos y actividades expresamente prohibidos por la presente Ley.",
-            "tags": [
-                "Espectáculos Prohibidos",
-                "Actividades Ilegales"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "11",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La resistencia, coacción, amenaza, represalia, desacato o cualquier otra forma de presión ejercida sobre los agentes de la autoridad o funcionarios del servicio de inspección que se encuentren en el ejercicio de su cargo.",
-            "tags": [
-                "Resistencia a la Autoridad",
-                "Coacción",
-                "Inspección"
-            ]
-        },
-        {
-            "tipo": "grave",
-            "circulo": "MG",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "45",
-            "apartado": "12",
-            "importe": "30.001 a 600.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La realización, sin haber formulado la declaración responsable o sin contar con la autorización o licencia correspondiente, de modificaciones sustanciales en establecimientos o instalaciones que supongan alteración de las condiciones con grave riesgo para la salud y seguridad de personas o bienes.",
-            "tags": [
-                "Modificaciones Sustanciales",
-                "Grave Riesgo",
-                "Sin Licencia"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "1",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La celebración de espectáculos públicos o actividades recreativas o apertura de establecimientos públicos sin la correspondiente licencia, autorización o declaración responsable, cuando no se deriven situaciones de grave riesgo para las personas o bienes.",
-            "tags": [
-                "Sin Licencia",
-                "Sin Autorización",
-                "Apertura Ilegal"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "2",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La realización, sin haber formulado la declaración responsable o sin contar con la autorización o licencia correspondiente, de modificaciones sustanciales en establecimientos o instalaciones que supongan alteración de las condiciones pero no conlleve grave riesgo para la salud y seguridad de personas o bienes.",
-            "tags": [
-                "Modificaciones Sustanciales",
-                "Sin Licencia"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "3",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La dedicación de establecimientos, recintos o instalaciones a actividades distintas de aquellas para las que estuviesen destinados por la autorización, licencia o declaración responsable que proceda.",
-            "tags": [
-                "Actividad Diferente",
-                "Uso Ilegal"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "4",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La superación del aforo máximo cuando suponga un grave riesgo para la seguridad de las personas y bienes y no se produzcan accidentes o incidentes con resultado de daños o lesiones.",
-            "tags": [
-                "Aforo",
-                "Superación de Aforo",
-                "Riesgo"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "5",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de las condiciones de seguridad o sanitarias establecidas en la normativa vigente y en las licencias o autorizaciones correspondientes o declaradas previamente.",
-            "tags": [
-                "Condiciones Sanitarias",
-                "Seguridad",
-                "Incumplimiento"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "6",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La falta de realización de las medidas correctoras exigidas.",
-            "tags": [
-                "Medidas Correctoras",
-                "Incumplimiento"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "7",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El deterioro de los establecimientos, instalaciones y servicios, que no suponga un grave riesgo para la salud y seguridad del público o actuantes.",
-            "tags": [
-                "Deterioro",
-                "Riesgo"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "8",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El empleo de petardos, armas de fogueo, bengalas y otros fuegos de artificio, sin la correspondiente autorización exigible o con incumplimiento de las prescripciones establecidas por la normativa aplicable en su caso.",
-            "tags": [
-                "Fuegos de Artificio",
-                "Pirotecnia",
-                "Sin Autorización"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "9",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El ejercicio del derecho de admisión de forma arbitraria, discriminatoria o abusiva.",
-            "tags": [
-                "Derecho de Admisión",
-                "Discriminación",
-                "Abuso"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "10",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La suspensión o alteración del contenido de los espectáculos públicos o actividades recreativas sin causa justificada.",
-            "tags": [
-                "Suspensión",
-                "Alteración",
-                "Espectáculos"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "11",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de las condiciones de insonorización de los establecimientos, recintos e instalaciones establecidas por la normativa correspondiente, así como la emisión de ruidos o vibraciones que superen los límites establecidos en la norma de aplicación.",
-            "tags": [
-                "Insonorización",
-                "Ruidos",
-                "Vibraciones",
-                "Contaminación Acústica"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "12",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La información, promoción o publicidad que pueda inducir a engaño o confusión.",
-            "tags": [
-                "Publicidad",
-                "Engaño",
-                "Confusión"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "13",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de las medidas o servicios de vigilancia o de control de acceso cuando sean obligatorios, de acuerdo con lo previsto en la presente Ley.",
-            "tags": [
-                "Vigilancia",
-                "Control de Acceso",
-                "Incumplimiento"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "14",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento grave del horario de apertura o cierre, entendido como el anticipo o retraso en más sesenta minutos, respectivamente.",
-            "tags": [
-                "Horario",
-                "Apertura",
-                "Cierre",
-                "Incumplimiento Grave"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "15",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El acceso del público al escenario o lugar de actuación durante la celebración del espectáculo salvo que esté previsto dentro de la realización del mismo.",
-            "tags": [
-                "Acceso Ilegal",
-                "Escenario",
-                "Espectáculo"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "16",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "Las alteraciones del orden que perturben el normal desarrollo del espectáculo o puedan producir situaciones de riesgo para el público, así como su permisividad.",
-            "tags": [
-                "Alteración del Orden",
-                "Riesgo Público",
-                "Permisividad"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "17",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La negativa de los artistas a actuar sin causa justificada.",
-            "tags": [
-                "Artistas",
-                "Negativa a Actuar"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "18",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La falta de respeto o provocación intencionada al público con riesgo de alterar el orden por parte de artistas o ejecutantes, organizadores o titulares de establecimientos.",
-            "tags": [
-                "Falta de Respeto",
-                "Provocación",
-                "Orden Público"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "19",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La comisión de una infracción leve, cuando hubiere sido sancionado por resolución firme en vía administrativa, en el plazo de un año, por dos o más infracciones leves.",
-            "tags": [
-                "Reincidencia",
-                "Infracción Leve",
-                "Sanción Firme"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "20",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El desarrollo de espectáculos públicos, la instalación de elementos decorativos en los establecimientos o la realización de publicidad al respecto, que pongan en riesgo la integridad física, psíquica o moral de los menores de edad.",
-            "tags": [
-                "Menores de Edad",
-                "Riesgo",
-                "Integridad Moral",
-                "Publicidad"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "21",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "La admisión o participación de menores en espectáculos, actividades y establecimientos donde tengan prohibida su entrada o participación.",
-            "tags": [
-                "Menores de Edad",
-                "Acceso Prohibido",
-                "Admisión"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "22",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "Permitir el acceso a los recintos, locales, establecimientos o instalaciones de espectáculos públicos o actividades recreativas, de personas que exhiban prendas, símbolos u objetos que inciten a realizar actividades contrarias a los derechos fundamentales reconocidos en la Constitución Española y, en especial que inciten a la violencia, xenofobia o a la discriminación.",
-            "tags": [
-                "Acceso",
-                "Exhibición de Símbolos",
-                "Discriminación",
-                "Violencia",
-                "Xenofobia"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "23",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "Negar el acceso al establecimiento o recinto a los agentes de la autoridad o funcionarios del servicio de inspección, que se encuentren en el ejercicio de su cargo, así como la negativa a colaborar con los mismos en el ejercicio de sus funciones.",
-            "tags": [
-                "Negar Acceso",
-                "Autoridad",
-                "Inspección",
-                "Colaboración"
-            ]
-        },
-        {
-            "tipo": "media",
-            "circulo": "G",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "46",
-            "apartado": "24",
-            "importe": "301 a 30.000 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de la obligación de tener suscritos los contratos de seguros legalmente establecidos.",
-            "tags": [
-                "Seguros",
-                "Incumplimiento",
-                "Contratos"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "1",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La instalación dentro de los establecimientos o locales, de cualquier tipo de puestos de venta y otras actividades sin obtener la licencia o autorización que fuera preceptiva o sin realizar la declaración responsable que al respecto corresponda.",
-            "tags": [
-                "Puestos de Venta",
-                "Sin Licencia",
-                "Sin Autorización"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "2",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La no notificación del cambio de titularidad de conformidad con lo establecido en la presente Ley.",
-            "tags": [
-                "Cambio de Titularidad",
-                "Notificación"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "3",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La falta de limpieza e higiene en los locales y establecimientos.",
-            "tags": [
-                "Falta de Limpieza",
-                "Higiene"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "4",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La superación del aforo máximo autorizado, cuando no suponga un grave riesgo para la seguridad de las personas y bienes.",
-            "tags": [
-                "Aforo",
-                "Superación de Aforo"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "5",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La falta de hojas de reclamaciones o la negativa a facilitarlas.",
-            "tags": [
-                "Hojas de Reclamaciones",
-                "Negativa"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "6",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "No disponer en lugar visible al público y perfectamente legible, de copia del documento acreditativo de la habilitación correspondiente, del cartel de horario de apertura y cierre, de las limitaciones de entrada y prohibición de consumo de alcohol y tabaco a menores de edad, las condiciones de admisión, de la información que establezca la normativa reguladora de la prohibición de fumar y de las normas particulares o instrucciones necesarias para el normal desarrollo del espectáculo o actividad.",
-            "tags": [
-                "Información Visible",
-                "Habilitación",
-                "Horario",
-                "Admisión",
-                "Menores"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "7",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "Realizar publicidad que no contenga la suficiente información para el público y, en particular, la exigida por la presente Ley.",
-            "tags": [
-                "Publicidad",
-                "Información Insuficiente"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "8",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La falta de respeto del público a los artistas o ejecutantes, organizadores y titulares del establecimiento o viceversa.",
-            "tags": [
-                "Falta de Respeto",
-                "Público",
-                "Artistas"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "9",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "La reventa de entradas no autorizada, así como el incumplimiento de las condiciones establecidas para su ejercicio.",
-            "tags": [
-                "Reventa de Entradas",
-                "No Autorizada"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "10",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de las medidas de desalojo a partir de la hora señalada como de finalización del espectáculo o de la actividad recreativa o de cierre del establecimiento público.",
-            "tags": [
-                "Desalojo",
-                "Horario",
-                "Cierre"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "11",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "El incumplimiento de los horarios de apertura o cierre, entendido como el anticipo o retraso entre treinta y sesenta minutos, respectivamente.",
-            "tags": [
-                "Horario",
-                "Apertura",
-                "Cierre",
-                "Incumplimiento"
-            ]
-        },
-        {
-            "tipo": "leve",
-            "circulo": "L",
-            "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
-            "articulo": "47",
-            "apartado": "12",
-            "importe": "Hasta 300 euros",
-            "importe_reducido": "",
-            "descripcion": "Cualquiera otra que constituya incumplimiento de las obligaciones establecidas en la presente Ley o vulneración de las prohibiciones contempladas, cuando no proceda su calificación como infracción grave o muy grave.",
-            "tags": [
-                "Incumplimiento",
-                "Vulneración",
-                "Obligaciones"
-            ]
-        }
-    ]
+  "identificador": "Ley 7/2011, de 21 de marzo.",
+  "tematica": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha.",
+  "modelo_sancion": "solo_importe_rango",
+  "rango": "Ley Ordinaria",
+  "ambito": "Autonómico",
+  "areaId": "espectaculos",
+  "infracciones": [
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "1",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La permisividad o tolerancia de actividades o acciones ilegales, en relación con el consumo o tráfico de drogas.",
+      "tags": [
+        "Drogas",
+        "Tráfico",
+        "Consumo ilegal",
+        "Tolerancia"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "2",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La realización de espectáculos o actividades recreativas o la apertura de establecimientos públicos sin las preceptivas licencias, autorizaciones o declaraciones responsables, según proceda, cuando se deriven situaciones de grave riesgo para las personas o bienes.",
+      "tags": [
+        "Sin Licencia",
+        "Sin Autorización",
+        "Grave Riesgo",
+        "Apertura Ilegal"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "3",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de las medidas de seguridad establecidas en la normativa vigente, o exigidas en la licencia, autorización e inspecciones, cuando ello suponga un grave riesgo para la seguridad de las personas o bienes.",
+      "tags": [
+        "Medidas de Seguridad",
+        "Incumplimiento",
+        "Grave Riesgo",
+        "Inspecciones"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "4",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La superación del aforo máximo cuando suponga un grave riesgo para la seguridad de las personas o bienes y se produzcan accidentes o incidentes con resultado de daños o lesiones.",
+      "tags": [
+        "Aforo",
+        "Aforo Máximo",
+        "Grave Riesgo",
+        "Daños"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "5",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de las resoluciones de prohibición de espectáculos o actividades recreativas, cuando suponga un grave riesgo para la seguridad de las personas o bienes.",
+      "tags": [
+        "Prohibición",
+        "Espectáculos",
+        "Grave Riesgo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "6",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La reapertura de establecimientos afectados por resolución de clausura o suspensión firme en vía administrativa, mientras perdure la vigencia de tales medidas.",
+      "tags": [
+        "Reapertura Ilegal",
+        "Clausura",
+        "Suspensión"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "7",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El deterioro de los establecimientos, instalaciones y servicios, que suponga un grave riesgo para la salud y seguridad de personas o bienes.",
+      "tags": [
+        "Deterioro",
+        "Grave Riesgo",
+        "Salud y Seguridad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "8",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La comisión de una infracción grave, cuando hubiere sido sancionado por resolución firme en vía administrativa, en el plazo de un año, por dos o más infracciones graves.",
+      "tags": [
+        "Reincidencia",
+        "Infracción Grave",
+        "Sanción Firme"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "9",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La celebración de los espectáculos y actividades expresamente prohibidos por la presente Ley.",
+      "tags": [
+        "Espectáculos Prohibidos",
+        "Actividades Ilegales"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "11",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La resistencia, coacción, amenaza, represalia, desacato o cualquier otra forma de presión ejercida sobre los agentes de la autoridad o funcionarios del servicio de inspección que se encuentren en el ejercicio de su cargo.",
+      "tags": [
+        "Resistencia a la Autoridad",
+        "Coacción",
+        "Inspección"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "grave",
+      "circulo": "MG",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "45",
+      "apartado": "12",
+      "importe": "30.001 a 600.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La realización, sin haber formulado la declaración responsable o sin contar con la autorización o licencia correspondiente, de modificaciones sustanciales en establecimientos o instalaciones que supongan alteración de las condiciones con grave riesgo para la salud y seguridad de personas o bienes.",
+      "tags": [
+        "Modificaciones Sustanciales",
+        "Grave Riesgo",
+        "Sin Licencia"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "1",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La celebración de espectáculos públicos o actividades recreativas o apertura de establecimientos públicos sin la correspondiente licencia, autorización o declaración responsable, cuando no se deriven situaciones de grave riesgo para las personas o bienes.",
+      "tags": [
+        "Sin Licencia",
+        "Sin Autorización",
+        "Apertura Ilegal"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "2",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La realización, sin haber formulado la declaración responsable o sin contar con la autorización o licencia correspondiente, de modificaciones sustanciales en establecimientos o instalaciones que supongan alteración de las condiciones pero no conlleve grave riesgo para la salud y seguridad de personas o bienes.",
+      "tags": [
+        "Modificaciones Sustanciales",
+        "Sin Licencia"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "3",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La dedicación de establecimientos, recintos o instalaciones a actividades distintas de aquellas para las que estuviesen destinados por la autorización, licencia o declaración responsable que proceda.",
+      "tags": [
+        "Actividad Diferente",
+        "Uso Ilegal"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "4",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La superación del aforo máximo cuando suponga un grave riesgo para la seguridad de las personas y bienes y no se produzcan accidentes o incidentes con resultado de daños o lesiones.",
+      "tags": [
+        "Aforo",
+        "Superación de Aforo",
+        "Riesgo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "5",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de las condiciones de seguridad o sanitarias establecidas en la normativa vigente y en las licencias o autorizaciones correspondientes o declaradas previamente.",
+      "tags": [
+        "Condiciones Sanitarias",
+        "Seguridad",
+        "Incumplimiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "6",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La falta de realización de las medidas correctoras exigidas.",
+      "tags": [
+        "Medidas Correctoras",
+        "Incumplimiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "7",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El deterioro de los establecimientos, instalaciones y servicios, que no suponga un grave riesgo para la salud y seguridad del público o actuantes.",
+      "tags": [
+        "Deterioro",
+        "Riesgo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "8",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El empleo de petardos, armas de fogueo, bengalas y otros fuegos de artificio, sin la correspondiente autorización exigible o con incumplimiento de las prescripciones establecidas por la normativa aplicable en su caso.",
+      "tags": [
+        "Fuegos de Artificio",
+        "Pirotecnia",
+        "Sin Autorización"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "9",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El ejercicio del derecho de admisión de forma arbitraria, discriminatoria o abusiva.",
+      "tags": [
+        "Derecho de Admisión",
+        "Discriminación",
+        "Abuso"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "10",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La suspensión o alteración del contenido de los espectáculos públicos o actividades recreativas sin causa justificada.",
+      "tags": [
+        "Suspensión",
+        "Alteración",
+        "Espectáculos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "11",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de las condiciones de insonorización de los establecimientos, recintos e instalaciones establecidas por la normativa correspondiente, así como la emisión de ruidos o vibraciones que superen los límites establecidos en la norma de aplicación.",
+      "tags": [
+        "Insonorización",
+        "Ruidos",
+        "Vibraciones",
+        "Contaminación Acústica"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "12",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La información, promoción o publicidad que pueda inducir a engaño o confusión.",
+      "tags": [
+        "Publicidad",
+        "Engaño",
+        "Confusión"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "13",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de las medidas o servicios de vigilancia o de control de acceso cuando sean obligatorios, de acuerdo con lo previsto en la presente Ley.",
+      "tags": [
+        "Vigilancia",
+        "Control de Acceso",
+        "Incumplimiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "14",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento grave del horario de apertura o cierre, entendido como el anticipo o retraso en más sesenta minutos, respectivamente.",
+      "tags": [
+        "Horario",
+        "Apertura",
+        "Cierre",
+        "Incumplimiento Grave"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "15",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El acceso del público al escenario o lugar de actuación durante la celebración del espectáculo salvo que esté previsto dentro de la realización del mismo.",
+      "tags": [
+        "Acceso Ilegal",
+        "Escenario",
+        "Espectáculo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "16",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "Las alteraciones del orden que perturben el normal desarrollo del espectáculo o puedan producir situaciones de riesgo para el público, así como su permisividad.",
+      "tags": [
+        "Alteración del Orden",
+        "Riesgo Público",
+        "Permisividad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "17",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La negativa de los artistas a actuar sin causa justificada.",
+      "tags": [
+        "Artistas",
+        "Negativa a Actuar"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "18",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La falta de respeto o provocación intencionada al público con riesgo de alterar el orden por parte de artistas o ejecutantes, organizadores o titulares de establecimientos.",
+      "tags": [
+        "Falta de Respeto",
+        "Provocación",
+        "Orden Público"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "19",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La comisión de una infracción leve, cuando hubiere sido sancionado por resolución firme en vía administrativa, en el plazo de un año, por dos o más infracciones leves.",
+      "tags": [
+        "Reincidencia",
+        "Infracción Leve",
+        "Sanción Firme"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "20",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El desarrollo de espectáculos públicos, la instalación de elementos decorativos en los establecimientos o la realización de publicidad al respecto, que pongan en riesgo la integridad física, psíquica o moral de los menores de edad.",
+      "tags": [
+        "Menores de Edad",
+        "Riesgo",
+        "Integridad Moral",
+        "Publicidad"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "21",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "La admisión o participación de menores en espectáculos, actividades y establecimientos donde tengan prohibida su entrada o participación.",
+      "tags": [
+        "Menores de Edad",
+        "Acceso Prohibido",
+        "Admisión"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "22",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "Permitir el acceso a los recintos, locales, establecimientos o instalaciones de espectáculos públicos o actividades recreativas, de personas que exhiban prendas, símbolos u objetos que inciten a realizar actividades contrarias a los derechos fundamentales reconocidos en la Constitución Española y, en especial que inciten a la violencia, xenofobia o a la discriminación.",
+      "tags": [
+        "Acceso",
+        "Exhibición de Símbolos",
+        "Discriminación",
+        "Violencia",
+        "Xenofobia"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "23",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "Negar el acceso al establecimiento o recinto a los agentes de la autoridad o funcionarios del servicio de inspección, que se encuentren en el ejercicio de su cargo, así como la negativa a colaborar con los mismos en el ejercicio de sus funciones.",
+      "tags": [
+        "Negar Acceso",
+        "Autoridad",
+        "Inspección",
+        "Colaboración"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "media",
+      "circulo": "G",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "46",
+      "apartado": "24",
+      "importe": "301 a 30.000 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de la obligación de tener suscritos los contratos de seguros legalmente establecidos.",
+      "tags": [
+        "Seguros",
+        "Incumplimiento",
+        "Contratos"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "1",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La instalación dentro de los establecimientos o locales, de cualquier tipo de puestos de venta y otras actividades sin obtener la licencia o autorización que fuera preceptiva o sin realizar la declaración responsable que al respecto corresponda.",
+      "tags": [
+        "Puestos de Venta",
+        "Sin Licencia",
+        "Sin Autorización"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "2",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La no notificación del cambio de titularidad de conformidad con lo establecido en la presente Ley.",
+      "tags": [
+        "Cambio de Titularidad",
+        "Notificación"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "3",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La falta de limpieza e higiene en los locales y establecimientos.",
+      "tags": [
+        "Falta de Limpieza",
+        "Higiene"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "4",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La superación del aforo máximo autorizado, cuando no suponga un grave riesgo para la seguridad de las personas y bienes.",
+      "tags": [
+        "Aforo",
+        "Superación de Aforo"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "5",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La falta de hojas de reclamaciones o la negativa a facilitarlas.",
+      "tags": [
+        "Hojas de Reclamaciones",
+        "Negativa"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "6",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "No disponer en lugar visible al público y perfectamente legible, de copia del documento acreditativo de la habilitación correspondiente, del cartel de horario de apertura y cierre, de las limitaciones de entrada y prohibición de consumo de alcohol y tabaco a menores de edad, las condiciones de admisión, de la información que establezca la normativa reguladora de la prohibición de fumar y de las normas particulares o instrucciones necesarias para el normal desarrollo del espectáculo o actividad.",
+      "tags": [
+        "Información Visible",
+        "Habilitación",
+        "Horario",
+        "Admisión",
+        "Menores"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "7",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "Realizar publicidad que no contenga la suficiente información para el público y, en particular, la exigida por la presente Ley.",
+      "tags": [
+        "Publicidad",
+        "Información Insuficiente"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "8",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La falta de respeto del público a los artistas o ejecutantes, organizadores y titulares del establecimiento o viceversa.",
+      "tags": [
+        "Falta de Respeto",
+        "Público",
+        "Artistas"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "9",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "La reventa de entradas no autorizada, así como el incumplimiento de las condiciones establecidas para su ejercicio.",
+      "tags": [
+        "Reventa de Entradas",
+        "No Autorizada"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "10",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de las medidas de desalojo a partir de la hora señalada como de finalización del espectáculo o de la actividad recreativa o de cierre del establecimiento público.",
+      "tags": [
+        "Desalojo",
+        "Horario",
+        "Cierre"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "11",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "El incumplimiento de los horarios de apertura o cierre, entendido como el anticipo o retraso entre treinta y sesenta minutos, respectivamente.",
+      "tags": [
+        "Horario",
+        "Apertura",
+        "Cierre",
+        "Incumplimiento"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    },
+    {
+      "tipo": "leve",
+      "circulo": "L",
+      "norma": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos de Castilla-La Mancha",
+      "articulo": "47",
+      "apartado": "12",
+      "importe": "Hasta 300 euros",
+      "importe_reducido": "",
+      "descripcion": "Cualquiera otra que constituya incumplimiento de las obligaciones establecidas en la presente Ley o vulneración de las prohibiciones contempladas, cuando no proceda su calificación como infracción grave o muy grave.",
+      "tags": [
+        "Incumplimiento",
+        "Vulneración",
+        "Obligaciones"
+      ],
+      "nota": "",
+      "responsables": [],
+      "opc": ""
+    }
+  ],
+  "fecha_actualizacion": "N/A"
 }
