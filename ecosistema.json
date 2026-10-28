@@ -1,0 +1,16 @@
+{
+  "id": "opolcod",
+  "nombre": "OpolCod",
+  "descripcion": "Codificado de infracciones. Público, lo usan los compañeros.",
+  "para_que_sirve": [
+    "buscar el código, la norma y la cuantía de una infracción de tráfico u ordenanza",
+    "saber qué precepto aplicar a un hecho concreto"
+  ],
+  "estado": "produccion",
+  "tipo": "web-estatica",
+  "url": "https://juankarbj.github.io/OpolCod/",
+  "salud": "",
+  "api": { "tipo": "json-estatico", "carpeta": "data" },
+  "repo": "https://github.com/JuankarBJ/OpolCod",
+  "portada": { "seccion": "Herramientas", "orden": 30, "icono": "lista" }
+}
